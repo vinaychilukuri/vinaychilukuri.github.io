@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@import "color";
+
+// Define defaults for each variable.
+
+$base-font-family: "Faustina", serif !default;
+$base-font-size:   20px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       $oc-gray-7 !default;
+$background-color: #fff !default;
+$brand-color:      $oc-indigo-9 !default;
+// $reddish-color:    #f5515f;
+$reddish-color: $oc-orange-7;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Custom CSS
+h1 {
+	// background: url("img/headline.svg") no-repeat left bottom;
+	// padding-bottom: 8px !important; background-position: 0px 64px;
+	font-size: 48px; color: $oc-red-6;
+	padding-top: 16px;
+	clear: both;
+
+	&.page-heading{
+		font-size: 48px;
+		color: $text-color; 
+		//border-bottom: 6px solid $reddish-color;
+	}
+	&.post-title{border-bottom: none; color: $text-color;}
+}
+
+h2{font-size: 35px !important; color: $oc-gray-9; clear: both;}
+
+p > img{
+	display: block; margin: auto;
+	float: left; padding: 0 20px 20px 0;
+}
+
+iframe.prototype{display: block; margin: auto;}
+
+img[alt~="center"]{
+	float: none; padding-top: 10px;
+}
+
+.social-media-list .icon{padding-right: 0px !important;}
+
+hr{margin-bottom: 10px;}
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;

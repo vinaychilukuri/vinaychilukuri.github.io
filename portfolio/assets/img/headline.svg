@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800px" height="5px" viewBox="0 0 800 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>headline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="27.4759219%" y1="7.1715019%" x2="71.2885594%" y2="90.8425173%" id="linearGradient-1">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#E14594" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sadhguru-app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="headline" fill="url(#linearGradient-1)" x="0" y="0" width="800" height="5"></rect>
+    </g>
+</svg>
