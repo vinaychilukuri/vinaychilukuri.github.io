@@ -138,6 +138,15 @@ a.post-link{font-size: 20px;}
   font-size: $base-font-size * $ratio;
 }
 
+@include media-query(600px){
+	p > img, img[alt~="right"]{
+		display: block; margin: auto;
+		float: none; padding: 20px 0px 20px 0;
+	}
+
+	img[alt~="sd"]{width: 80%;}
+}
+
 // Import partials.
 @import
   "minima/base",
