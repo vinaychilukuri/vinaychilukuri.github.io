@@ -96,11 +96,11 @@ Using native animations on mobile and employing creative loading states, whereve
 
 It is imperative to show messages from the system that acknowledges the learner's progress as he/she goes through the training. I  designed screens that would represent the progress as a means to show that the app (and there by the client) cares about the learner's progress throughout the training duration.
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F2ea5d97070b74749aabdc96baee88a10%2Fpr-1.png?w=1752&s=f1e26f3f7b4f4f61d5ab0953c0cdbdad)
+![img](https://static.notion-static.com/198c1653c67249acbeaf4a2f77c5f419/pr-1-cut.png)
 
 Each of these would come at specific times during the learner's progress and are important to the experience as a means to encourage the learner and also that the system acknowledges his/her progress using ✨ playful emoji 🙌🏽  and corresponding text.
 
-![img center](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F8dab93035cef4310b90bb78782b2f835%2Fpr-2.png?w=1760&s=9db2b0ebfc17fb947a231b6b1acaec64)
+![img center](https://static.notion-static.com/f0bc61a195de48c19c202bea5832334e/pr-2-cut.png)
 
 ### Designing for motivation
 
