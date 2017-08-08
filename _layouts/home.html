@@ -9,11 +9,11 @@ layout: default
   {{ content }}
 
   <ul class="case-list">
-    {% for post in site.cases %}
+    {% for case in site.cases %}
       <li>
         <!-- {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ case.url | relative_url }}">{{ case.title | escape }}</a>
       </li>
     {% endfor %}
   </ul>
