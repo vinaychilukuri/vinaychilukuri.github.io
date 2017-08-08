@@ -4,6 +4,9 @@ title: Uncovering pain points in the field of Sales through User Research
 permalink: /case/sales-user-research
 ---
 
+<div class="page-color-block"></div>
+{::options parse_block_html="true" /}
+
 This is a case-study about my first attempt in doing user research to understand the space where the problem lies, there by have the ability to formulate better solutions to the problem at hand.
 
 ---

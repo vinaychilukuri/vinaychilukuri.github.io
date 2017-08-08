@@ -4,6 +4,9 @@ title: Making corporate learnings fun
 permalink: /case/aktivlearn
 ---
 
+<div class="page-color-block"></div>
+{::options parse_block_html="true" /}
+
 A client of ours from an IT team lamented that how most of the corporate trainings are ineffective. He exclaimed that his organization requires team members to dedicate significant time & effort for the trainings alongside their daily work. Even after the repeated reminders by Learning & Development team to complete the trainings, the completion rates remain low. 
 
 At KNOLSKAPE, our intention was to address this issue by building a learning ecosystem that would motivate learners to engage with their training material and move towards completion.

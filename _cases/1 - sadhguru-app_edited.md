@@ -4,6 +4,9 @@ title: Connecting millions of spiritual seekers with a master
 permalink: /case/sadhguru-app
 ---
 
+<div class="page-color-block"></div>
+{::options parse_block_html="true" /}
+
 My role was to build the complete UX for an app whose intent is to have the vast amount of knowledge by Sadhguru and various offerings of ISHA — yoga, meditation, events etc.. under one umbrella.
 
 ## Background
