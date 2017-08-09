@@ -129,7 +129,7 @@ For eg: Clicking on the pin would open the location in Google Maps / Apple Maps
 
 Clicking on the phone number would open the dialer on the phone, etc.
 
-Like the above example, various screens had been mobile-optimized for a superior user experience.
+Similarly, various screens had been mobile-optimized for a superior user experience.
 
 ## Conclusion
 
