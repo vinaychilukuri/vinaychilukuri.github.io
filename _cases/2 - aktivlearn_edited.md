@@ -139,25 +139,30 @@ The strategy of when to give what type of rewards could not be implemented on th
 
 ### Visual Design
 
-We had a third-party agency come on-board with the visual design of the app. However, the engagement with them had been ceased after a month and I took up the job to create all the screens ( ~ 100 screens) for the mobile app, based on the style guide that the agency had given us. I used a component-based approach using Symbols in the Sketch to create the UI for the app.
+We had a third-party agency come on-board with the visual design of the app. However, the engagement with them had been ceased after a month and I took up the job to create all the screens ( ~ 100 screens) for the mobile app, based on the style guide that the agency had given us. I used a component-based approach using Symbols in the Sketch to create the UI for the app. 
 
 ## ACT 3 - Denouement
 
 The web app had become quite useful with much needed Usability and navigation refinements, which has been validated by a positive S.U.S (System. Usability.Scale) score. The number of UI bug reports have also considerably reduced.
 
-The mobile app's direction was pivoted in not just being a complement to the web interface, but to have knowledge bites pushed to the user over a period of time, with the intent to continuously engage with the learners.
+![al-app-logo](https://static.notion-static.com/2bf8138dec1b4f98a2fd44cfceea36b6/AL-app-logo.png)
+The mobile app had found a new use case. In addition to being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
 
 ![pdf-ppt right](https://static.notion-static.com/92928d7c274249f4abcab040538ca171/pdf-ppt.svg)
 
-This was because the courses had a lot of long-form reading material in terms of two-column PDFs and PPTs than originally anticipated, which was not amenable to the mobile view. Though there were apps to allow the users to view these content on their phones, the experience took a hit. This meant that someone within KNOLSKAPE has to take and re-work on the entire content that were present in PDFs and PPTs. This is not a scalable model. Or, the client's company had to do it — which they did not have the resources to do so.
+The "bite-size" learning use-case had a lot of potential for adoption than the first scenario. This was because the content provided by most companies had a lot of long-form reading material in terms of two-column PDFs and PPTs than originally anticipated, which was not amenable to the mobile view. Though there were apps to allow the users to view this content on their phones, the experience took a hit. This meant that someone within KNOLSKAPE has to take and re-work on the entire content that was presented in PDFs and PPTs. This is not a scalable model. Or, the client's company had to do it — which often they have not had the resources to do so.
 
-Also, as part of the course, users had to take part in business simulations (which is one of the strong components of the course) and this would run only on a desktop browser. Though the team was conscious of this right from the start, the content experience on mobile was not satisfactory. Due to these important limitations, users preferred to consume content of the course on the desktop.
+<!-- Also, as part of the course, users had to take part in business simulations (which is one of the strong components of the course) and this would run only on a desktop browser. Though the team was conscious of this right from the start, the content experience on mobile was not satisfactory. Due to these important limitations, users preferred to consume content of the course on the desktop. -->
 
-![al-app-logo](https://static.notion-static.com/2bf8138dec1b4f98a2fd44cfceea36b6/AL-app-logo.png)
-After a few iterations, the product management team had arrived at a juncture to use the app that will push bite-sized content to users after they have been part of a workshop with KNOLSKAPE. The intention here was to engage the learners by pushing short consumable content on the mobile, even after a short-term training had been finished. There seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
+The product management decided to use the same set screens for the new use case. I opposed to this. Even though a screen could accommodate what we wanted to show, the intent with which a screen had been created in the first place was totally different. In other words, the user flows are not the same for the two scenarios.
+
+A lot of new screens had to be created. It was tough maintaining two user flows with a few screens being turned off and turned on, at the code level, based on the scenario at hand.
+
+I wish we had focused on only one problem right from the beginning through some data and validated learnings.
+
 
 ## My learnings
 
-This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
+This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. In my opinion, this was not the ideal way to build products. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
 
 In order to know how I've used user research in taking an informed approach with product design, [read this case-study](/case/sales-user-research).
