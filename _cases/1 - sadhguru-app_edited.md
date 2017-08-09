@@ -102,7 +102,7 @@ After 6 months, there is no looking back on this with so many apps following the
 
 Though, we have debated the idea of having all verbs for the navigation labels, it made sense to use labels which the users would relate a lot. Hence, we have used the label 'Sadhguru' instead of 'Seek' as one of the navigation items. Since this is going to be an app for the vast followers of Sadhguru, having his name as one of the navigation items is going to connect with the users instantly.
 
-I have also learnt from the book by [Donna Spencer](uxmastery.com/practical-ia) that one does not need to be stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
+I have also learnt from the book by [Donna Spencer](uxmastery.com/practical-ia) that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
 
 There was a debate if we wanted to have Donate as one of the navigation labels over "Outreach". However, the stakeholders strongly recommended it to be called "Donate" as it would bring an active voice to the user and for them attracting donations from users are critical.
 
