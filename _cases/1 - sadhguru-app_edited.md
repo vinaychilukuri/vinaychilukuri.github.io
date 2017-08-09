@@ -133,8 +133,8 @@ Similarly, various screens had been mobile-optimized for a superior user experie
 
 ## Conclusion
 
-Ever since the app was released, it had been receiving unanimously positive reviews touting that the app is extremely simple to use. This is what I wanted to achieve. When you have content from a Master who talks about life in a crystal clear way, I did not want interface of the app to interfere with that. The content has to take over the interface.
+Ever since the app was released, it had been receiving unanimously positive reviews touting that it is extremely simple to use. This is what I wanted to achieve. When you have content from a Master who talks about life in a crystal clear way, I did not want the interface of the app to interfere with that. The content has to take over the interface.
 
 ![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fb5fcb99ac5534da3b0dac6e48b516b85%2Fplaystore-reviews.png?w=1354&s=0f506e23116bd0317dc85003e083c981)
 
-This has been one of the most enriching projects that I had worked on, in terms of impact and contributing my bit to the spiritual community.
+This has been one of the most enriching projects that I had worked on, in terms of the impact and contributing my bit to the spiritual community.
