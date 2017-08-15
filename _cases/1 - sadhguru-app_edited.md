@@ -3,7 +3,7 @@ layout: page
 title: Connecting millions of spiritual seekers with a master
 case-tag: Information Architecture, Interaction Design
 year: 2017
-imgurl: /assets/img/sadhguru-app.jpg
+imgurl: /assets/img/hands.svg
 permalink: /case/sadhguru-app
 ---
 
