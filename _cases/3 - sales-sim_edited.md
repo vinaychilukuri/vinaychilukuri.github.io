@@ -3,7 +3,7 @@ layout: page
 title: Uncovering pain points in the field of Sales through User Research
 case-tag: User Research
 year: 2016
-imgurl: /assets/img/sales-briefcase.svg
+imgurl: /assets/img/sales-man.svg
 permalink: /case/sales-user-research
 ---
 
