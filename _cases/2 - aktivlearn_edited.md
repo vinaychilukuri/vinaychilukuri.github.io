@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Making corporate learnings fun
+case-tag: Interaction Design, Visual Design
+year: 2015
+imgurl: /assets/img/al-app-icon.svg
 permalink: /case/aktivlearn
 ---
 

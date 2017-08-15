@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @import "color";
-@import url('https://fonts.googleapis.com/css?family=Faustina');
+@import url('https://fonts.googleapis.com/css?family=Faustina:400,400i');
 
 // Define defaults for each variable.
 
@@ -119,7 +119,34 @@ img[alt~="right"]{float: right; padding: 0 0 20px 20px;}
 
 hr{margin-bottom: 10px !important;}
 
-a.post-link{font-size: 20px;}
+.case-block-link{
+	display: block;
+	border-bottom: 1px solid $oc-orange-3;
+
+	.case-block{
+		height: 125px;
+		clear: left;
+
+		img{
+			width: 100px; float: left;
+			padding: 0 30px 20px 0;
+		}
+
+		.case-info {
+			font-size: 24px; margin-top: 35px;
+			.case-tags{font-style: italic; font-size: 20px;}
+		}
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: $oc-gray-9;
+
+		&.case-tags, &.case-tags:hover{background: tomato;}
+	}
+
+	&:last-child{border-bottom: none;}
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -147,6 +174,8 @@ a.post-link{font-size: 20px;}
 	img[alt~="sd"]{width: 80%;}
 	nav{display: none;}
 	.bio img{width: 50%;}
+
+	.case-tags{display: none;}
 }
 
 // Import partials.
