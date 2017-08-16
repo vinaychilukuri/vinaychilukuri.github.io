@@ -90,7 +90,7 @@ So, the mobile system needed to have the same robust usability as of the web int
 
 ![img right](https://static.notion-static.com/4b09756ea7734358aee9d4659b3ba8e3/al-mobile-nav-screen.png)
 
-The navigation on mobile had the primary elements as shown to the right. We tested the navigation along with the key tasks of the app, using a prototype, internal employees. People were given a series of tasks in terms of finding various sections of the course.
+The navigation on mobile had the primary elements as shown to the right. We tested the navigation along with the key tasks of the app, using a prototype, with internal employees. People were given a series of tasks in terms of finding various sections of the course.
 
 ### Welcoming the learner to a course
 
