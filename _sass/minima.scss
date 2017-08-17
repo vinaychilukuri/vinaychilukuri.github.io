@@ -31,6 +31,12 @@ $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
 // Custom CSS
+.nav-resume{
+	float: right; position: relative; top: 20px;
+
+	&>img{width: 22px; position: relative; top: -2px}
+}
+
 .page-content{margin-top: $abs-value !important;}
 
 .bio{

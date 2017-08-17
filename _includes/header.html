@@ -5,9 +5,13 @@
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   
+ <div class="nav-resume">
+    <a href="/assets/vinay_res.pdf" target="_blank">Resumé</a>
+    <img src="/assets/img/icon_pdf.svg" alt="_pdf">
+ </div>
+
     {% if page_paths %}
       <nav class="site-nav">
-        <a href="/assets/vinay_res.pdf" target="_blank">Resume</a>
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
