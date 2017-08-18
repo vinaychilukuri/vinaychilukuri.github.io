@@ -61,7 +61,7 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
 ![img](/assets/img/cases/aktlearn/course-menu-bar.png)
-The re-designed course menu with the element next to it, the course action-bar, act as an anchor point for the learner through out the interface.
+*The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
 <!-- The intent of the course action bar is the following:
 
@@ -79,9 +79,7 @@ Now that the fundamentals of the interface had been fixed, it was time to add a 
 
 ## ACT 2 - A shift to Mobile
 
-The initial idea was to make a mobile app that would supplement the desktop version. It would not have feature parity with that of the desktop LMS and would only have a subset of features that can make it as an MVP (Minimum Viable Product).
-
-However, with the organization deciding to have the overall product strategy shift to mobile, there was a sudden emphasis on the LMS being the first project to go mobile. Also, there seemed to be a lot of interest from clients to engage with learners on a mobile platform — as that would mean more adoption to the training material anywhere anytime.
+The initial idea was to make a mobile app that would supplement the desktop version. It would not have feature parity with that of the desktop LMS and would only have a subset of features that can make it as an MVP (Minimum Viable Product). However, with the organization deciding to have the overall product strategy shift to mobile, there was a sudden emphasis on the LMS being the first project to go mobile.
 
 So, the mobile system needed to have the same robust usability as of the web interface with an added layer of persuasive mechanisms for the user to be engaged through the training duration.
 
