@@ -30,6 +30,13 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+@mixin full-pg-width{
+	// position: absolute; left: 50%;
+	// transform: translate(-50%, 0);
+	// padding: 0 !important;
+ //    float: none;
+}
+
 // Custom CSS
 .nav-resume{
 	float: right; position: relative; top: 20px;
@@ -120,6 +127,9 @@ iframe.prototype{display: block; margin: auto;}
 img[alt~="center"]{
 	float: none; padding-top: 10px;
 }
+
+img[alt~="full"]{@include full-pg-width;}
+
 img[alt~="sd"]{width: 50%;}
 img[alt~="sd-l"]{width: 30%;}
 img[alt~="right"]{float: right; padding: 0 0 20px 20px;}
@@ -163,6 +173,7 @@ hr{margin-bottom: 10px !important;}
 //     padding-left: $spacing-unit / 2;
 //   }
 // }
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
