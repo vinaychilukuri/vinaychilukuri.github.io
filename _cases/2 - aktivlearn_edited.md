@@ -69,7 +69,7 @@ The re-designed homepage has multiple ways for the user to take a decision on wh
 2. Communicate the progress of the course.
 3. Combining the cue to resume the course along with the progress bar is an element to nudge the user to get back on the track and push towards completion. -->
 
-The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course wherever he/she is in the interface. Again, *a bias for action*.
+The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, *a bias for action*.
 
 ![img](/assets/img/cases/aktlearn/course-bar-todo.png)
 
