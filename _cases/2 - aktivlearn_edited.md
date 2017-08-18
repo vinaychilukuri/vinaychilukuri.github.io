@@ -20,7 +20,7 @@ At KNOLSKAPE, our intention was to address this issue by building a learning eco
 
 KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundation upon which the intended system would be developed. As a precursor, for a few early adopters, we designed a few screens of the LMS to give them an idea of how the next version of learning system could be. 
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fd88e7d6dc7d24006a7c0a7d3a4d3fbd7%2FAL_Web_road.png?w=1.0&s=fc64e0e5483002e008f27fbdcfd4ef89)
+![img](/assets/img/cases/aktlearn/al_web_road.png)
 
 My team began with making the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the environment into a slightly different world.
 
@@ -48,7 +48,7 @@ In my opinion, the important question for a user who comes to an online learning
 
 ### Design and the explanation
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F15bb832cd10f4ee395a5921edcdab86c%2FProfile-redux.png?w=1512&s=b75c9bf50cc8a261fa2110aa4842a97e)
+![img](/assets/img/cases/aktlearn/profile-home.png)
 
 The above UI addresses the following points:
 
@@ -62,7 +62,7 @@ Once the user enters the course home-page, there is no place where the old LMS i
 
 The re-designed course menu with the element next to it, the course action-bar, act as an anchor point for the learner through out the interface.
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F4fdc300b0c9743f78c17f6d475877c00%2FAL-Course-Home.png?w=1552&s=706df733a181a533cb5e9976c88a7943)
+![img](/assets/img/cases/aktlearn/course-pg-menu.png)
 
 The intent of the course action bar is the following:
 
@@ -72,7 +72,7 @@ The intent of the course action bar is the following:
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course wherever he/she is in the interface. Again, a bias for action.
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F5cffe7bfa5b948bdb782b81a393dbfd3%2Fcourse-bar-with-ToDo.png?w=1548&s=99bd7210616ba3089363f5f31375076f)
+![img](/assets/img/cases/aktlearn/course-bar-todo.png)
 
 Though the home page lists the upcoming To-Do items for the user when he /she visits the course home, the course-bar also reflects an upcoming To-Do item for the user as an extra measure, whenever the due-date is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do item that needs attending to. Other than this, the system would also send a reminder email to the user when an assignment needs completion.
 
@@ -88,7 +88,7 @@ So, the mobile system needed to have the same robust usability as of the web int
 
 #### Navigation on mobile
 
-![img right](https://static.notion-static.com/4b09756ea7734358aee9d4659b3ba8e3/al-mobile-nav-screen.png)
+![img right](/assets/img/cases/aktlearn/al-mobile-nav-screen.png)
 
 The navigation on mobile had the primary elements as shown to the right. We tested the navigation along with the key tasks of the app, using a prototype, with internal employees. People were given a series of tasks in terms of finding various sections of the course.
 
@@ -102,11 +102,11 @@ Using native animations on mobile and employing creative loading states, whereve
 
 It is imperative to show messages from the system that acknowledges the learner's progress as he/she goes through the training. I  designed screens that would represent the progress as a means to show that the app (and there by the client) cares about the learner's progress throughout the training duration.
 
-![img](https://static.notion-static.com/198c1653c67249acbeaf4a2f77c5f419/pr-1-cut.png)
+![img](/assets/img/cases/aktlearn/pr-1-cut.png)
 
 Each of these would come at specific times during the learner's progress and are important to the experience as a means to encourage the learner and also that the system acknowledges his/her progress using ✨ playful emoji 🙌🏽  and corresponding text.
 
-![img center](https://static.notion-static.com/f0bc61a195de48c19c202bea5832334e/pr-2-cut.png)
+![img center](/assets/img/cases/aktlearn/pr-2-cut.png)
 
 ### Designing for motivation
 
@@ -116,7 +116,7 @@ However, unfortunately, most people choose to sprinkle these techniques thinking
 
 #### POINTS
 
-The users would also gain points as they complete each of the items in the training. The idea is to have points be used as a way to visually represent the momentum and reward the user for keeping up with the progress. 
+The users would gain points as they complete each of the items in the training. The idea is to have points be used as a way to visually represent the momentum and reward the user for keeping up with the progress. 
 
 Every time a user completes a training item, he would be awarded a few points. If he completes three items in a row, he would be awarded more points etc.
 
@@ -126,7 +126,7 @@ Badges are a reward that has the ability to make the learners self-identify with
 
 Here are some example badges that could be given in a learning scenario. 
 
-![img center](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F0f77771e033e44b29fe555bca195c1da%2FBadges.png?w=1.0&s=87b1500cbb068b7eab7451c6e5f4ef78)
+![img center](/assets/img/cases/aktlearn/badges.png)
 
 #### LEADERBOARD
 
@@ -148,10 +148,10 @@ We had a third-party agency come on-board with the visual design of the app. How
 
 The web app had become quite useful with much needed Usability and navigation refinements, which has been validated by a positive S.U.S (System. Usability.Scale) score. The number of UI bug reports have also considerably reduced.
 
-![al-app-logo](https://static.notion-static.com/2bf8138dec1b4f98a2fd44cfceea36b6/AL-app-logo.png)
+![al-app-logo sd-l](/assets/img/al-app-icon.svg)
 The mobile app had found a new use case. In addition to being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
 
-![pdf-ppt right](https://static.notion-static.com/92928d7c274249f4abcab040538ca171/pdf-ppt.svg)
+![pdf-ppt right](/assets/img/cases/aktlearn/pdf-ppt.svg)
 
 The "bite-size" learning use-case had a lot of potential for adoption than the first scenario. This was because the content provided by most companies had a lot of long-form reading material in terms of two-column PDFs and PPTs than originally anticipated, which was not amenable to the mobile view. Though there were apps to allow the users to view this content on their phones, the experience took a hit. This meant that someone within KNOLSKAPE has to take and re-work on the entire content that was presented in PDFs and PPTs. This is not a scalable model. Or, the client's company had to do it — which often they have not had the resources to do so.
 
