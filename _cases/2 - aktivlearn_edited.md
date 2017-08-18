@@ -50,7 +50,7 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 >An important question for a user who comes to an online learning platform is: 
 **_What do I learn today?_**
 
-![img](/assets/img/cases/aktlearn/profile-home.png)
+![img](/assets/img/cases/aktlearn/profile-home.svg)
 
 <!-- The above UI addresses the following points:
 
@@ -60,7 +60,7 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 
 The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
-![img](/assets/img/cases/aktlearn/course-menu-bar.png)
+![img](/assets/img/cases/aktlearn/course-menu-bar.svg)
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
 <!-- The intent of the course action bar is the following:
@@ -71,7 +71,7 @@ The re-designed homepage has multiple ways for the user to take a decision on wh
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, *a bias for action*.
 
-![img](/assets/img/cases/aktlearn/course-bar-todo.png)
+![img](/assets/img/cases/aktlearn/course-bar-todo.svg)
 
 The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
@@ -123,7 +123,7 @@ Badges are a reward that has the ability to make the learners self-identify with
 
 Here are some example badges that could be given in a learning scenario. 
 
-![img center](/assets/img/cases/aktlearn/badges.png)
+![img center](/assets/img/cases/aktlearn/badges.svg)
 
 #### LEADERBOARD
 

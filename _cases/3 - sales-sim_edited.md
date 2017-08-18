@@ -32,7 +32,7 @@ In order for all the stakeholders to be on the same page and bring in clarity, I
 
 During this exercise, there were opposite point-of-views heard from key stakeholders.
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F045b6866b37f4832b22b321c3f9c9dc1%2Fconflict.png?w=1180&s=d46f689709cbef9fca39664c03d14cd2)
+![img center](/assets/img/cases/sales/conflict.svg)
 
 Our CEO then clarified who the product is catered for:
 
@@ -86,7 +86,7 @@ After a brief introduction to why I am doing this interview, I always started wi
 
 Hearing their stories on the field, made me respect what they did.
 
-As the last question in my interviews, I asked,"What is a good day to you?" — the day that they had cracked a deal, was the unanimous response, from each one of them.
+> As the last question in my interviews, I asked, "What is a good day to you?" — "the day that I had cracked a deal", was the unanimous response, from each one of them.
 
 ## User Interviews with Sales Managers
 
@@ -111,7 +111,7 @@ So, I approached one of the largest LinkedIn communities in Sales ([Sales Best P
 
 I received 20 responses from Sales Executives and 14 responses from people who were Sales Managers. Though the number of respondents was few, their responses shed light on the pain points they had faced in their respective fields. Most interestingly, close to 40% of the respondents mentioned that they have undergone sales training which taught them how to qualify, prospect and negotiate along with a few other behavioral skills! The first time I had heard this, in the course of my study. However, not even one person had mentioned that a lack of formal training of the sales process is a pain point.
 
-![survey-summary center](https://static.notion-static.com/355f33e0879a40e4a8c220144973f3de/survey-summary.png)
+![survey-summary center](/assets/img/cases/sales/survey-summary.svg)
 
 ## Summary of the User Research
 
@@ -131,7 +131,7 @@ Here are the answers to the questions that were posed before:
 
 It was clear that though imparting a sales process was important, there were other pressing pain points that are hindering sales people to get better at their jobs. In my opinion, targeting a pain point that people are aware of leads to better adoption of a solution.
 
-![empathy-map center](https://static.notion-static.com/0b3a6757bfaa42638192bb54db4a9956/Sales_Empathy_Map.png)
+![empathy-map center](/assets/img/cases/sales/sales-emp-map.png)
 
 I have summarized the findings of my study in the form of an empathy map so that it is easier for stakeholders to connect the pain points of the user.
 
@@ -179,4 +179,4 @@ Ideally, I wanted to conduct diary studies with sales folks, at least internally
 
 This study has strengthened the case for user research in the organization not just for the benefit of design teams but it also allowed Product Managers to know the business problems in more detail and take an informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. 
 
-By end of it all I imbibed: the adoption of user research as a practice is a critical step in improving the design maturity of an organization and raising the value a designer brings to the table.
+By end of it all I imbibed that the adoption of user research as a practice is a critical step in improving the design maturity of an organization and raising the value a designer brings to the table.
