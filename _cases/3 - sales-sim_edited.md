@@ -22,7 +22,7 @@ To improve the retention, motivation, effectiveness of these trainings, KNOLSKAP
 
 ## Problem
 
-During a product brainstorming session , the project management team and our CEO unanimously agreed that the new product would be - A simulation around Sales training. As they all thought there was a lack of an effective training intervention in the sales space. This was the problem that we decided to solve through our upcoming simulation. Most of them looked determined while some of us squirmed in our seats without data supporting this claim. 
+During a product brainstorming session, the project management team and our CEO agreed that the new product would be a simulation around Sales training, as they all thought there was a lack of an effective training intervention in the sales space. Most of them looked determined while some of us squirmed in our seats without much data supporting this claim.
 
 ### Bringing order to the chaos
 
@@ -38,25 +38,25 @@ Our CEO then clarified who the product is catered for:
 
 - 18-35 years old, need not be tech savvy, not very analytical. 
 - They can be students, new sales guys or experienced sales guys of 0-3 year experience, who are dealing with sales operations. 
-- This is not going to be a product for Sales leaders or managers of sales executives. 
+- This is not going to be a simulation for Sales leaders or managers of sales executives. 
 
-He agreed with the VP, Sales that everything involved in a process like selling cannot be taught. He added that one has to start somewhere and following a process is very beneficial for the person in the starting days of their career.
+He added that one has to start somewhere and following a process is very beneficial for the person in the starting days of their career.
 
-The proposed solution was to create a simulation that would give sales folks a virtual assessment by placing the user in the shoes of a sales person with a goal of achieving a certain target. The idea was to use various decisions made by the user, evaluate them and formulate a report about the strengths and weaknesses of an individual.
+<!-- The proposed solution was to create a simulation that would give sales folks a virtual assessment by placing the user in the shoes of a sales person with a goal of achieving a certain target. The idea was to use various decisions made by the user, evaluate them and formulate a report about the strengths and weaknesses of an individual. -->
 
 **Meanwhile, my thoughts were:**
 
--  Is the solution enough to make a positive impact on the sales person's performance?
-
+- Is the solution enough to make a positive impact on the sales person's performance?
 - Can we do something better? 
 
-  I voiced out my concern and also asked what are we replacing with our simulated training environment? The reply was it definitely was not enough, but this is a step in the right direction.
+I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
+I was not convinced.
 
-### UX decisions
+### Understanding the Users' world
 
-I sought agreement about talking to the users before jumping in to the solution mode. Reason being- I am clueless about the field of Sales. I clearly communicated my inability to design without any knowledge of the field or what the problems are. My CEO agreed to my approach. He proactively connected me with few of his contacts from the Sales community. 
+I sought agreement about talking to the users before jumping in to the solution mode. Reason being - I was clueless about the field of Sales. I clearly communicated my inability to design without any knowledge of the field or what the problems were. My CEO agreed to my approach. He proactively connected me with few of his contacts from the Sales community.
 
-I quickly jotted down the following questions and talking points that would guide me in uncovering the pain points of potential users:
+I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
 
 - How do Sales people get better at their jobs, over time?
 - What are some of the pain points that are hindering them in getting better at their jobs?
@@ -71,8 +71,7 @@ I quickly jotted down the following questions and talking points that would guid
 As they say, charity begins at home, I started my one-on-one interviews with our 5 internal sales folks and wanted to know how they got into sales, how did they learn, what are the challenges inherent on the field etc. 
 
 ![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F1743667bd6d3436796652210cf9b3150%2Fuser-interview-s.png?w=1.0&s=6f5bc7326ea6eec70aa74d7d1a60ff5b)
-
-Photo by Alejandro Escamilla on Unsplash
+*Photo by Alejandro Escamilla on Unsplash*
 
 After a brief introduction to why I am doing this interview, I always started with the question: "How did you get into Sales?" My intent was to see if they had a formal training, or if they had undergone corporate trainings to learn the ropes. 
 
@@ -118,17 +117,17 @@ I received 20 responses from Sales Executives and 14 responses from people who w
 
 Here are the answers to the questions that were posed before:
 
-- How do Sales people get better at their jobs, over time?
-  A) On the job, shadowing, getting partnered with a sales buddy.
+- How do Sales people get better at their jobs, over time? <br>
+  **A)** On the job, shadowing, getting partnered with a sales buddy.
 
-- What are some of the pain points that hinder them in getting better at their jobs?
-  A) Unable to make clients understand why the solution they are offering is the better one. Lack of soft skills. Unable to sustain a conversation with a client over a long period of time. Unable to get buy-in from the clients after investing so much amount of time.
+- What are some of the pain points that hinder them in getting better at their jobs? <br>
+  **A)** Unable to make clients understand why the solution they are offering is the better one. Lack of soft skills. Unable to sustain a conversation with a client over a long period of time. Unable to get buy-in from the clients after investing so much amount of time.
 
-- Is a lack of knowledge about the sales process a pain point? 
-  A) Yes
+- Is a lack of knowledge about the sales process a pain point? <br>
+  **A)** Yes
 
-- Were Sales people conscious of this pain?
-  A) No. Sales executives, our primary audience, were not conscious of this pain point.
+- Were Sales people conscious of this pain? <br>
+  **A)** No. Sales executives, our primary audience, were not conscious of this pain point.
 
 It was clear that though imparting a sales process was important, there were other pressing pain points that are hindering sales people to get better at their jobs. In my opinion, targeting a pain point that people are aware of leads to better adoption of a solution.
 
