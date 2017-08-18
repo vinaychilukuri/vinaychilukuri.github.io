@@ -26,11 +26,11 @@ My team began with making the training into a visual journey. The initial idea w
 
 ### Analysis and Diagnosis 
 
-Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues. It needed a revival from the ground up.
+Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues.
 
-I conducted a thorough usability review of the LMS and some of the problems unearthed are as follows:
+![img](/assets/img/cases/aktlearn/old-canvas-home.png)
 
-There is no easy way for the user to know/do the following:
+**There is no easy way for the user to know/do the following**:
 
 - What is my progress in each of the courses/trainings that I have subscribed to?
 - What are the To-Do items in each of the courses? When do I have to complete them?
@@ -38,43 +38,42 @@ There is no easy way for the user to know/do the following:
 - What is the next item in the course that I am going to take as I reach the end of the current item?
 - How to easily explore other areas of the course?
 
-One of the fundamental principles of Usability is to give the user a feeling of control. This was sorely lacking in the current version of the site. The constant feedback we got from various clients was that their learners seem to be lost in the interface.
+![img](/assets/img/cases/aktlearn/old-course-home.png)
 
-I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client. It was very difficult to get access to the actual learners who were undergoing the trainings as these were managers who were very busy with their schedules. Getting buy-in from L&D teams for doing user research to understand their pain points was challenging.
-
-I  compared existing online interfaces of MOOC platforms and sought out what the user would want with respect to a learning journey of 3-4 months.
-
-In my opinion, the important question for a user who comes to an online learning platform is: **What do I choose to learn today?**
+One of the fundamental principles of Usability is to give the user a feeling of control. This was sorely lacking in the current version of the site. The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
 ### Design and the explanation
+I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client.
+
+I compared existing online interfaces of MOOC platforms and sought out what the user would want with respect to a learning journey of 3-4 months.
+
+>An important question for a user who comes to an online learning platform is: 
+**_What do I learn today?_**
 
 ![img](/assets/img/cases/aktlearn/profile-home.png)
 
-The above UI addresses the following points:
+<!-- The above UI addresses the following points:
 
 - Shows the learner clearly the trainings ascribed to him along with the progress and his/her current score.
 - Courses are sorted based on most recently accessed.
-- Clearly, shows what are the to-do items for the learner across the trainings in the upcoming weeks.
+- Clearly, shows what are the to-do items for the learner across the trainings in the upcoming weeks. -->
 
-The homepage thus has multiple ways for the user to go into a course. The user could either take a decision on the most recent item, the progress metric or the To-Do item that needs his/her attention. Bringing these three items up-front means a bias for action. These elements provide a way for the user to resolve the question, "What do I choose to learn, today?"
+The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
-Once the user enters the course home-page, there is no place where the old LMS interface lists the name of the course! I  redesigned the course menu so that the first item lists the course name and the items of the course follow, thus communicating a clear hierarchy to the user.
-
+![img](/assets/img/cases/aktlearn/course-menu-bar.png)
 The re-designed course menu with the element next to it, the course action-bar, act as an anchor point for the learner through out the interface.
 
-![img](/assets/img/cases/aktlearn/course-pg-menu.png)
-
-The intent of the course action bar is the following:
+<!-- The intent of the course action bar is the following:
 
 1. Cues the learner to resume the training from where he/she had left off. Else, the user has to go to the course journey and process which items had been completed and then go to the respective item. 
 2. Communicate the progress of the course.
-3. Combining the cue to resume the course along with the progress bar is an element to nudge the user to get back on the track and push towards completion.
+3. Combining the cue to resume the course along with the progress bar is an element to nudge the user to get back on the track and push towards completion. -->
 
-The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course wherever he/she is in the interface. Again, a bias for action.
+The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course wherever he/she is in the interface. Again, *a bias for action*.
 
 ![img](/assets/img/cases/aktlearn/course-bar-todo.png)
 
-Though the home page lists the upcoming To-Do items for the user when he /she visits the course home, the course-bar also reflects an upcoming To-Do item for the user as an extra measure, whenever the due-date is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do item that needs attending to. Other than this, the system would also send a reminder email to the user when an assignment needs completion.
+The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
 Now that the fundamentals of the interface had been fixed, it was time to add a persuasive layer to the system that would incentivize their learning.
 
