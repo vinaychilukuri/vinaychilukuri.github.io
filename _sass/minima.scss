@@ -114,7 +114,7 @@ p+blockquote{
 	font-size: 125%;
 	border-left: 4px solid $oc-indigo-4;
 	// font-style: normal;
-	color: $oc-indigo-7;
+	color: $oc-indigo-8;
 }
 
 p > img{
@@ -185,6 +185,8 @@ hr{margin-bottom: 10px !important;}
 }
 
 @include media-query(600px){
+	.site-title{font-size: 28px !important;}
+
 	p > img, img[alt~="right"]{
 		display: block; margin: auto;
 		float: none; padding: 20px 0px 20px 0;
