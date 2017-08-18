@@ -27,24 +27,19 @@ I was contributing as a volunteer on the side by working nights, for about 5 hou
 There are three things that were needed to be done:
 1. Understand what the user and business goals are.
 2. Structure the content on a strong foundation of Information Architecture (IA).
-
 3. Give a task-oriented context to the information, so that the content could be easily consumed in a mobile context.
 
 ![img center sd](/assets/img/cases/isha-app/pcc.png)
 
 ## 1) User & Business Needs
 
-Currently, there is a vast source of information that is spread across multiple websites. The primary website of ISHA (isha.sadhguru.org) itself had it's own navigation and findability issues. Given that there is new wisdom from Sadhguru almost every day either in the form of an article or a video — communicating this to the user was one of the primary concerns.
+Given that there was new wisdom from Sadhguru almost every day either in the form of an article or a video — communicating this to the user was one of the primary concerns.
 
-Other than this, the business need was to inform the users a list of Yoga programs happening in their area. The current flow for this is to have the user redirect to a different micro-site than the main website and select the filters every time they want to see what programs were available in their city.
-
-An important business need was also to convey the social activities the organization was part of and allow the user to either volunteer or donate for the cause. In the words of one of the stakeholders, "Donations are our life-line."
-
-**Summarizing the needs:**
+After a few stakeholder interviews, I have uncovered the following needs:
 
 - Users should be able to easily find Sadhguru's content (which are in the form of text, video, audio, and quotes)
 - Users should be able to find ISHA foundation's Yoga programs happening in their area.
-- Users should be able to know the various outreach activities of the organization and be able to Volunteer/Donate for these.
+- The organization needs to promote it's various outreach activities and be able to attract volunteers, donations for each of these.
 
 ### Analytics
 
@@ -64,8 +59,8 @@ Re-looking at the navigation of the web with the lens of user & business needs y
 
 Given that I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had unanimously agreed to the IA that was proposed based on the user needs, business goals, expert opinions and the frequency of content updates.
 
-Having this structure yielded a very solid foundation for even future versions of the app, for adding further types of content and providing various other offerings of the organization.
-
+<!-- Having this structure yielded a very solid foundation for even future versions of the app, for adding further types of content and providing various other offerings of the organization.
+ -->
 ### Translating the IA into a navigation system on mobile
 
 From the very beginning, there were a few principles that I wanted to adhere to:
@@ -81,17 +76,22 @@ From the very beginning, there were a few principles that I wanted to adhere to:
 
 The stakeholders had proposed the idea to have all the navigation items on the web page as part of a hamburger menu on the mobile and thus have more information for the user. 
 
-The hamburger menu had become a convenience to have lots of navigable labels under one menu without cluttering the visuals.  It had become so pervasive that people had started treating it as a standard. In effect, there has been quite some research on how it is detrimental to the UX of the app as it does not give a cue to the user in terms of the navigable sections of the app, as all the navigation items are tucked away inside a menu. In other words, the information scent is not apparent for the users. 
+The hamburger menu had become a convenience to have lots of navigable labels under one menu without cluttering the visuals.  It had become so pervasive that people had started treating it as a standard. In effect, there has been quite some research on how it is detrimental to the UX of the app as it does not give a cue to the user in terms of the navigable sections of the app. In other words, the *information scent* is not apparent to the users. 
 
 ![hamburger sd](/assets/img/cases/isha-app/hambgr.png)
 
-The hamburger menu does not favor the usability principle **Recognition over Recall**. As all the navigable items are hidden inside the menu, the user has to make an attempt to click on the menu and process which of the navigation labels he/she is interested in order to switch. Or the user needs to remember the items that are part of the menu, in order to reduce the processing time every time the user wants to make a navigation choice.
+The hamburger menu does not favor the usability principle, *Recognition over Recall*. 
+<!-- As all the navigable items are hidden inside the menu, the user has to make an attempt to click on the menu and process which of the navigation labels he/she is interested in order to switch. Or the user needs to remember the items that are part of the menu, in order to reduce the processing time every time the user wants to make a navigation choice. -->
 
-The bottom-bar navigation pattern is much better in the above aspects because, it shows what the primary navigable sections of the app are, up front. There is no need for the user to recall these sections from memory. Perhaps, realizing the bad UX of the hamburger pattern, Google had updated their design guidelines on the android platform, to have the bottom navigation bar as the standard, though this has been the constant on iOS. 
+The bottom-bar navigation pattern is much better because, it shows what the primary navigable sections of the app are, up front. There is no need for the user to recall these sections from memory. 
 
-![bottom-top-nav sd right](/assets/img/cases/isha-app/bottom-top-nav.png)
+Perhaps, realizing the bad UX of the hamburger pattern, Google had updated their design guidelines on the android platform, to have the bottom navigation bar as the standard, though this has been the constant on iOS.
 
-The image on the right shows how we have used the bottom-bar navigation with a top-segmented bar for level-1 items of the information hierarchy, with the first-tab being the prominent section of the lot. Also, notice that the user could see all the level-2 items, make a selection among them, without losing the focus on level-1 items that are present in the bottom-bar. In my opinion, this style of navigation provides a superior anchor for the user to browse through the various sections of the app.
+<p style="clear: both">
+The image below shows the how the bottom-bar navigation has been adopted to our IA. Notice that the user could see all the level-2 items, make a selection among them, without losing the focus on level-1. In my opinion, this style of navigation provides a superior anchor for the user to browse through the various sections of the app.</p>
+{::options parse_block_html="true" /}
+
+![bottom-top-nav sd center](/assets/img/cases/isha-app/bottom-top-nav.png)
 
 One of the other reasons why a bottom navigation also makes sense — with the screen sizes becoming larger, the area on the phone reachable with the thumb becomes smaller and is restricted to the lower portion of the screen.
 
@@ -103,15 +103,14 @@ After 6 months, there is no looking back on this with so many apps following the
 
 ### Choosing the labels
 
-Though, we have debated the idea of having all verbs for the navigation labels, it made sense to use labels which the users would relate a lot. Hence, we have used the label 'Sadhguru' instead of 'Seek' as one of the navigation items. Since this is going to be an app for the vast followers of Sadhguru, having his name as one of the navigation items is going to connect with the users instantly.
+Though, we have debated the idea of having all verbs for the navigation labels, it made sense to use labels which the users would relate a lot. 
+<!-- Hence, we have used the label 'Sadhguru' instead of 'Seek' as one of the navigation items. Since this is going to be an app for the vast followers of Sadhguru, having his name as one of the navigation items is going to connect with the users instantly. -->
 
 I have also learnt from the book by [Donna Spencer](uxmastery.com/practical-ia) that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
 
-There was a debate if we wanted to have Donate as one of the navigation labels over "Outreach". However, the stakeholders strongly recommended it to be called "Donate" as it would bring an active voice to the user and for them attracting donations from users are critical.
+There was a debate if we wanted to have Donate as one of the navigation labels over "Outreach". However, the stakeholders strongly recommended it to be called "Donate" as it would bring an active voice and might fare better in attracting donations from the users.
 
 ![img center](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fd28e1f2e879e495f996e6c8d64027069%2FIsha-app-IA.png?w=1.0&s=76405bef14da17a7cfa8396aae868309)
-
-As I mentioned earlier that I worked on this project in my free-time, there was no scope to formally test the IA. I have instead relied on feedback from internal team members and thought if the grouping would unambiguously communicate what each of the labels meant.
 
 ### Prototype
 
