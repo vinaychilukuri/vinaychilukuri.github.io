@@ -30,11 +30,22 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
-@mixin full-pg-width{
-	// position: absolute; left: 50%;
-	// transform: translate(-50%, 0);
-	// padding: 0 !important;
- //    float: none;
+@mixin full-width {
+  margin-left: calc(-80vw / 2 + 800px / 2);
+  margin-right: calc(-80vw / 2 + 800px / 2);
+  margin-top: 40px; margin-bottom: 50px
+}
+
+// this class needs to be applied only if browser width >= 1000px
+@media screen and (min-width: 1000px) {
+	.full-width{
+		@include full-width;
+
+		img{
+			float: none;
+			padding: 0;
+		}
+	}	
 }
 
 // Custom CSS
@@ -127,8 +138,6 @@ iframe.prototype{display: block; margin: auto;}
 img[alt~="center"]{
 	float: none; padding-top: 10px;
 }
-
-img[alt~="full"]{@include full-pg-width;}
 
 img[alt~="sd"]{width: 50%;}
 img[alt~="sd-l"]{width: 30%;}

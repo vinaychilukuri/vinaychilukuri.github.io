@@ -50,7 +50,9 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 >An important question for a user who comes to an online learning platform is: 
 **_What do I learn today?_**
 
-![img](/assets/img/cases/aktlearn/profile-home.svg)
+<div class="full-width"><img src="/assets/img/cases/aktlearn/profile-home.svg" alt="profile">
+</div>
+{::options parse_block_html="true" /}
 
 <!-- The above UI addresses the following points:
 
@@ -60,7 +62,10 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 
 The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
-![img](/assets/img/cases/aktlearn/course-menu-bar.svg)
+<div class="full-width"><img src="/assets/img/cases/aktlearn/course-menu-bar.svg" alt="course-menu-bar">
+</div>
+{::options parse_block_html="true" /}
+
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
 <!-- The intent of the course action bar is the following:
