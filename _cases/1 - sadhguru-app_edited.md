@@ -10,7 +10,9 @@ permalink: /case/sadhguru-app
 <div class="page-color-block"></div>
 {::options parse_block_html="true" /}
 
-My role was to build the complete UX for an app whose intent is to have the vast amount of knowledge by Sadhguru and various offerings of ISHA — yoga, meditation, events etc.. under one umbrella.
+I designed a mobile app for the millions of followers of Sadhguru on social media. The intent of the app is to have the vast knowledge of Sadhguru and various offerings of ISHA — yoga, meditation, events etc.. easily accessible under one umbrella. <br><br>
+DURATION: Dec, 2016 - Feb, 2017
+<hr>
 
 ## Background
 
@@ -18,18 +20,24 @@ Sadhguru is a contemporary mystic, yogi and a visionary. He is the founder of IS
 
 ![img full](/assets/img/cases/isha-app/sadhguru.jpg)
 
-Touched by the insight of Sadhguru and deep experience that I had felt through ISHA foundation's yoga programs, I signed up as a volunteer. 
+Touched by the insight of Sadhguru and deep experience that I had felt through ISHA foundation's yoga programs, I signed up as a volunteer.
 
-Team ISHA wanted to build a mobile app which would enable the fans/followers of Sadhguru to connect with him through the palm of their hands. Not only that, the intent of the app was to provide users a means to have easy access to yoga and meditations that one could try in the comfort of their homes and also be able to register for other ISHA yoga programs that were taught by highly-qualified yoga teachers across various locations in the world.
+## Problem Definition
+The various offerings of ISHA were scattered across 42 websites! As a result, the experience was totally fragmented and a more fundamental problem being the key information was not at all discoverable.
 
+Team ISHA wanted to build a mobile experience to bring the key offerings of ISHA under one umbrella. A larger website consolidation project was part of the plan, at a later stage. 
+
+<!-- The intent of the app was to provide users a means to have easy access to yoga and meditations that one could try in the comfort of their homes and also be able to register for other ISHA yoga programs that were taught by highly-qualified yoga teachers across various locations in the world.
+ -->
+## My Role
 I was contributing as a volunteer on the side by working nights, for about 5 hours per week.
 
-There are three things that were needed to be done:
-1. Understand what the user and business goals are.
+There were three things that needed to be done:
+1. Understand the user needs and business goals.
 2. Structure the content on a strong foundation of Information Architecture (IA).
 3. Give a task-oriented context to the information, so that the content could be easily consumed in a mobile context.
 
-![img center sd](/assets/img/cases/isha-app/pcc.png)
+![img center sd](/assets/img/cases/isha-app/pcc.svg)
 
 ## 1) User & Business Needs
 
@@ -106,7 +114,7 @@ After 6 months, there is no looking back on this with so many apps following the
 Though, we have debated the idea of having all verbs for the navigation labels, it made sense to use labels which the users would relate a lot. 
 <!-- Hence, we have used the label 'Sadhguru' instead of 'Seek' as one of the navigation items. Since this is going to be an app for the vast followers of Sadhguru, having his name as one of the navigation items is going to connect with the users instantly. -->
 
-I have also learnt from the book by [Donna Spencer](uxmastery.com/practical-ia) that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
+I have also learnt from the book by [Donna Spencer](http://uxmastery.com/practical-ia){:target="_blank"} that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
 
 There was a debate if we wanted to have Donate as one of the navigation labels over "Outreach". However, the stakeholders strongly recommended it to be called "Donate" as it would bring an active voice and might fare better in attracting donations from the users.
 
@@ -139,4 +147,4 @@ Ever since the app was released, it had been receiving unanimously positive revi
 
 ![img center](/assets/img/cases/isha-app/playstore-reviews.png)
 
-This has been one of the most enriching projects that I had worked on, in terms of the impact and contributing my bit to the spiritual community.
+This has been one of the most enriching projects that I had worked on, in terms of impact and contributing my bit to the spiritual community.
