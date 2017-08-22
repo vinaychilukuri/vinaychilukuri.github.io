@@ -32,24 +32,19 @@ In order for all the stakeholders to be on the same page and bring in clarity, I
 
 ![lean-canvas](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F616a5a261b6f43c3937d95fb80691ee8%2Fleancanvas.png?w=1.0&s=1a8a41ce66e919bf69a5bc8d93317051)
 
-During this exercise, there were opposite point-of-views heard from key stakeholders.
-
-![img center](/assets/img/cases/sales/conflict.svg)
-
-Our CEO then clarified who the product is catered for:
+During this exercise, the CEO clarified who the product is catered for:
 
 - 18-35 years old, need not be tech savvy, not very analytical. 
 - They can be students, new sales guys or experienced sales guys of 0-3 year experience, who are dealing with sales operations. 
 - This is not going to be a simulation for Sales leaders or managers of sales executives. 
 
-He added that one has to start somewhere and following a process is very beneficial for the person in the starting days of their career.
+<!-- He added that one has to start somewhere and following a process is very beneficial for the person in the starting days of their career.
 
-<!-- The proposed solution was to create a simulation that would give sales folks a virtual assessment by placing the user in the shoes of a sales person with a goal of achieving a certain target. The idea was to use various decisions made by the user, evaluate them and formulate a report about the strengths and weaknesses of an individual. -->
+The proposed solution was to create a simulation that would give sales folks a virtual assessment by placing the user in the shoes of a sales person with a goal of achieving a certain target. The idea was to use various decisions made by the user, evaluate them and formulate a report about the strengths and weaknesses of an individual. -->
 
 **Meanwhile, my thoughts were:**
 
-- Is the solution enough to make a positive impact on the sales person's performance?
-- Can we do something better? 
+> Was a sales simulation enough to make a positive impact on the sales person's performance? Can we do something better? 
 
 I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
 I was not convinced.
@@ -61,7 +56,7 @@ I sought agreement about talking to the users before jumping in to the solution 
 I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
 
 - How do Sales people get better at their jobs, over time?
-- What are some of the pain points that are hindering them in getting better at their jobs?
+- What were some of the pain points hindering them in getting better at their jobs?
 - Is a lack of knowledge about the sales process or not being conscious of the sales process, a pain point?
 - Were Sales people conscious of this pain?
 - Will teaching them a process on how-to sell using a simulated environment, once, be sufficient to make a positive impact in their work lives?
@@ -120,7 +115,7 @@ I received 20 responses from Sales Executives and 14 responses from people who w
 Here are the answers to the questions that were posed before:
 
 - How do Sales people get better at their jobs, over time? <br>
-  **A)** On the job, shadowing, getting partnered with a sales buddy.
+  **A)** On the job learning, shadowing, getting partnered with a sales buddy.
 
 - What are some of the pain points that hinder them in getting better at their jobs? <br>
   **A)** Unable to make clients understand why the solution they are offering is the better one. Lack of soft skills. Unable to sustain a conversation with a client over a long period of time. Unable to get buy-in from the clients after investing so much amount of time.
@@ -146,6 +141,8 @@ In summary, I refined the job from "How do I get better at my job?" to "How can 
 From a business stand-point, using a service every time a sales person has a meeting is of higher value than conducting a training intervention once a year.
 
 Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. I, of course, cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.
+
+### Technical Challenges
 
 The solution was received with great enthusiasm and everyone saw the value in it, including our internal sales team. However, in order to build a solution of this manner required deep technological expertise on mobile, which was then not the case. The harsh reality was the team was not equipped enough in terms of skill to build the proposed solution. We did not have the option of outsourcing this as it would mean a lot of development time. As a result, the product team could not immediately jump in building this.
 
