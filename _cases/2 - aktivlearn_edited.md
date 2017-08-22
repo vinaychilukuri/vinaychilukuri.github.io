@@ -14,7 +14,8 @@ A client of ours from an IT team lamented that how most of the corporate trainin
 
 At KNOLSKAPE, our intention was to address this issue by building a learning ecosystem that would motivate learners to engage with their training material and move towards completion.
 
-## ACT 1 - Usability first
+DURATION: Year of 2015
+<hr>
 
 ### Background
 
@@ -22,9 +23,12 @@ KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundatio
 
 ![img](/assets/img/cases/aktlearn/al_web_road.png)
 
-My team began with making the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the environment into a slightly different world.
+My team began with making the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the serious environment of an LMS into a slightly playful world.
 
-### Analysis and Diagnosis 
+### My Role
+I was leading the UX for this project, which involved revamping the design of an existing learning management system from the ground up. In addition to gathering requirements from stakeholders, translating the requirements to prototypes, I have also conducted usability tests with internal employees in order to ensure that the proposed designs were user-centric.
+
+## ACT 1 - Usability first 
 
 Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues.
 
@@ -42,7 +46,7 @@ Before we could set out to design our intended gamified ecosystem, the fundament
 
 One of the fundamental principles of Usability is to give the user a feeling of control. This was sorely lacking in the current version of the site. The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
-### Design and the explanation
+### Design for Action
 I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client.
 
 I compared existing online interfaces of MOOC platforms and sought out what the user would want with respect to a learning journey of 3-4 months.
