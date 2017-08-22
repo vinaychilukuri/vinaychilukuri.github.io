@@ -55,7 +55,7 @@ I sought agreement about talking to the users before jumping in to the solution 
 
 I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
 
-![img](/assets/img/cases/sales/questions.png)
+![img research-questions](/assets/img/cases/sales/questions.png)
 
 ## User Interviews with Sales executives
 
