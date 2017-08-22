@@ -18,7 +18,7 @@ DURATION: Year of 2016.
 ## Background 
 "How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
 
-One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance. Typical corporate trainings push the hapless trainee graduate into the real world with just theoretical and basic understanding of things. 
+One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance.
 
 To improve the retention, motivation, effectiveness of these trainings, KNOLSKAPE creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
 
@@ -55,13 +55,7 @@ I sought agreement about talking to the users before jumping in to the solution 
 
 I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
 
-- How do Sales people get better at their jobs, over time?
-- What were some of the pain points hindering them in getting better at their jobs?
-- Is a lack of knowledge about the sales process or not being conscious of the sales process, a pain point?
-- Were Sales people conscious of this pain?
-- Will teaching them a process on how-to sell using a simulated environment, once, be sufficient to make a positive impact in their work lives?
-- Is a sales simulation the right kind of intervention that solves their need?
-- What are the other ways Sales people use in order to get better at their jobs?
+![img](/assets/img/cases/sales/questions.png)
 
 ## User Interviews with Sales executives
 
@@ -163,15 +157,13 @@ _A stock photo. Not indicative of the actual report that was used for testing_
 
 What went into the report were totally driven by my understanding of the pain points from the user research study that I have done. This style of testing, apparently, is called a Wizard of Oz test in the lean startup world, for reasons unknown to me.
 
-We spoke to the potential customers and they showed enough interest in having a report like this for each of their employees. The important learning is that this solution benefits the customer and not the end user. In a B2B environment, this is crucial because the solution should appeal to choosers first and then the users. 
+We spoke to the potential customers and they showed enough interest in having a report like this for each of their employees. The important learning is that this solution benefits the customer and not as much to the end user. In a B2B environment, this is crucial because the solution should appeal to choosers first and then the users. 
 
 ## Key Learnings & Conclusion
 
-First and foremost, the experience that a designer gets from talking to potential users or customers is invaluable. It develops a deep bond with the users and truly enables one to be user-centric instead of guessing what the user might want. Of course, this is not possible every time in a design scenario due to the tight deadlines, budgets and also the task at hand.
+User research helps in developing a deep bond with the users and truly enables one to be user-centric instead of guessing what the user might want.
 
-When it comes to designing interfaces, a cognitive model would be sufficient most of the times in understanding if an interface is easier enough for a user to do his tasks etc. Following the best practices of interaction design coupled with usability testing would suffice.
-
-Ideally, I wanted to conduct diary studies with sales folks, at least internally, and know about their problems in greater depth. However, I was not aware of this technique at the time of starting this study.
+In my opinion, conducting diary studies would have revealed the pain points for a sales person, in greater depth. However, I was not aware of this technique at the time of starting this study.
 
 ![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fa0aaaac5a1f24b76ac81ec7e18fc4f92%2Fdiary-study-s.png?w=1.0&s=c83e481d9e4b3521e3ae09f1aeee350a)
 *Photo by Cathryn Lavery on Unsplash*
