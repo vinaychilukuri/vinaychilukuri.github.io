@@ -10,11 +10,13 @@ permalink: /case/sales-user-research
 <div class="page-color-block"></div>
 {::options parse_block_html="true" /}
 
-This is a case-study about my first attempt in conducting primary research to understand the problem-space and there by have the ability to formulate better solutions to the problem at hand.
+This is a case-study about my first attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had the users at it's core.
+
+DURATION: Year of 2016.
 
 ---
-
-"How do I get better at my job?" is a common drive that people have. The underlying motivations for this drive is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
+## Background 
+"How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
 
 One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance. Typical corporate trainings push the hapless trainee graduate into the real world with just theoretical and basic understanding of things. 
 
