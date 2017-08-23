@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uncovering pain points in the field of Sales through User Research
-case-tag: User Research
+case-tag: User Research, Product Strategy
 year: 2016
 imgurl: /assets/img/sales-man.svg
 permalink: /case/sales-user-research
@@ -98,7 +98,7 @@ Though our users are going to be Sales personnel on the field, our customers are
 
 I had the apprehension that I spoke to only a few people (5 each) and perhaps my observations are not enough to form a pattern of behavior.
 
-So, I approached one of the largest LinkedIn communities in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771) and the solicited response to an open-ended survey (of 10 questions) that touched on the topics of Sales performance and the factors that hinder the performance of a sales executives. 
+So, I approached one of the largest LinkedIn communities in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"} and the solicited response to an open-ended survey (of 10 questions) that touched on the topics of Sales performance and the factors that hinder the performance of a sales executives. 
 
 I received 20 responses from Sales Executives and 14 responses from people who were Sales Managers. Though the number of respondents was few, their responses shed light on the pain points they had faced in their respective fields. Most interestingly, close to 40% of the respondents mentioned that they have undergone sales training which taught them how to qualify, prospect and negotiate along with a few other behavioral skills! The first time I had heard this, in the course of my study. However, not even one person had mentioned that a lack of formal training of the sales process is a pain point.
 
