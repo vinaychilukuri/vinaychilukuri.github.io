@@ -23,7 +23,7 @@ Sadhguru is a contemporary mystic, yogi and a visionary. He is the founder of IS
 Touched by the insight of Sadhguru and deep experience that I had felt through ISHA foundation's yoga programs, I signed up as a volunteer.
 
 ## Problem Definition
-The various offerings of ISHA were scattered across 42 websites! As a result, the experience was totally fragmented and a more fundamental problem being the key information was not at all discoverable.
+The various offerings of ISHA were scattered across 42 websites! As a result, the experience was totally fragmented with a fundamental problem -- the key information was not at all discoverable.
 
 Team ISHA wanted to build a mobile experience to bring the key offerings of ISHA under one umbrella. A larger website consolidation project was part of the plan, at a later stage. 
 
