@@ -144,8 +144,6 @@ The solution was received with great enthusiasm and everyone saw the value in it
 
 However, the learnings from the study did not go waste. We wanted to combine the pain points unearthed from the study and use it in the initial idea of simulated assessment.
 
-Also, the insights that were obtained from the user research study even helped the learning solutions team of KNOLSKAPE to create an effective training material for a Sales journey.
-
 ## Testing the solution without a product
 
 In order to see if the simulated assessment which was now refined due to the learnings from my user research studies, had any potential - I proposed to design a report that would be generated once a user takes the simulated assessment.
@@ -168,6 +166,6 @@ In my opinion, conducting diary studies would have revealed the pain points for 
 ![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fa0aaaac5a1f24b76ac81ec7e18fc4f92%2Fdiary-study-s.png?w=1.0&s=c83e481d9e4b3521e3ae09f1aeee350a)
 *Photo by Cathryn Lavery on Unsplash*
 
-This study has strengthened the case for user research in the organization not just for the benefit of design teams but it also allowed Product Managers to know the business problems in more detail and take an informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. 
+This study has strengthened the case for user research in the organization not just for the benefit of design teams but it also allowed Product Managers to know the business problems in more detail and take an informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights user research even helped the learning solutions team of KNOLSKAPE to create an effective training material for a Sales journey.
 
 By end of it all I imbibed that the adoption of user research as a practice is a critical step in improving the design maturity of an organization and raising the value a designer brings to the table.
