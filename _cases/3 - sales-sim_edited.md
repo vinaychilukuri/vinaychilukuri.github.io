@@ -10,7 +10,7 @@ permalink: /case/sales-user-research
 <div class="page-color-block"></div>
 {::options parse_block_html="true" /}
 
-This is a case-study about my first attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had the users at it's core.
+This is a case-study about my attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had users at it's core.
 
 DURATION: Year of 2016.
 
