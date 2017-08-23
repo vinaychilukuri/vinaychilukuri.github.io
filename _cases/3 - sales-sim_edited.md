@@ -10,7 +10,7 @@ permalink: /case/sales-user-research
 <div class="page-color-block"></div>
 {::options parse_block_html="true" /}
 
-This is a case-study about my attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had users at it's core.
+This is a case-study about my attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had users' pain-points at the core.
 
 DURATION: Year of 2016.
 
@@ -130,7 +130,7 @@ I have summarized the findings of my study in the form of an empathy map so that
 
 Looking at the pain points from the above research, it was evident that supporting a sales personnel in the context of a sales meeting (either on the field or over a call) is more important than creating a training intervention once a year or 6 months. This is because the meetings are the main crucial indicators for a sales person to make progress in qualifying a lead, negotiating with them and then closing the deal. 
 
-In summary, I refined the job from "How do I get better at my job?" to "How can I perform better every time I go take a sales meeting?"
+> In summary, I refined the problem of  "How do I get better at my job?" to "How can I perform better every time I attend a sales meeting?"
 
 From a business stand-point, using a service every time a sales person has a meeting is of higher value than conducting a training intervention once a year.
 
