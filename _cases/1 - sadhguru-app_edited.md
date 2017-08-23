@@ -99,7 +99,7 @@ Perhaps, realizing the bad UX of the hamburger pattern, Google had updated their
 The image below shows the how the bottom-bar navigation has been adopted to our IA. Notice that the user could see all the level-2 items, make a selection among them, without losing the focus on level-1. In my opinion, this style of navigation provides a superior anchor for the user to browse through the various sections of the app.</p>
 {::options parse_block_html="true" /}
 
-![bottom-top-nav sd center](/assets/img/cases/isha-app/bottom-top-nav.png)
+![bottom-top-nav sd center](/assets/img/cases/isha-app/bottom-top-nav.svg)
 
 One of the other reasons why a bottom navigation also makes sense — with the screen sizes becoming larger, the area on the phone reachable with the thumb becomes smaller and is restricted to the lower portion of the screen.
 
