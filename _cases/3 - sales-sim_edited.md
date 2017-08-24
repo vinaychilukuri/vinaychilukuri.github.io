@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Uncovering pain points in the field of Sales through User Research
+title: Helping Sales executives perform better at their jobs.
 case-tag: User Research, Product Strategy
 year: 2016
 imgurl: /assets/img/sales-man.svg
