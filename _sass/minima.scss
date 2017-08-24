@@ -49,6 +49,13 @@ $on-laptop:        800px !default;
 }
 
 // Custom CSS
+
+// Home page
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
 .nav-resume{
 	float: right; position: relative; top: 20px;
 
@@ -67,6 +74,8 @@ $on-laptop:        800px !default;
 }
 
 .case-list{margin: 0 10px;}
+
+// Case study pages
 
 h1 {
 	// background: url("img/headline.svg") no-repeat left bottom;
@@ -121,15 +130,16 @@ h4{
 }
 
 p{
-	margin-bottom: 20px !important;
+	margin-bottom: 24px !important;
+	letter-spacing: 0.1px;
 }
 
 p+blockquote{
 	letter-spacing: 0px;
 	font-size: 125%;
-	border-left: 4px solid $oc-indigo-4;
-	// font-style: normal;
-	color: $oc-indigo-8;
+	border-left: none; //4px solid $oc-indigo-4;
+	margin: 40px 0;
+	color: $oc-indigo-9;
 }
 
 p > img{
