@@ -6,25 +6,32 @@ layout: default
   <h3 class="page-color-block"></h3>
   <div class="bio">
     <img src="/assets/img/vin.jpeg" alt="Vinay's picture">
-    <p>Hi there! I am a product designer with a background in H.C.I & Cognitive science. I love solving problems through design that produce a positive change. With a systemic approach, I help businesses by removing the unnecessary and create value by placing the user at the core. <br/> <br/> I also like mentoring designers who are starting out.</p>
+    <p>Namaskaram. 🙏 <br> As a product designer with a background in HCI, I love solving problems that produce a positive behavioral change. <br/> <br/> I have a love for all things design, yoga and traveling to distant lands.</p>
   </div>
 
-  <h4 class="page-heading">Some of my Work</h4>
+  <section class="my-work">
+    <p>With a systemic approach, I've helped businesses create value by removing the extraneous and placing Users at the core.</p>
+
+    <h4>Some of my design work</h4>
+    <ul class="case-list">
+      {% for case in site.cases %}
+      <a class="case-block-link" href="{{ case.url | relative_url }}">
+        <div class="case-block">
+          <img src={{case.imgurl}} alt="">
+          <div class="case-info">
+            <div class="case-title">{{ case.title | escape }}</div>
+            <span class="case-tags">{{ case.case-tag }}</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+  </ul>
+  </section>
+
+  
   
   {{ content }}
 
-  <ul class="case-list">
-    {% for case in site.cases %}
-    <a class="case-block-link" href="{{ case.url | relative_url }}">
-      <div class="case-block">
-      	<img src={{case.imgurl}} alt="">
-      	<div class="case-info">
-          <div class="case-title">{{ case.title | escape }}</div>
-          <span class="case-tags">{{ case.case-tag }}</span>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
-  </ul>
+  
 
 </div>
