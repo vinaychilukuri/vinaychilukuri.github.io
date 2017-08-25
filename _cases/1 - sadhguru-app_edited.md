@@ -127,7 +127,7 @@ A picture is worth a thousand words. A prototype is even better. Feel free to na
 <iframe src="https://marvelapp.com/1i0e59f?emb=1" class="prototype" width="360" height="640" allowTransparency="true" frameborder="0"></iframe>
 {::options parse_block_html="true" /}
 
-## 3) Context-Presenting the content in a Mobile context
+## 3) Presenting the content in a Mobile context
 
 In the mobile context, users should be able to quickly find what they want. There is a certain urgency inherent in the way people use mobile. So, the content has to be presented in a way that emphasizes the task-oriented nature of the users. 
 

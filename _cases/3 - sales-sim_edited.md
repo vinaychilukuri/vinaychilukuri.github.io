@@ -157,14 +157,15 @@ What went into the report were totally driven by my understanding of the pain po
 
 We spoke to the potential customers and they showed enough interest in having a report like this for each of their employees. The important learning is that this solution benefits the customer and not as much to the end user. In a B2B environment, this is crucial because the solution should appeal to choosers first and then the users. 
 
-## Key Learnings & Conclusion
+## Key Learnings & Impact
 
 User research helps in developing a deep bond with the users and truly enables one to be user-centric instead of guessing what the user might want.
 
 In my opinion, conducting diary studies would have revealed the pain points for a sales person, in greater depth. However, I was not aware of this technique at the time of starting this study.
 
 ![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fa0aaaac5a1f24b76ac81ec7e18fc4f92%2Fdiary-study-s.png?w=1.0&s=c83e481d9e4b3521e3ae09f1aeee350a)
-*Photo by Cathryn Lavery on Unsplash*
+
+### Impact
 
 This study has strengthened the case for user research in the organization not just for the benefit of design teams but it also allowed Product Managers to know the business problems in more detail and take an informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights user research even helped the learning solutions team of KNOLSKAPE to create an effective training material for a Sales journey.
 

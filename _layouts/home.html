@@ -5,8 +5,8 @@ layout: default
 <div class="home">
   <h3 class="page-color-block"></h3>
   <div class="bio">
-    <img src="/assets/img/vin.jpeg" alt="Vinay's picture">
-    <p>Namaskaram. 🙏 <br> As a product designer with a background in HCI, I love solving problems that produce a positive behavioral change. <br/> <br/> I have a love for all things design, yoga and traveling to distant lands.</p>
+    <!-- <img src="/assets/img/vin.jpeg" alt="Vinay's picture"> -->
+    <p><span class="greeting">Hello.</span><br> As a product designer with a background in HCI, I solve problems that produce a positive behavioral change. I have a love for all things design, yoga and traveling.</p>
   </div>
 
   <section class="my-work">
@@ -25,7 +25,21 @@ layout: default
         </div>
       </a>
       {% endfor %}
-  </ul>
+  </section>
+
+  <section class="other-work">
+    <h4>Other relevant work</h4>
+    {% for case in site.other %}
+    <a class="case-block-link" href="{{ case.url | relative_url }}">
+        <div class="case-block">
+          <img src="/assets/img/movie-cam.svg" alt="">
+          <div class="case-info">
+            <div class="case-title">{{ case.title }}</div>
+            <span class="case-tags">{{ case.case-tag }}<span>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
   </section>
 
   
