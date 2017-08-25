@@ -38,13 +38,9 @@ During this exercise, the CEO clarified who the product is catered for:
 - They can be students, new sales guys or experienced sales guys of 0-3 year experience, who are dealing with sales operations. 
 - This is not going to be a simulation for Sales leaders or managers of sales executives. 
 
-<!-- He added that one has to start somewhere and following a process is very beneficial for the person in the starting days of their career.
+##### My thought was:
 
-The proposed solution was to create a simulation that would give sales folks a virtual assessment by placing the user in the shoes of a sales person with a goal of achieving a certain target. The idea was to use various decisions made by the user, evaluate them and formulate a report about the strengths and weaknesses of an individual. -->
-
-**Meanwhile, my thoughts were:**
-
-> Was a sales simulation enough to make a positive impact on the sales person's performance? Can we do something better? 
+> Is a sales simulation enough to make a positive impact on the sales person's performance? Can we do something better? 
 
 I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
 I was not convinced.
