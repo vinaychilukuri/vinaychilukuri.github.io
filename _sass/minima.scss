@@ -34,7 +34,7 @@ $on-laptop:        800px !default;
 @mixin full-width {
   margin-left: calc(-80vw / 2 + 800px / 2);
   margin-right: calc(-80vw / 2 + 800px / 2);
-  margin-top: 40px; margin-bottom: 50px
+  margin-top: 50px; margin-bottom: 50px;
 }
 
 // this class needs to be applied only if browser width >= 1000px
@@ -56,7 +56,7 @@ $on-laptop:        800px !default;
 body{
 	-webkit-font-smoothing: antialiased;
 
-	h2, h3, h4{
+	h2, h3, h4, h5{
 		font-family: 'Mukta Malar', sans-serif;
 		letter-spacing: -0.35px;
 		font-weight: 600;
@@ -129,15 +129,23 @@ h1 {
 }
 
 h2{
-	font-size: 35px !important; 
+	font-size: 170% !important; 
 	color: $oc-red-6; margin-top: 15px;
 	clear: both;
 }
 
-.post-content h3, h4{
-	clear: both;
-	font-weight: bold;
-	font-size: 25px !important;
+.post-content{
+	h3{
+		clear: both;
+		font-size: 140% !important;
+	}
+
+	h4{
+		clear: both;
+		font-size: 110%;
+	}
+
+	h5{font-size: 110%;}
 }
 
 .page-color-block{
@@ -192,7 +200,7 @@ p > img{
 iframe.prototype{display: block; margin: auto;}
 
 img[alt~="center"]{
-	float: none; padding-top: 10px;
+	float: none; padding-top: 30px;
 }
 
 img[alt~="sd"]{width: 50%;}
@@ -250,7 +258,14 @@ hr{margin-bottom: 10px !important;}
 }
 
 @include media-query(600px){
-	.site-title{font-size: 28px !important;}
+	.site-title{
+		font-size: 28px !important;
+		font-family: 'Mukta Malar', sans-serif;
+	}
+
+	.post-content h3{
+		font-size: 125% !important;
+	}
 
 	p > img, img[alt~="right"]{
 		display: block; margin: auto;

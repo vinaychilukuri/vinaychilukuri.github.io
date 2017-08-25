@@ -32,17 +32,16 @@ I was leading the UX for this project, which involved revamping the design of an
 
 Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues.
 
-![img](/assets/img/cases/aktlearn/old-canvas-home.png)
+![img center](/assets/img/cases/aktlearn/old-canvas-home.png)
 
-**There is no easy way for the user to know/do the following**:
-
+##### There is no easy way for the user to know/do the following:
 - What is my progress in each of the courses/trainings that I have subscribed to?
 - What are the To-Do items in each of the courses? When do I have to complete them?
 - Once, I am inside a course, where am I in it?
 - What is the next item in the course that I am going to take as I reach the end of the current item?
 - How to easily explore other areas of the course?
 
-![img](/assets/img/cases/aktlearn/old-course-home.png)
+![img center](/assets/img/cases/aktlearn/old-course-home.png)
 
 One of the fundamental principles of Usability is to give the user a feeling of control. This was sorely lacking in the current version of the site. The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
@@ -120,13 +119,13 @@ To further engage a learner, the product team had decided to use gamified elemen
 
 However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements for persuasion.
 
-#### POINTS
+#### POINTS 🌟
 
 The users would gain points as they complete each of the items in the training. The idea is to have points be used as a way to visually represent the momentum and reward the user for keeping up with the progress. 
 
 Every time a user completes a training item, he would be awarded a few points. If he completes three items in a row, he would be awarded more points etc.
 
-#### BADGES
+#### BADGES 🏅
 
 Badges are a reward that has the ability to make the learners self-identify with a particular trait or a competency and thus increasing their motivation to do more. Badges can indicate both a level of mastery of the training material or they could also allude to other behavioral attributes of the user.
 
@@ -134,7 +133,7 @@ Here are some example badges that could be given in a learning scenario.
 
 ![img center](/assets/img/cases/aktlearn/badges.svg)
 
-#### LEADERBOARD
+#### LEADERBOARD 🏆
 
 The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers. According to Bartle's player types this is a component that caters primarily towards achievers.
 
