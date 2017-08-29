@@ -135,13 +135,9 @@ Here are some example badges that could be given in a learning scenario.
 
 The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers. According to Bartle's player types this is a component that caters primarily towards achievers.
 
+![img center](/assets/img/cases/aktlearn/helping-hands.png)
+
 However, a leaderboard would be demotivating for the people who are at the bottom of the ladder. So, whenever there are people who haven't been active in their training and are at the bottom of the leaderboard, other players/learners can choose to send a private message to encourage them to get back on track. Doing so is a personalized way to encourage learners to help each other.
-
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F157e37b8bf06432597598311cf7fe6f9%2Fhelping-hands.png?w=1264&s=1435815d3147182f6d356915a936d778)
-
-The giving away of rewards like points and badges have to be finely calibrated so that the learners feel that they have actually earned them and that the system is not throwing some incentives at them. I have formulated a few scenarios of when badges could be given and what type of badges could be given. A pilot run would have helped immensely in refining the reward mechanism to the training needs. 
-
-The strategy of when to give what type of rewards could not be implemented on the system due to the complexity of rules. As a result, only the leaderboard component could be implemented, with an agreement to look at the implementation of points and badges, in the later revisions of the app. (KNOLSKAPE tied up with a gamification vendor later to get this rule engine implemented)
 
 ### Visual Design
 
@@ -157,14 +153,6 @@ The mobile app had found a new use case. In addition to being a complement to th
 ![pdf-ppt right](/assets/img/cases/aktlearn/pdf-ppt.svg)
 
 The "bite-size" learning use-case had a lot of potential for adoption than the first scenario. This was because the content provided by most companies had a lot of long-form reading material in terms of two-column PDFs and PPTs than originally anticipated, which was not amenable to the mobile view. Though there were apps to allow the users to view this content on their phones, the experience took a hit. This meant that someone within KNOLSKAPE has to take and re-work on the entire content that was presented in PDFs and PPTs. This is not a scalable model. Or, the client's company had to do it — which often they have not had the resources to do so.
-
-<!-- Also, as part of the course, users had to take part in business simulations (which is one of the strong components of the course) and this would run only on a desktop browser. Though the team was conscious of this right from the start, the content experience on mobile was not satisfactory. Due to these important limitations, users preferred to consume content of the course on the desktop. -->
-
-The product management decided to use the same set screens for the new use case. I opposed to this. Even though a screen could accommodate what we wanted to show, the intent with which a screen had been created in the first place was totally different. In other words, the user flows are not the same for the two scenarios.
-
-A lot of new screens had to be created. It was tough maintaining two user flows with a few screens being turned off and turned on, at the code level, based on the scenario at hand.
-
-I wish we had focused on only one problem right from the beginning through some data and validated learnings.
 
 
 ## My learnings
