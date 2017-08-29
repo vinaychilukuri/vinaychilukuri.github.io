@@ -37,6 +37,13 @@ $on-laptop:        800px !default;
   margin-top: 50px; margin-bottom: 50px;
 }
 
+@mixin sans-serif-font($font-size: 20px){
+	font-family: 'Mukta Malar', sans-serif;
+	font-size: $font-size;
+	font-weight: 600;
+	color: inherit;
+}
+
 // this class needs to be applied only if browser width >= 1000px
 @media screen and (min-width: 1000px) {
 	.full-width{

@@ -32,8 +32,6 @@ I was leading the UX for this project, which involved revamping the design of an
 
 Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues.
 
-![img center](/assets/img/cases/aktlearn/old-canvas-home.png)
-
 ##### There is no easy way for the user to know/do the following:
 - What is my progress in each of the courses/trainings that I have subscribed to?
 - What are the To-Do items in each of the courses? When do I have to complete them?
@@ -43,7 +41,7 @@ Before we could set out to design our intended gamified ecosystem, the fundament
 
 ![img center](/assets/img/cases/aktlearn/old-course-home.png)
 
-One of the fundamental principles of Usability is to give the user a feeling of control. This was sorely lacking in the current version of the site. The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
+The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
 ### Design for Action
 I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client.
@@ -53,7 +51,7 @@ I compared existing online interfaces of MOOC platforms and sought out what the 
 >An important question for a user who comes to an online learning platform is: 
 **_What do I learn today?_**
 
-<div class="full-width"><img src="/assets/img/cases/aktlearn/profile-home.svg" alt="profile">
+<div class="full-width"><img src="/assets/img/cases/aktlearn/profile-home.png" alt="profile">
 </div>
 {::options parse_block_html="true" /}
 
