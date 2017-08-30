@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar:600');
 
+// @import "lib/simple-grid.min.css";
 // Define defaults for each variable.
 
 $base-font-family: "Faustina", serif !default;
@@ -13,7 +14,7 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
-$abs-value:		   75px;
+$abs-value:		   50px;
 
 $text-color:       $oc-gray-8 !default;
 $background-color: #fff !default;
@@ -59,7 +60,6 @@ $on-laptop:        800px !default;
 // Custom CSS
 
 // Home page
-
 body{
 	-webkit-font-smoothing: antialiased;
 
@@ -75,13 +75,32 @@ body{
 	h2{margin-top: 50px;}
 }
 
-.nav-resume{
-	float: right; position: relative; top: 20px;
-
-	&>img{width: 22px; position: relative; top: -2px}
+.site-header{
+	box-shadow: 0px 2px 10px #ddd;
 }
 
-.page-content{margin-top: $abs-value !important;}
+.site-title{ 
+	font-size: 27px !important;
+	background: url(/assets/img/VC-logo.svg) no-repeat;
+	background-size: 40px;
+	background-position: 0px 15px;
+	padding: 0 0 0 45px;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.nav-resume{
+	float: right; position: relative; top: 20px;
+	background: url("/assets/img/icon_pdf.svg") no-repeat;
+	background-size: 22px; background-position: right 5px;
+	padding: 0 30px 0 0;
+
+	a:hover{text-decoration: none;}
+}
+
+// .page-content{margin-top: $abs-value !important;}
 
 .bio{
 	margin-top: 60px;
@@ -157,6 +176,7 @@ h2{
 }
 
 .page-color-block{
+	visibility: hidden;
 
 	background-color: #FAD961;
 	background-image: -webkit-linear-gradient(119deg, #FAD961 0%, #F76B1C 99%);
@@ -268,8 +288,7 @@ hr{margin-bottom: 10px !important;}
 
 @include media-query(600px){
 	.site-title{
-		font-size: 28px !important;
-		font-family: 'Mukta Malar', sans-serif;
+		font-size: 27px !important;
 	}
 
 	.post-content h3{
