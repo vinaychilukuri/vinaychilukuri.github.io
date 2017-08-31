@@ -7,9 +7,6 @@ imgurl: /assets/img/al-app-icon.svg
 permalink: /case/aktivlearn
 ---
 
-<div class="page-color-block"></div>
-{::options parse_block_html="true" /}
-
 A client of ours from an IT team lamented that how most of the corporate trainings are ineffective. He exclaimed that his organization requires team members to dedicate significant time & effort for the trainings alongside their daily work. Even after the repeated reminders by Learning & Development team to complete the trainings, the completion rates remain low. 
 
 At KNOLSKAPE, our intention was to address this issue by building a learning ecosystem that would motivate learners to engage with their training material and move towards completion.
@@ -133,7 +130,7 @@ Here are some example badges that could be given in a learning scenario.
 
 #### LEADERBOARD 🏆
 
-The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers. According to Bartle's player types this is a component that caters primarily towards achievers.
+The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers.
 
 ![img center](/assets/img/cases/aktlearn/helping-hands.png)
 
@@ -141,11 +138,11 @@ However, a leaderboard would be demotivating for the people who are at the botto
 
 ### Visual Design
 
-We had a third-party agency come on-board with the visual design of the app. However, the engagement with them had been ceased after a month and I took up the job to create all the screens ( ~ 100 screens) for the mobile app, based on the style guide that the agency had given us. I used a component-based approach using Symbols in the Sketch to create the UI for the app. 
+We had a third-party agency come on-board with the visual design of the app. However, the engagement with them had been ceased after a month and I took up the job to create all the screens ( ~ 100 screens) for the mobile app, based on the style guide that the agency had given us. I used a component-based approach using Symbols in the Sketch to create the UI for the app.
 
 ## ACT 3 - Denouement
 
-The web app had become quite useful with much needed Usability and navigation refinements, which has been validated by a positive S.U.S (System. Usability.Scale) score. The number of UI bug reports have also considerably reduced.
+The web app had become quite useful with much needed Usability and navigation refinements, which has been validated by a positive S.U.S (System Usability Scale) score. The number of UI bug reports have also considerably reduced.
 
 ![al-app-logo sd-l](/assets/img/al-app-icon.svg)
 The mobile app had found a new use case. In addition to being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
@@ -157,6 +154,6 @@ The "bite-size" learning use-case had a lot of potential for adoption than the f
 
 ## My learnings
 
-This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. In my opinion, this was not the ideal way to build products. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
+This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
 
 In order to know how I've used user research in taking an informed approach with product design, [read this case-study](/case/sales-user-research).
