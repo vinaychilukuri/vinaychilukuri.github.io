@@ -8,18 +8,24 @@ case_id: sales
 permalink: /case/sales-user-research
 ---
 
-<div class="page-color-block"></div>
-{::options parse_block_html="true" /}
-
 This is a case-study about my attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had users' pain-points at the core.
 
 DURATION: Year of 2016.
 
 ---
-## Background 
-"How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
+## Background
 
+<div class="row">
+<div class="col-6">
+#### Head1
+"How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
+</div>
+
+<div class="col-6">
+#### Head2
 One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance.
+</div>
+</div>
 
 To improve the retention, motivation, effectiveness of these trainings, KNOLSKAPE creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
 
@@ -121,7 +127,7 @@ In order to see if the simulated assessment which was now refined due to the lea
 
 We wanted to test if this generated report and the metrics we were showing to Sales Managers had enough value for them to hire KNOLSKAPE as their training provider for Sales.
 
-![img](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F95330f35a1674a6bb86b451ed113e9bc%2Freport-testing.png?w=1.0&s=554a1ce2652987787c1daeb1448e6747)
+![img](/assets/img/cases/sales/report-testing.png)
 _A stock photo. Not indicative of the actual report that was used for testing_
 
 What went into the report were totally driven by my understanding of the pain points from the user research study that I have done. This style of testing, apparently, is called a Wizard of Oz test in the lean startup world, for reasons unknown to me.

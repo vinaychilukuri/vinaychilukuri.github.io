@@ -4,8 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i');
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar:600');
 
-// @import "lib/simple-grid.min.css";
+@import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
+
+:root{
+	font-size: 20px;
+}
 
 $base-font-family: "Faustina", serif !default;
 $base-font-size:   20px !default;
@@ -81,7 +85,7 @@ body{
 
 .site-title{ 
 	font-size: 27px !important;
-	background: url(/assets/img/VC-logo.svg) no-repeat;
+	background: url(/assets/img/vc-logo.svg) no-repeat;
 	background-size: 40px;
 	background-position: 0px 15px;
 	padding: 0 0 0 45px;
@@ -111,15 +115,14 @@ body{
 	}
 
 	.greeting{
-		font-size: 500%;
-		// display: inline-block;
+		font-size: 350%;
+		display: inline-block;
 	}
 
-	// padding: 0 0 30px 0;
-	// background-image: url(/assets/img/tri-ruler.svg);
-	// background-position: 300px 220px;
-	// background-repeat: no-repeat;
-	// background-size: 100px;
+	p {
+		font-size: 170%;
+		line-height: 1.35;
+	}
 }
 
 section{
@@ -136,7 +139,8 @@ section{
 
 	&.my-work{
 		margin-top: 0;
-		h4 {margin-top: 100px;}
+		h4 {margin-top: 50px;}
+		p{font-size: 150%;}
 	}
 }
 
@@ -206,7 +210,7 @@ h4{
 
 p{
 	margin-bottom: 24px !important;
-	letter-spacing: 0.1px;
+	letter-spacing: 0px;
 }
 
 li{
