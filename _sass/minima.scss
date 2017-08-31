@@ -98,8 +98,10 @@ body{
 .nav-resume{
 	float: right; position: relative; top: 20px;
 	background: url("/assets/img/icon_pdf.svg") no-repeat;
-	background-size: 22px; background-position: right 5px;
+	background-size: 22px; background-position: right 3px;
 	padding: 0 30px 0 0;
+	@include sans-serif-font;
+	text-transform: uppercase;
 
 	a:hover{text-decoration: none;}
 }
