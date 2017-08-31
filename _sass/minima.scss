@@ -7,6 +7,13 @@
 @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
 
+// GRID
+.row{display: flex;}
+.col{
+	flex: 1;
+	margin: 0.5rem;
+}
+
 :root{
 	font-size: 20px;
 }

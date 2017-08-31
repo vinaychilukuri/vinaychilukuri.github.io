@@ -15,17 +15,9 @@ DURATION: Year of 2016.
 ---
 ## Background
 
-<div class="row">
-<div class="col-6">
-#### Head1
 "How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
-</div>
 
-<div class="col-6">
-#### Head2
 One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance.
-</div>
-</div>
 
 To improve the retention, motivation, effectiveness of these trainings, KNOLSKAPE creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
 
