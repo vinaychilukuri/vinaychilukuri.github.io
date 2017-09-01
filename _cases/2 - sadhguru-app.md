@@ -28,7 +28,7 @@ Dec 2016 - Feb 2017
 {{page.case-tag}}
 
 #### Impact
-Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200k</b> per month.
+Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200</b>k per month.
 
 #### App links
 <a href="http://play.google.com/store/apps/details?id=com.ishafoundation.app&hl=en" target="_blank" class="app-link">Android</a>
