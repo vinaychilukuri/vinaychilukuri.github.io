@@ -7,6 +7,8 @@ img_dir: /assets/img/cases/isha-app
 imgurl: /assets/img/sadhguru-app.jpg
 permalink: /case/sadhguru-app
 ---
+<div class="overview">
+<h1 class="post-title">{{ page.title | escape }}</h1>
 
 Isha Foundation, founded by [Sadhguru](http://isha.sadhguru.org){:target="_blank"}, is a non-profit that concerns human wellbeing and spiritual development through Yoga. 
 It's offerings were scattered across 42 websites! As a result, the experience was totally fragmented with a fundamental problem -- the key information was not at all discoverable.
@@ -26,7 +28,7 @@ Dec 2016 - Feb 2017
 {{page.case-tag}}
 
 #### Impact
-Program registrations increased by <b>37%</b>; Donations through the app averaging <b>Rs. 2 lac</b> per month.
+Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200k</b> per month.
 
 #### App links
 <a href="http://play.google.com/store/apps/details?id=com.ishafoundation.app&hl=en" target="_blank" class="app-link">Android</a>
@@ -34,8 +36,7 @@ Program registrations increased by <b>37%</b>; Donations through the app averagi
 
 </div>
 </div>
-
----
+</div>
 
 ## Background
 

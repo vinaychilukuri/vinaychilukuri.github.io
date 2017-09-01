@@ -7,8 +7,9 @@ imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/aktlearn
 permalink: /case/aktivlearn
 ---
+<div class="overview">
+<h1 class="post-title">{{ page.title | escape }}</h1>
 
-#### Overview
 Completion rates of corporate trainings remain low, despite multiple reminders from Learning & Development teams. Lack of time to prioritize training over work and dis-engaging content are two primary factors for this behaviour.
 
 At KNOLSKAPE, our intention was to address this issue by building a learning ecosystem that would motivate learners to engage with their training material and move towards completion.
@@ -29,7 +30,7 @@ Interaction design, Visual design, Usability testing
 Increased completion rates by <b>23%</b>; User engagement up by <b>48%</b>.
 </div>
 </div>
----
+</div>
 
 ### Background
 

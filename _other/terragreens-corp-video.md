@@ -7,14 +7,22 @@ imgurl: /assets/img/movie-cam.svg
 permalink: terragreens-corporate-film
 ---
 
-<div class="page-color-block"></div>
-{::options parse_block_html="true" /}
+<div class="overview">
+<h1 class="post-title">{{ page.title | escape }}</h1>
 
 As a filmmaker, my interest was to unearth the stories that needed to be told, to have voices heard, to make people aware of the happenings, to make them aware of their own condition -- being human.
 
-DURATION: Year of 2012.
+<div class="row">
+<div class="col">
+#### Duration
+Year of 2012.
 
----
+#### Role
+{{page.case-tag}}
+</div>
+</div>
+</div>
+
 ## Background
 
 Terragreens was an organic food production company that not only produced 100% certified organic food but also acted as a benefactor to the farmers who wished to switch to the organic side of food production. 

@@ -6,20 +6,11 @@
 
 // @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
-
-// GRID
-.row{display: flex;}
-.col{
-	flex: 1;
-	margin: 0.5rem;
-
-	&.hero-img{flex: 1.45;}
-}
-
-
 :root{
 	font-size: 20px;
 }
+
+html, body{overflow-x: hidden;}
 
 $base-font-family: "Faustina", serif !default;
 $base-font-size:   20px !default;
@@ -46,6 +37,30 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+// GRID
+.row{display: flex;}
+.col{
+	flex: 1;
+	margin: 0.5rem;
+
+	p{
+		font-size: 0.9rem;
+		line-height: 2.75ex;
+	}
+
+	h4{
+		line-height: 0.75;
+	}
+
+	&.hero-img{
+		flex: 1.4;
+		margin-right: 15px;
+	}
+
+	b{color: black;}
+}
+
+// MIXINS
 @mixin full-width {
   margin-left: calc(-80vw / 2 + 800px / 2);
   margin-right: calc(-80vw / 2 + 800px / 2);
@@ -58,6 +73,14 @@ $on-laptop:        800px !default;
 	font-weight: 600;
 	color: inherit;
 }
+
+@mixin full-width-bar ($bg: #fff) {
+	background: $bg;
+	margin: 0 -9999rem;
+	padding: 0 9999rem;
+}
+
+/* ------------ */
 
 // this class needs to be applied only if browser width >= 1000px
 @media screen and (min-width: 1000px) {
@@ -87,11 +110,15 @@ body{
 	}
 
 	h2{margin-top: 50px;}
+
+	.site-header{
+		// border-bottom: 1px solid $oc-orange-2;
+		border-top: none;
+		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
+	}
 }
 
-.site-header{
-	box-shadow: 0px 2px 10px #ddd;
-}
+
 
 .site-title{ 
 	font-size: 27px !important;
@@ -116,10 +143,10 @@ body{
 	a:hover{text-decoration: none;}
 }
 
-// .page-content{margin-top: $abs-value !important;}
+.page-content{padding-top: 0 !important;}
 
 .bio{
-	margin-top: 60px;
+	margin: 150px 0 50px 0;
 
 	img{
 		width: 25%; float: left;
@@ -159,6 +186,17 @@ section{
 .case-list{margin: 0 10px;}
 
 // Case study pages
+.overview{
+	@include full-width-bar(#2f343a);
+	padding-top: 25px;
+	color: $oc-gray-4;
+
+	h1.post-title {color: $oc-gray-3;}
+
+	h4{color: $oc-yellow-4; margin-bottom: 30px;}
+	a{color: $oc-cyan-5 !important;}
+	b{color: $oc-gray-5;}
+}
 
 h1 {
 	font-size: 48px; color: $oc-gray-7;
@@ -193,11 +231,23 @@ h2{
 }
 
 .app-link{
-	display: block;
+	display: inline-block;
+	border: 1px solid $oc-cyan-9;
+    width: 130px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 24px;
+    margin: 10px 5px 0 0;
+    box-sizing: border-box;
+
+    &:hover{
+    	text-decoration: none;
+    	border: 2px solid $oc-cyan-5;
+    }
 }
 
 b{
-	@include sans-serif-font(1.35rem);
+	@include sans-serif-font(1.35em);
 	font-style: normal;
 	line-height: 1;
 }

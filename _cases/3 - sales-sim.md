@@ -8,22 +8,33 @@ case_id: sales
 permalink: /case/sales-user-research
 ---
 
-This is a case-study about my attempt in conducting primary research to understand the problem-space and there by have the ability to truly empathize with users. The results from user research coupled with validating solutions before-hand facilitated the team in formulating an informed product strategy that had users' pain-points at the core.
+<div class="overview">
+<h1 class="post-title">{{ page.title | escape }}</h1>
 
-DURATION: Year of 2016.
+"How do I get better at my job?" is a question that arises in almost all of us at some point in a professional career. One of the most common solutions addressing this question in a corporate environment is **training.** However, these trainings often times are boring, tedious and in most cases lack any real life connection.
 
----
+To improve the effectiveness of these trainings, [KNOLSKAPE](http://www.knolskape.com){:target="_blank"} creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role. (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
+
+The intent was to build a simulated training intervention for Sales executives with an experience of 0-3 years.
+
+<div class="row">
+<div class="col">
+#### Duration
+Year of 2016.
+
+#### Role
+{{page.case-tag}}
+
+#### Impact
+Built training interventions that met the customer needs with a satisfaction score 4.5/5.
+
+</div>
+</div>
+</div>
+
 ## Background
 
-"How do I get better at my job?" is a common drive that people have. The underlying motivations for this is to have better economic situations, better productivity, moving up the career ladder or perhaps to have a fulfilling life.
-
-One of the most common solutions addressing "How do I get better at my job?" in a corporate environment is training. These trainings often times are boring, tedious and in most cases lacks any real life connection or resemblance.
-
-To improve the retention, motivation, effectiveness of these trainings, KNOLSKAPE creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
-
-## Problem
-
-During a product brainstorming session, the project management team and our CEO agreed that the new product would be a simulation around Sales training, as they all thought there was a lack of an effective training intervention in the sales space. Most of them looked determined while some of us squirmed in our seats without much data supporting this claim.
+During a product brainstorming session, the project management team and our CEO agreed that the new product would be a simulation around Sales training, as they all thought there was a lack of an effective training intervention in the field of sales. Most of them looked determined while some of us squirmed in our seats without much data supporting this claim.
 
 ### Bringing order to the chaos
 
@@ -42,11 +53,11 @@ During this exercise, the CEO clarified who the product is catered for:
 > Is a sales simulation enough to make a positive impact on the sales person's performance? Can we do something better? 
 
 I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
-I was not convinced.
+I was not fully convinced.
 
 ### Understanding the Users' world
 
-I sought agreement about talking to the users before jumping in to the solution mode. Reason being - I was clueless about the field of Sales. I clearly communicated my inability to design without any knowledge of the field or what the problems were. My CEO agreed to my approach. He proactively connected me with few of his contacts from the Sales community.
+I sought agreement about talking to the users before jumping in to the solution mode. My CEO agreed to my approach. He proactively connected me with few of his contacts from the Sales community.
 
 I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
 
