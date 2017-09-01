@@ -27,7 +27,7 @@ Year of 2015
 Interaction design, Visual design, Usability testing
 
 #### Impact
-Increased completion rates by <b>23%</b>; User engagement up by <b>48%</b>.
+Training completions increased by <b>23%</b>; User engagement up by <b>48%</b>.
 </div>
 </div>
 </div>
