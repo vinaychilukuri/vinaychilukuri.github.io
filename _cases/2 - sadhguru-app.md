@@ -8,7 +8,7 @@ imgurl: /assets/img/sadhguru-app.jpg
 permalink: /case/sadhguru-app
 ---
 
-Isha Foundation, founded by Sadhguru, is a non-profit that concerns human wellbeing and spiritual development through Yoga. 
+Isha Foundation, founded by [Sadhguru](http://isha.sadhguru.org){:target="_blank"}, is a non-profit that concerns human wellbeing and spiritual development through Yoga. 
 It's offerings were scattered across 42 websites! As a result, the experience was totally fragmented with a fundamental problem -- the key information was not at all discoverable.
 
 Team ISHA wanted to build a mobile experience to bring the key offerings of ISHA under one umbrella. A larger website consolidation project was part of the plan, at a later stage.

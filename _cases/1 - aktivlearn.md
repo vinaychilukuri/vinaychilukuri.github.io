@@ -112,23 +112,9 @@ Each of these would come at specific times during the learner's progress and are
 
 To further engage a learner, the product team had decided to use gamified elements like points, badges, and leaderboards. The content needed to be inherently engaging — without that, any of the persuasive techniques will only yield mediocre results.
 
-However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements for persuasion.
-
-#### POINTS 🌟
-The users would gain points as they complete each of the items in the training.
-
-#### BADGES 🏅
-Badges are a reward that has the ability to make the learners self-identify with a particular trait or a competency and thus increasing their motivation to do more. Badges can indicate both a level of mastery of the training material or they could also allude to other behavioral attributes of the user.
+However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements at the right time of the user flow.
 
 ![img center]({{page.img_dir}}/badges.svg)
-
-#### LEADERBOARD 🏆
-
-The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers.
-
-![img center]({{page.img_dir}}/helping-hands.png)
-
-However, a leaderboard would be demotivating for the people who are at the bottom of the ladder. So, whenever there are people who haven't been active in their training and are at the bottom of the leaderboard, other players/learners can choose to send a private message to encourage them to get back on track. Doing so is a personalized way to encourage learners to help each other.
 
 ### Visual Design
 
