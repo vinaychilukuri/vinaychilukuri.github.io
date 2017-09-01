@@ -4,6 +4,7 @@ title: Making corporate learnings fun
 case-tag: Interaction Design, Visual Design
 year: 2015
 imgurl: /assets/img/al-app-icon.svg
+img_dir: /assets/img/cases/aktlearn
 permalink: /case/aktivlearn
 ---
 
@@ -14,7 +15,7 @@ At KNOLSKAPE, our intention was to address this issue by building a learning eco
 
 <div class="row">
 <div class="col hero-img">
-![img](/assets/img/cases/aktlearn/hero-al-mob.png)
+![img]({{page.img_dir}}/hero-al-mob.png)
 </div>
 
 <div class="col">
@@ -41,7 +42,7 @@ I was leading the UX for this project, which involved revamping the design of an
 
 Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision.
 
-![img center](/assets/img/cases/aktlearn/old-course-home.png)
+![img center]({{page.img_dir}}/old-course-home.png)
 The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
 ##### Heuristic analysis of the site, revealed the following gaps:
@@ -56,26 +57,26 @@ I set out to address the above issues by doing a task-analysis of a user who wou
 >An important question for a user who comes to an online learning platform is: 
 **_What do I learn today?_**
 
-<div class="full-width"><img src="/assets/img/cases/aktlearn/profile-home.png" alt="profile">
+<div class="full-width"><img src="{{page.img_dir}}/profile-home.png" alt="profile">
 </div>
 
 The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
-<div class="full-width"><img src="/assets/img/cases/aktlearn/course-menu-bar.svg" alt="course-menu-bar">
+<div class="full-width"><img src="{{page.img_dir}}/course-menu-bar.svg" alt="course-menu-bar">
 </div>
 
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, *a bias for action*.
 
-![img](/assets/img/cases/aktlearn/course-bar-todo.svg)
+![img]({{page.img_dir}}/course-bar-todo.svg)
 
 The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
 Now that the fundamentals of the interface had been fixed, it was time to add a persuasive layer to the system that would incentivize their learning.
 
 ### Bringing an element of play
-![img](/assets/img/cases/aktlearn/al_web_road.png)
+![img]({{page.img_dir}}/al_web_road.png)
 
 With inputs from the product manager, I began making the course of the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the serious environment of an LMS into a slightly playful world.
 
@@ -87,7 +88,7 @@ So, the mobile system needed to have the same robust usability as of the web int
 
 #### Navigation on mobile
 
-![img right](/assets/img/cases/aktlearn/al-mobile-nav-screen.png)
+![img right]({{page.img_dir}}/al-mobile-nav-screen.png)
 
 The navigation on mobile had the primary elements as shown to the right. We tested the navigation along with the key tasks of the app, using a prototype, with internal employees. People were given a series of tasks in terms of finding various sections of the course.
 
@@ -101,11 +102,11 @@ Using native animations on mobile and employing creative loading states, whereve
 
 It is imperative to show messages from the system that acknowledges the learner's progress as he/she goes through the training. I  designed screens that would represent the progress as a means to show that the app (and there by the client) cares about the learner's progress throughout the training duration.
 
-![img](/assets/img/cases/aktlearn/pr-1-cut.png)
+![img]({{page.img_dir}}/pr-1-cut.png)
 
 Each of these would come at specific times during the learner's progress and are important to the experience as a means to encourage the learner and also that the system acknowledges his/her progress using ✨ playful emoji 🙌🏽  and corresponding text.
 
-![img center](/assets/img/cases/aktlearn/pr-2-cut.png)
+![img center]({{page.img_dir}}/pr-2-cut.png)
 
 ### Designing for motivation
 
@@ -119,13 +120,13 @@ The users would gain points as they complete each of the items in the training.
 #### BADGES 🏅
 Badges are a reward that has the ability to make the learners self-identify with a particular trait or a competency and thus increasing their motivation to do more. Badges can indicate both a level of mastery of the training material or they could also allude to other behavioral attributes of the user.
 
-![img center](/assets/img/cases/aktlearn/badges.svg)
+![img center]({{page.img_dir}}/badges.svg)
 
 #### LEADERBOARD 🏆
 
 The leaderboard is a competitive component designed to compare one's performance with that of the peers and is used frequently in various scenarios to provide an extra nudge to get better over one's peers.
 
-![img center](/assets/img/cases/aktlearn/helping-hands.png)
+![img center]({{page.img_dir}}/helping-hands.png)
 
 However, a leaderboard would be demotivating for the people who are at the bottom of the ladder. So, whenever there are people who haven't been active in their training and are at the bottom of the leaderboard, other players/learners can choose to send a private message to encourage them to get back on track. Doing so is a personalized way to encourage learners to help each other.
 

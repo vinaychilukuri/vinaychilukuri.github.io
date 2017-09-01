@@ -100,12 +100,11 @@ From the very beginning, there were a few principles that I wanted to adhere to:
 
 The stakeholders had proposed the idea to have all the navigation items on the web page as part of a hamburger menu on the mobile and thus have more information for the user. 
 
-The hamburger menu had become a convenience to have lots of navigable labels under one menu without cluttering the visuals.  It had become so pervasive that people had started treating it as a standard. In effect, there has been quite some research on how it is detrimental to the UX of the app as it does not give a cue to the user in terms of the navigable sections of the app. In other words, the *information scent* is not apparent to the users. 
+The hamburger menu had become a convenience to have lots of navigable labels under one menu without cluttering the visuals.  It had become so pervasive that people had started treating it as a standard.
 
 ![hamburger sd]({{page.img_dir}}/hambgr.png)
 
 The hamburger menu does not favor the usability principle, *Recognition over Recall*. 
-<!-- As all the navigable items are hidden inside the menu, the user has to make an attempt to click on the menu and process which of the navigation labels he/she is interested in order to switch. Or the user needs to remember the items that are part of the menu, in order to reduce the processing time every time the user wants to make a navigation choice. -->
 
 The bottom-bar navigation pattern is much better because, it shows what the primary navigable sections of the app are, up front. There is no need for the user to recall these sections from memory. 
 
@@ -113,13 +112,8 @@ Perhaps, realizing the bad UX of the hamburger pattern, Google had updated their
 
 <p style="clear: both">
 The image below shows the how the bottom-bar navigation has been adopted to our IA. Notice that the user could see all the level-2 items, make a selection among them, without losing the focus on level-1. In my opinion, this style of navigation provides a superior anchor for the user to browse through the various sections of the app.</p>
-{::options parse_block_html="true" /}
 
 ![bottom-top-nav sd center]({{page.img_dir}}/bottom-top-nav.svg)
-
-One of the other reasons why a bottom navigation also makes sense — with the screen sizes becoming larger, the area on the phone reachable with the thumb becomes smaller and is restricted to the lower portion of the screen.
-
-![thumb-zones center]({{page.img_dir}}/thumb-zones.png)
 
 Educating the stakeholders about the then recently released Material Design spec and showing some early examples of how Google+ and BookMyShow apps have adopted the bottom bar navigation, I convinced the team to go ahead with this kind of a navigation pattern for Android. (Since iOS had been using the same pattern, it was easier for me to convince the stakeholders)
 
@@ -132,8 +126,6 @@ Though, we have debated the idea of having all verbs for the navigation labels, 
 
 I have also learnt from the book by [Donna Spencer](http://uxmastery.com/practical-ia){:target="_blank"} that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
 
-There was a debate if we wanted to have Donate as one of the navigation labels over "Outreach". However, the stakeholders strongly recommended it to be called "Donate" as it would bring an active voice and might fare better in attracting donations from the users.
-
 ![img center](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fd28e1f2e879e495f996e6c8d64027069%2FIsha-app-IA.png?w=1.0&s=76405bef14da17a7cfa8396aae868309)
 
 ### Prototype
@@ -141,7 +133,6 @@ There was a debate if we wanted to have Donate as one of the navigation labels o
 A picture is worth a thousand words. A prototype is even better. Feel free to navigate through one of the initial prototypes for the app below. It gives a clear view of how the IA has been laid out using bottom and top navigation systems.
 
 <iframe src="https://marvelapp.com/1i0e59f?emb=1" class="prototype" width="360" height="640" allowTransparency="true" frameborder="0"></iframe>
-{::options parse_block_html="true" /}
 
 ## 3) Presenting the content in a Mobile context
 
