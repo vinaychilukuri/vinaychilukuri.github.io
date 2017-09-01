@@ -14,8 +14,8 @@ It's offerings were scattered across 42 websites! As a result, the experience wa
 Team ISHA wanted to build a mobile experience to bring the key offerings of ISHA under one umbrella. A larger website consolidation project was part of the plan, at a later stage.
 
 <div class="row">
-<div class="col">
-![img]({{page.img_dir}}/isha-app-live.png)
+<div class="col hero-img">
+![img]({{page.img_dir}}/hero-isha-app.png)
 </div>
 
 <div class="col">
