@@ -7,70 +7,64 @@ imgurl: /assets/img/al-app-icon.svg
 permalink: /case/aktivlearn
 ---
 
-A client of ours from an IT team lamented that how most of the corporate trainings are ineffective. He exclaimed that his organization requires team members to dedicate significant time & effort for the trainings alongside their daily work. Even after the repeated reminders by Learning & Development team to complete the trainings, the completion rates remain low. 
+#### Overview
+Completion rates of corporate trainings remain low, despite multiple reminders from Learning & Development teams. Lack of time to prioritize training over work and dis-engaging content are two primary factors for this behaviour.
 
 At KNOLSKAPE, our intention was to address this issue by building a learning ecosystem that would motivate learners to engage with their training material and move towards completion.
 
-DURATION: Year of 2015
-<hr>
+<div class="row">
+<div class="col hero-img">
+![img](/assets/img/cases/aktlearn/hero-al-mob.png)
+</div>
+
+<div class="col">
+#### Duration
+Year of 2015
+
+#### Role
+Interaction design, Visual design, Usability testing
+
+#### Impact
+Increased completion rates by <b>23%</b>; User engagement up by <b>48%</b>.
+</div>
+</div>
+---
 
 ### Background
 
-KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundation upon which the intended system would be developed. As a precursor, for a few early adopters, we designed a few screens of the LMS to give them an idea of how the next version of learning system could be. 
-
-![img](/assets/img/cases/aktlearn/al_web_road.png)
-
-My team began with making the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the serious environment of an LMS into a slightly playful world.
+KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundation upon which the intended system would be developed.
 
 ### My Role
 I was leading the UX for this project, which involved revamping the design of an existing learning management system from the ground up. In addition to gathering requirements from stakeholders, translating the requirements to prototypes, I have also conducted usability tests with internal employees in order to ensure that the proposed designs were user-centric.
 
 ## ACT 1 - Usability first 
 
-Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision. The usability of the open-source LMS that we were using had major issues.
+Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision.
 
-##### There is no easy way for the user to know/do the following:
+![img center](/assets/img/cases/aktlearn/old-course-home.png)
+The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
+
+##### Heuristic analysis of the site, revealed the following gaps:
 - What is my progress in each of the courses/trainings that I have subscribed to?
 - What are the To-Do items in each of the courses? When do I have to complete them?
 - Once, I am inside a course, where am I in it?
 - What is the next item in the course that I am going to take as I reach the end of the current item?
-- How to easily explore other areas of the course?
-
-![img center](/assets/img/cases/aktlearn/old-course-home.png)
-
-The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
 ### Design for Action
-I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client.
-
-I compared existing online interfaces of MOOC platforms and sought out what the user would want with respect to a learning journey of 3-4 months.
+I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client. I have also studied existing online interfaces of MOOC platforms to understand how the navigation flow.
 
 >An important question for a user who comes to an online learning platform is: 
 **_What do I learn today?_**
 
 <div class="full-width"><img src="/assets/img/cases/aktlearn/profile-home.png" alt="profile">
 </div>
-{::options parse_block_html="true" /}
-
-<!-- The above UI addresses the following points:
-
-- Shows the learner clearly the trainings ascribed to him along with the progress and his/her current score.
-- Courses are sorted based on most recently accessed.
-- Clearly, shows what are the to-do items for the learner across the trainings in the upcoming weeks. -->
 
 The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
 
 <div class="full-width"><img src="/assets/img/cases/aktlearn/course-menu-bar.svg" alt="course-menu-bar">
 </div>
-{::options parse_block_html="true" /}
 
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
-
-<!-- The intent of the course action bar is the following:
-
-1. Cues the learner to resume the training from where he/she had left off. Else, the user has to go to the course journey and process which items had been completed and then go to the respective item. 
-2. Communicate the progress of the course.
-3. Combining the cue to resume the course along with the progress bar is an element to nudge the user to get back on the track and push towards completion. -->
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, *a bias for action*.
 
@@ -79,6 +73,11 @@ The course action-bar element would be present on all the pages of a course that
 The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
 Now that the fundamentals of the interface had been fixed, it was time to add a persuasive layer to the system that would incentivize their learning.
+
+### Bringing an element of play
+![img](/assets/img/cases/aktlearn/al_web_road.png)
+
+With inputs from the product manager, I began making the course of the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the serious environment of an LMS into a slightly playful world.
 
 ## ACT 2 - A shift to Mobile
 
@@ -115,16 +114,10 @@ To further engage a learner, the product team had decided to use gamified elemen
 However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements for persuasion.
 
 #### POINTS 🌟
-
-The users would gain points as they complete each of the items in the training. The idea is to have points be used as a way to visually represent the momentum and reward the user for keeping up with the progress. 
-
-Every time a user completes a training item, he would be awarded a few points. If he completes three items in a row, he would be awarded more points etc.
+The users would gain points as they complete each of the items in the training.
 
 #### BADGES 🏅
-
 Badges are a reward that has the ability to make the learners self-identify with a particular trait or a competency and thus increasing their motivation to do more. Badges can indicate both a level of mastery of the training material or they could also allude to other behavioral attributes of the user.
-
-Here are some example badges that could be given in a learning scenario. 
 
 ![img center](/assets/img/cases/aktlearn/badges.svg)
 
@@ -140,19 +133,15 @@ However, a leaderboard would be demotivating for the people who are at the botto
 
 We had a third-party agency come on-board with the visual design of the app. However, the engagement with them had been ceased after a month and I took up the job to create all the screens ( ~ 100 screens) for the mobile app, based on the style guide that the agency had given us. I used a component-based approach using Symbols in the Sketch to create the UI for the app.
 
-## ACT 3 - Denouement
+## ACT 3 - Conclusion
 
-The web app had become quite useful with much needed Usability and navigation refinements, which has been validated by a positive S.U.S (System Usability Scale) score. The number of UI bug reports have also considerably reduced.
+#### Impact of the redesign.
+Training completion rates on the web, after the redesign, increased by <b>23%</b>. This was validated by a positive S.U.S (System Usability Scale) score. The user's engagement measured by time on site and number of sessions over a week, has increased by <b>48%</b>. The number of UI bug reports have also considerably reduced.
 
 ![al-app-logo sd-l](/assets/img/al-app-icon.svg)
 The mobile app had found a new use case. In addition to being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
 
-![pdf-ppt right](/assets/img/cases/aktlearn/pdf-ppt.svg)
-
-The "bite-size" learning use-case had a lot of potential for adoption than the first scenario. This was because the content provided by most companies had a lot of long-form reading material in terms of two-column PDFs and PPTs than originally anticipated, which was not amenable to the mobile view. Though there were apps to allow the users to view this content on their phones, the experience took a hit. This meant that someone within KNOLSKAPE has to take and re-work on the entire content that was presented in PDFs and PPTs. This is not a scalable model. Or, the client's company had to do it — which often they have not had the resources to do so.
-
-
-## My learnings
+### My learnings
 
 This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
 
