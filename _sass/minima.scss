@@ -192,6 +192,10 @@ h2{
 	h5{font-size: 110%;}
 }
 
+.app-link{
+	display: block;
+}
+
 b{
 	@include sans-serif-font(1.35rem);
 	font-style: normal;
