@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Helping Sales executives perform better at their jobs.
+title: Enabling Sales executives to perform better
 case-tag: User Research, Product Strategy
 year: 2016
 imgurl: /assets/img/sales-man.svg

@@ -31,7 +31,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    800px;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -69,7 +69,7 @@ $on-laptop:        800px !default;
 @mixin sans-serif-font($font-size: 20px){
 	font-family: 'Mukta Malar', sans-serif;
 	font-size: $font-size;
-	font-weight: 600;
+	font-weight: bolder;
 	color: inherit;
 }
 
@@ -164,7 +164,7 @@ a.site-title{
 	color: $oc-gray-1;
 
 	//margin: 150px 0 50px 0;
-	padding-top: 200px; padding-bottom: 20px;
+	padding-top: 160px; padding-bottom: 40px;
 	@include system-font;
 
 	img{
@@ -190,29 +190,22 @@ a.site-title{
 }
 
 section{
-	margin-top: 20px;
-
+	margin-top: 25px;
 	p{font-size: 100%; margin: 20px 0;}
 
 	h4{
 		display: inline-block;
 		color: $oc-gray-8;
 		border-bottom: 4px solid $oc-orange-2;
-		margin-top: 30px;
+		margin: 30px 0 30px 0 !important;
+		letter-spacing: 0px; line-height: 3.5ex;
+		font-weight: bolder;
 	}
 
-	&.my-work{
-		//margin-top: 0;
-		h4 {margin-top: 50px;}
-		p{font-size: 150%;}
-	}
-
-	&.other-work{
-		margin-bottom: 50px;
+	&.work:last-child{
+		margin-bottom: 100px;
 	}
 }
-
-.case-list{margin: 0 10px;}
 
 // Case study pages
 .overview{
@@ -329,29 +322,51 @@ img[alt~="right"]{float: right; padding: 0 0 20px 20px;}
 
 hr{margin-bottom: 10px !important;}
 
+.case-list{margin: 0;}
+
 .case-block-link{
-	display: block; padding: 50px 0;
-	border-bottom: 1px dashed $oc-orange-2;
+	display: block; padding: 40px 10px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+	margin-bottom: 25px;
+
+	transition: box-shadow 0.4s ease;
+	transition: filter 0.2s ease;
 
 	.case-block{
 		clear: left;
+		@include system-font;
 
 		img{
-			width: 85px; float: left;
-			padding: 0 30px 20px 0;
+			width: 75px; float: right;
+			padding: 0 20px 20px 30px;
 		}
 
 		.case-info {
-			font-size: 24px;
-			.case-tags{font-style: italic; font-size: 20px;}
+			//width: 80%;
+			position: relative; left: 1.2rem;
+			font-size: 22px;
+
+			.case-title{line-height: 2.6ex;}
+			.case-tags{
+				font-size: 16px;
+				color: #878787;
+			}
 		}
 	}
 
 	&:hover {
 		text-decoration: none;
-		color: black;
+		color: darkblue;
+		box-shadow: 0px 1px 12px rgba(0,0,0,0.2);
 
-		&.case-tags, &.case-tags:hover{background: tomato;}
+		img{filter: grayscale(0%);}
+		.case-info{
+			.case-tags{
+				color: #646464;
+			}
+		}
 	}
 
 	&:last-child{border-bottom: none;}
@@ -440,6 +455,9 @@ footer{
 	.site-title{
 		font-size: 27px !important;
 	}
+
+	.work{text-align: center;}
+	.case-block-link{text-align: left;}
 
 	.post-content h3{
 		font-size: 125% !important;
