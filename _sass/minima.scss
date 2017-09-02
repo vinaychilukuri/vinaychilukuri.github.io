@@ -24,8 +24,7 @@ $abs-value:		   50px;
 $text-color:       $oc-gray-9 !default;
 $background-color: #fff !default;
 $brand-color:      $oc-indigo-9 !default;
-// $reddish-color:    #f5515f;
-$reddish-color: $oc-orange-7;
+$hero-bar-bg: #1f2129;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -126,8 +125,13 @@ body{
 
 
 
-.site-title{ 
-	font-size: 27px !important;
+a.site-title{ 
+	font-size: 20px !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	@include system-font;
+	letter-spacing: 0.3px;
+
 	background: url(/assets/img/vc-logo.svg) no-repeat;
 	background-size: 40px;
 	background-position: 0px 15px;
@@ -138,21 +142,30 @@ body{
 	}
 }
 
-.nav-resume{
+.top-nav{
 	float: right; position: relative; top: 20px;
 	background: url("/assets/img/icon_pdf.svg") no-repeat;
-	background-size: 22px; background-position: right 3px;
+	background-size: 22px; background-position: right;
 	padding: 0 30px 0 0;
-	@include sans-serif-font;
+	@include system-font(16px);
+	font-weight: bolder;
 	text-transform: uppercase;
 
 	a:hover{text-decoration: none;}
 }
 
-.page-content{padding-top: 0 !important;}
+.page-content{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
 
 .bio{
-	margin: 150px 0 50px 0;
+	@include full-width-bar($hero-bar-bg);
+	color: $oc-gray-1;
+
+	//margin: 150px 0 50px 0;
+	padding-top: 200px; padding-bottom: 20px;
+	@include system-font;
 
 	img{
 		width: 25%; float: left;
@@ -160,13 +173,19 @@ body{
 	}
 
 	.greeting{
-		font-size: 350%;
+		font-size: 1.85rem;
+		font-weight: bolder;
 		display: inline-block;
 	}
 
 	p {
-		font-size: 170%;
-		line-height: 1.35;
+		line-height: 3ex;
+		margin-bottom: 1.5rem !important;
+		color: $oc-gray-2;
+
+		span{
+			color: $oc-yellow-4;
+		}
 	}
 }
 
@@ -183,9 +202,13 @@ section{
 	}
 
 	&.my-work{
-		margin-top: 0;
+		//margin-top: 0;
 		h4 {margin-top: 50px;}
 		p{font-size: 150%;}
+	}
+
+	&.other-work{
+		margin-bottom: 50px;
 	}
 }
 
@@ -193,7 +216,7 @@ section{
 
 // Case study pages
 .overview{
-	@include full-width-bar(#2f343a);
+	@include full-width-bar($hero-bar-bg);
 	padding-top: 25px;
 	color: $oc-gray-4;
 	@include system-font;
@@ -334,6 +357,20 @@ hr{margin-bottom: 10px !important;}
 	&:last-child{border-bottom: none;}
 }
 
+.related-cases{
+	@include full-width-bar(#fcfcfc);
+	@include system-font;
+	padding-top: 30px; padding-bottom: 30px;
+	border: 1px solid $oc-gray-2;
+
+	//a, a:visited {color: $oc-cyan-5};
+	h4{ 
+		display: block; 
+		border-bottom: none;
+		margin: 0 0 10px 0 !important;
+	}
+}
+
 footer{
 	background-color: $oc-gray-1;
 	text-align: center;
@@ -348,8 +385,7 @@ footer{
 		a{
 			display: inline-block; width: 150px;
 			background: $oc-cyan-5;
-			color: #fff;
-			text-shadow: 0px 1px 0px #666;
+			color: #03272e;
 			font-weight: bolder;
 			padding: 12px;
 			border-radius: 24px;
