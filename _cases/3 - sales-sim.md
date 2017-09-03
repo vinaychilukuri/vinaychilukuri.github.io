@@ -34,73 +34,47 @@ Built training interventions that met the customer needs with a satisfaction sco
 
 ## Background
 
-During a product brainstorming session, the project management team and our CEO agreed that the new product would be a simulation around Sales training, as they all thought there was a lack of an effective training intervention in the field of sales. Most of them looked determined while some of us squirmed in our seats without much data supporting this claim.
+During a product strategy session, our CEO had announced that we should be working on a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Some of the people in the room looked determined while some of us looked confused without much context and data supporting this claim.
 
 ### Bringing order to the chaos
 
-In order for all the stakeholders to be on the same page and bring in clarity, I requested the senior management including my CEO to go through the problem and the proposed solution in the format of a Business Model Canvas (BMC). I used the Lean Canvas framework to capture inputs from various stakeholders. This process helped all of us immensely to get to a shared understanding of the problem.
+To bring clarity to the disucssion, I requested our CEO to go through the problem and the proposed solution in the format of a Business Model Canvas (BMC). I used the Lean Canvas framework to capture inputs from various stakeholders.
 
 ![lean-canvas](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F616a5a261b6f43c3937d95fb80691ee8%2Fleancanvas.png?w=1.0&s=1a8a41ce66e919bf69a5bc8d93317051)
 
-During this exercise, the CEO clarified who the product is catered for:
+This process helped all of us to get a shared understanding of the problem. Regarding the solution, a simulated assessment for sales training, I have felt that the team had jumped to a solution that it was comfortable in building in the past than searching for one that effectively addresses the customer needs.
 
-- 18-35 years old, need not be tech savvy, not very analytical. 
-- They can be students, new sales guys or experienced sales guys of 0-3 year experience, who are dealing with sales operations. 
-- This is not going to be a simulation for Sales leaders or managers of sales executives. 
-
-##### My thought was:
-
-> Is a sales simulation enough to make a positive impact on the sales person's performance? Can we do something better? 
+> Is the proposed solution good enough to make a positive impact on a sales person's performance? Can we do something better?
 
 I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
 I was not fully convinced.
 
-### Understanding the Users' world
+## User Research
+I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. My CEO proactively connected me with few of his contacts from the Sales community.
 
-I sought agreement about talking to the users before jumping in to the solution mode. My CEO agreed to my approach. He proactively connected me with few of his contacts from the Sales community.
-
-I jotted down the following questions and talking points that would guide me in uncovering the pain points of our potential users:
+*I jotted down the following questions that would act as a guide in the interviews*
 
 ![img research-questions]({{page.img_dir}}/questions.png)
 
-## User Interviews with Sales executives
+### User Interviews
 
-As they say, charity begins at home, I started my one-on-one interviews with our 5 internal sales folks and wanted to know how they got into sales, how did they learn, what are the challenges inherent on the field etc. 
+I started my one-on-one interviews with our 5 internal sales folks. Hearing their stories on the field, made me respect what they did. I then interviewed 5 Sales managers/directors to know their point of views on sales training. Lastly, I have conducted an open-ended survey with one of the largest LinkedIn communities in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"}
 
-<!-- After a brief introduction to why I am doing this interview, I always started with the question: "How did you get into Sales?" My intent was to see if they had a formal training, or if they had undergone corporate trainings to learn the ropes. It was always by accident. 
- -->
-
-![img]({{page.img_dir}}/user-int-af-map.png)
-
-Hearing their stories on the field, made me respect what they did.
-> As the last question in my interviews, I asked, "What is a good day to you?" — "the day that I had cracked a deal", was the unanimous response, from each one of them.
-
-## User Interviews with Sales Managers
-
-Though our users are going to be Sales personnel on the field, our customers are Sales Managers and Directors. I interviewed them to understand what their perception of the field is about. How do they help their folks learn?
-
-![img sd]({{page.img_dir}}/manager-int-af-map.png)
-
-The thing that surprised me the most was none of the 5 people I had interviewed remembered attending any training to learn the ropes of the sales process. Their learning was also on the job.
-
+<ul class="gallery">
+	<li data-thumb="{{page.img_dir}}/thumb-1.svg"><img src="{{page.img_dir}}/user-int-afmap.png" alt="user interviews"></li>
+	<li data-thumb="{{page.img_dir}}/thumb-2.svg"><img src="{{page.img_dir}}/manager-int-afmap.png" alt="manager interviews"></li>
+	<li data-thumb="{{page.img_dir}}/thumb-3.svg"><img src="{{page.img_dir}}/survey-summary.png" alt="survey-summary"></li>
+</ul>
 <!-- 
-- I discovered that there were enough gatherings of company wide sales folks that discussed about the big picture stuff like strategies, changes in their industry due to technology, how to adopt to these changes etc. 
-- When asked if a training would have helped them start off — I got a strong NO from 3 people and 2 people had said it might help only a little. (In other words, it was not a must-have).
-- When asked about how new folks are on boarded into the sales process, I discovered that large organizations had a learning management system which talked about the sales culture of the organization.
-- I wanted to know if there are no trainings in the field of Sales. I learnt that sales trainings are often expensive engagements and they would be given to people who are already performing well. This was surprising to hear. 
-- Digging a little deeper, I  discovered that these trainings usually focus on a unique method of selling and are most effective in terms of ROI, if performing sales folks attend these. This knowledge could anyway be passed down to the rest of the team, later. -->
+![img]({{page.img_dir}}/user-int-af-map.png)
+![img sd]({{page.img_dir}}/manager-int-af-map.png)
+![survey-summary center]({{page.img_dir}}/survey-summary.svg) -->
 
-## Open-ended survey with a LinkedIn Sales group
+The thing that surprised me the most was none of the 10 people that I had interviewed remembered attending any training to learn the ropes of the sales process. Their learning was all on the job.
 
-I had the apprehension that I spoke to only a few people (5 each) and perhaps my observations are not enough to form a pattern of behavior.So, I approached one of the largest LinkedIn communities in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"} and the solicited response to an open-ended survey (of 10 questions)
+## Synthesis
 
-I received 20 responses from Sales Executives and 14 responses from people who were Sales Managers. Though the number of respondents was few, their responses shed light on the pain points they had faced in their respective fields. <!-- Most interestingly, close to 40% of the respondents mentioned that they have undergone sales training which taught them how to qualify, prospect and negotiate along with a few other behavioral skills! The first time I had heard this, in the course of my study. However, not even one person had mentioned that a lack of formal training of the sales process is a pain point. -->
-
-![survey-summary center]({{page.img_dir}}/survey-summary.svg)
-
-## Summary of the User Research
-
-I have synthesized the findings from the user interviews and they survey in the style of an empathy map.
+I have synthesized the findings from the user interviews and the survey in the style of an empathy map.
 
 ![empathy-map center]({{page.img_dir}}/sales-emp-map.png)
 
@@ -108,13 +82,15 @@ It was clear that though imparting a sales process was important, there were oth
 
 ## Proposing a solution — How might we?
 
-Looking at the pain points from the above research, it was evident that supporting a sales personnel in the context of a sales meeting (either on the field or over a call) is more important than creating a training intervention once a year or 6 months. This is because the meetings are the main crucial indicators for a sales person to make progress in qualifying a lead, negotiating with them and then closing the deal. 
+From my observations, a sales person needed the most support in the context of a meeting. Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing the deal. The better the meeting, the better the possibility of a deal.
 
-> In summary, I refined the problem of  "How do I get better at my job?" to "How can I perform better every time I attend a sales meeting?"
+> I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
 
-From a business stand-point, using a service every time a sales person has a meeting is of higher value than conducting a training intervention once a year.
+This refined the problem into a more specific space-time and enabled me to brainstorm various solutions.
 
-Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. I, of course, cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.
+From a business stand-point, using a service every time a sales person has a meeting, which is frequent, is of higher value than conducting a training intervention once or twice a year.
+
+Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. (*I cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.*)
 
 ### Technical Challenges
 

@@ -7,15 +7,15 @@ layout: default
   </div>
 
   <section class="related-cases">
-  	<div class="wrapper">
-		<h4>Other Case Studies</h4>
-  		{% for case in site.cases %}
-  			{%if page.url != case.url %}
-  			<div class="rel-case">
-	  			<a href="{{case.url}}">{{case.title}}</a>
-  			</div>
-  			{% endif %}
-		{% endfor %}
-  	</div>
+
+	<h4>Other Case Studies</h4>
+	{% for case in site.cases %}
+		{%if page.url != case.url %}
+		<div class="rel-case">
+			<a href="{{case.url}}">{{case.title}}</a>
+		</div>
+		{% endif %}
+  {% endfor %}
+  
   </section>
 </article>

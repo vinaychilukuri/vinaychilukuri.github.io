@@ -330,9 +330,7 @@ hr{margin-bottom: 10px !important;}
 	border-radius: 4px;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
 	margin-bottom: 25px;
-
-	transition: box-shadow 0.4s ease;
-	transition: filter 0.2s ease;
+	transition: box-shadow 0.3s ease;
 
 	.case-block{
 		clear: left;
@@ -359,7 +357,7 @@ hr{margin-bottom: 10px !important;}
 	&:hover {
 		text-decoration: none;
 		color: darkblue;
-		box-shadow: 0px 1px 12px rgba(0,0,0,0.2);
+		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
 
 		img{filter: grayscale(0%);}
 		.case-info{
@@ -480,6 +478,15 @@ footer{
 
 	.case-info{font-size: 20px !important;}
 	.case-tags{display: none;}
+}
+
+.lSSlideOuter{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.gallery{
+	height: 75% !important;
 }
 
 // Import partials.
