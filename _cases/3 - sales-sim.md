@@ -80,9 +80,9 @@ I have synthesized the findings from the user interviews and the survey in the s
 
 It was clear that though imparting a sales process was important, there were other pressing pain points that are hindering sales people to get better at their jobs. In my opinion, targeting a pain point that people are aware of leads to better adoption of a solution.
 
-## Proposing a solution — How might we?
+### Proposing a solution — How might we?
 
-From my observations, a sales person needed the most support in the context of a meeting. Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing the deal. The better the meeting, the better the possibility of a deal.
+From my observations, a sales person needed the most support in the context of a client meeting. Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing the deal. The better the meeting, the better the possibility of a deal.
 
 > I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
 
@@ -90,7 +90,7 @@ This refined the problem into a more specific space-time and enabled me to brain
 
 From a business stand-point, using a service every time a sales person has a meeting, which is frequent, is of higher value than conducting a training intervention once or twice a year.
 
-Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. (*I cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.*)
+Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. *(I cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.)*
 
 ### Technical Challenges
 
@@ -100,8 +100,7 @@ The solution was received with great enthusiasm and everyone saw the value in it
 
 However, the learnings from the study did not go waste. We wanted to combine the pain points unearthed from the study and use it in the initial idea of simulated assessment.
 
-## Testing the solution without a product
-
+## Validating the solution
 In order to see if the simulated assessment which was now refined due to the learnings from my user research studies, had any potential - I proposed to design a report that would be generated once a user takes the simulated assessment.
 
 We wanted to test if this generated report and the metrics we were showing to Sales Managers had enough value for them to hire KNOLSKAPE as their training provider for Sales.

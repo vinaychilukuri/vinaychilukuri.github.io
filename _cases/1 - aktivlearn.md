@@ -39,12 +39,11 @@ KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundatio
 ### My Role
 I was leading the UX for this project, which involved revamping the design of an existing learning management system from the ground up. In addition to gathering requirements from stakeholders, translating the requirements to prototypes, I have also conducted usability tests with internal employees in order to ensure that the proposed designs were user-centric.
 
-## ACT 1 - Usability first 
+## ACT 1 - Usability first
 
-Before we could set out to design our intended gamified ecosystem, the fundamentals needed a major revision.
+The existing learning management system needed a major revision from the ground up. The constant feedback we got from various clients was that learners seem to be **lost** in the interface.
 
 ![img center]({{page.img_dir}}/old-course-home.png)
-The constant feedback we got from various clients was that their learners seem to be *lost* in the interface.
 
 ##### Heuristic analysis of the site, revealed the following gaps:
 - What is my progress in each of the courses/trainings that I have subscribed to?
@@ -61,14 +60,14 @@ I set out to address the above issues by doing a task-analysis of a user who wou
 <div class="full-width"><img src="{{page.img_dir}}/profile-home.png" alt="profile">
 </div>
 
-The re-designed homepage has multiple ways for the user to take a decision on what to learn. The learner could either pick the most recent item, or one with a good progress metric or the To-Do item that needs attention. Bringing these three items up-front means a **bias for action**.
+The re-designed homepage has many ways for the user to take a decision on what to learn. Bringing the above three items up-front intents to a **bias for action**.
 
 <div class="full-width"><img src="{{page.img_dir}}/course-menu-bar.svg" alt="course-menu-bar">
 </div>
 
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
-The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, *a bias for action*.
+The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, **a bias for action**.
 
 ![img]({{page.img_dir}}/course-bar-todo.svg)
 
@@ -78,14 +77,15 @@ Now that the fundamentals of the interface had been fixed, it was time to add a 
 
 ### Bringing an element of play
 ![img]({{page.img_dir}}/al_web_road.png)
+*The initial idea was to create various themes like the above and let the client pick a theme from one of them suiting to their need.*
 
-With inputs from the product manager, I began making the course of the training into a visual journey. The initial idea was to create various themes like this and let the client pick a theme from one of them — translating the serious environment of an LMS into a slightly playful world.
+With inputs from the product manager, I began making the course of the training into a visual journey. The intent was to translate the often serious environment of an LMS into a playful world. 
 
 ## ACT 2 - A shift to Mobile
 
-The initial idea was to make a mobile app that would supplement the desktop version. It would not have feature parity with that of the desktop LMS and would only have a subset of features that can make it as an MVP (Minimum Viable Product). However, with the organization deciding to have the overall product strategy shift to mobile, there was a sudden emphasis on the LMS being the first project to go mobile.
+With an organizational shift of product strategy to mobile, the management prioritized the mobile experience of the learning management system over it's web counterpart.
 
-So, the mobile system needed to have the same robust usability as of the web interface with an added layer of persuasive mechanisms for the user to be engaged through the training duration.
+The mobile system needed to have robust usability with an added layer of persuasive mechanics, to further engage the learners. The intent was to port this layer to the web interface, post the app's release.
 
 #### Navigation on mobile
 

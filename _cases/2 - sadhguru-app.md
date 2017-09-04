@@ -40,13 +40,13 @@ Program registrations increased by <b>37%</b>; Donations through the app averagi
 
 ## Background
 
-Sadhguru is a contemporary mystic, yogi and a visionary. He is the founder of ISHA Foundation, a non-profit organization, that concerns with human wellbeing and the spiritual growth of an individual through Yoga.  Sadhguru is a spiritual master who has a vast online presence in the form of his talks on YouTube, article posts on Facebook and an online blog. He has more than 2 million followers on Facebook, as of today.
+Sadhguru is a contemporary mystic, yogi and a visionary. He is a spiritual master who has a vast online presence in the form of his talks on YouTube, article posts on Facebook and a blog. He has more than 2 million followers on Facebook, as of today.
 
 ![img full]({{page.img_dir}}/sadhguru.jpg)
 
 Touched by the insight of Sadhguru and deep experience that I had felt through ISHA foundation's yoga programs, I signed up as a volunteer.
 
-## My Role
+### My Role
 I was contributing as a volunteer on the side by working nights, for about 5 hours per week.
 
 There were three things that needed to be done:
@@ -68,11 +68,11 @@ After a few stakeholder interviews, I have uncovered the following needs:
 
 ### Analytics
 
-Upon studying the navigation patterns of the users from analytics data, most of it was going to Sadhguru's pages which had a lot of articles, videos. People were also very interested to know where Sadhguru is going to be at any given point of time; their curiosity about his schedule was high. This was one of the most viewed pages on the desktop version of the website.
+Studying analytics data revealed that ~70% of the traffic was going to Sadhguru's pages which had a lot of articles and videos. People were also very interested to know where Sadhguru is going to be at any given point of time; their curiosity about his schedule was high. This was one of the most viewed pages on the desktop version of the website.
 
-## 2) Content - Constructing the Information Architecture
+## 2) Constructing the Information Architecture
 
-Given that there were so many navigation items on the web, I did not want the user to feel the same on the mobile app. In the need to accommodate all of the content on the website, I  prioritized the content according to user needs and business needs and then re-evaluated the IA of the website. 
+Given that there were so many navigation items on the web, I did not want the user to feel the same on the mobile app. In the need to accommodate all of the content on the website, I prioritized the content according to user needs and business needs and then re-evaluated the IA of the website. 
 
 ![img]({{page.img_dir}}/isha-web-nav.png)
 
@@ -84,54 +84,30 @@ Re-looking at the navigation of the web with the lens of user & business needs y
 
 Given that I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had unanimously agreed to the IA that was proposed based on the user needs, business goals, expert opinions and the frequency of content updates.
 
-<!-- Having this structure yielded a very solid foundation for even future versions of the app, for adding further types of content and providing various other offerings of the organization.
- -->
-### Translating the IA into a navigation system on mobile
+<p style="clear:both"></p>
+### Translating the I.A into a navigation system on mobile
 
-From the very beginning, there were a few principles that I wanted to adhere to:
+<!-- From the very beginning, there were a few principles that I wanted to adhere to:
 
-- Clearly tell the user what aspects of the information are available — No hamburgers or hiding of information.
+- Cue the user about the available information with least amount of effort.
 - Make the structure of information look like as if Sadhguru is speaking to the user. As if, they are receiving content from the Master.
 
 ![img center]({{page.img_dir}}/mobile-nav-bottom-bar.png)
 
 - Let the user to discover various facets of 'updates' from ISHA rather than he/she "figuring" something out. This is critical for user engagement in the context of a mobile app. 
 
-### Death to the Hamburger
+#### Death to the Hamburger -->
 
-The stakeholders had proposed the idea to have all the navigation items on the web page as part of a hamburger menu on the mobile and thus have more information for the user. 
+To give user access to all the information, the stakeholders had proposed to have all the navigation items on the web as part of a hamburger menu on the mobile. In order to resolve this, I pointed out Google's then recently updated material design guidelines, but I haven't stopped with that. I educated the stakeholders why the bottom-bar was efficient and how it increases content engagement.
 
-The hamburger menu had become a convenience to have lots of navigable labels under one menu without cluttering the visuals.  It had become so pervasive that people had started treating it as a standard.
+*The hamburger menu had become so pervasive that people were treating it as a standard.*
 
-![hamburger sd]({{page.img_dir}}/hambgr.png)
+![navigation-options]({{page.img_dir}}/ham--bottom-bar.png)
 
-The hamburger menu does not favor the usability principle, *Recognition over Recall*. 
-
-The bottom-bar navigation pattern is much better because, it shows what the primary navigable sections of the app are, up front. There is no need for the user to recall these sections from memory. 
-
-Perhaps, realizing the bad UX of the hamburger pattern, Google had updated their design guidelines on the android platform, to have the bottom navigation bar as the standard, though this has been the constant on iOS.
-
-<p style="clear: both">
-The image below shows the how the bottom-bar navigation has been adopted to our IA. Notice that the user could see all the level-2 items, make a selection among them, without losing the focus on level-1. In my opinion, this style of navigation provides a superior anchor for the user to browse through the various sections of the app.</p>
-
-![bottom-top-nav sd center]({{page.img_dir}}/bottom-top-nav.svg)
-
-Educating the stakeholders about the then recently released Material Design spec and showing some early examples of how Google+ and BookMyShow apps have adopted the bottom bar navigation, I convinced the team to go ahead with this kind of a navigation pattern for Android. (Since iOS had been using the same pattern, it was easier for me to convince the stakeholders)
-
-After 6 months, there is no looking back on this with so many apps following the best practices from the Material Design spec.
-
-### Choosing the labels
-
-Though, we have debated the idea of having all verbs for the navigation labels, it made sense to use labels which the users would relate a lot. 
-<!-- Hence, we have used the label 'Sadhguru' instead of 'Seek' as one of the navigation items. Since this is going to be an app for the vast followers of Sadhguru, having his name as one of the navigation items is going to connect with the users instantly. -->
-
-I have also learnt from the book by [Donna Spencer](http://uxmastery.com/practical-ia){:target="_blank"} that one does not need to be a stickler for using only nouns or verbs in the name of consistency. The best labels are the ones that are unambiguous to the users.
-
-![img center](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2Fd28e1f2e879e495f996e6c8d64027069%2FIsha-app-IA.png?w=1.0&s=76405bef14da17a7cfa8396aae868309)
 
 ### Prototype
 
-A picture is worth a thousand words. A prototype is even better. Feel free to navigate through one of the initial prototypes for the app below. It gives a clear view of how the IA has been laid out using bottom and top navigation systems.
+A picture is worth a thousand words. A prototype is even better. Do navigate through one of the initial prototypes for the app below. It gives a clear view of how the IA has been laid out using bottom and top navigation systems.
 
 <iframe src="https://marvelapp.com/1i0e59f?emb=1" class="prototype" width="360" height="640" allowTransparency="true" frameborder="0"></iframe>
 
@@ -143,6 +119,7 @@ In the mobile context, users should be able to quickly find what they want, as t
 
 The following screen illustrates how content has been re-organized for a mobile context. Each of the items extends to the functionality of the mobile device, thus allowing the user to use their phone to do more with the information on the screen.
 
+<p style="clear:both"></p>
 ## Conclusion
 
 Ever since the app was released, it had been receiving unanimously positive reviews touting that it is extremely simple to use. Isha yoga program registrations have increased by <b>37%</b>, thanks to the mobile app. Donations through the app were averaging at <b>Rs. 2 lac</b> per month, without any marketing whatsoever. Further improvements to the donation forms were planned in order to make the donation experience even better.

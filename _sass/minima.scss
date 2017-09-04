@@ -85,6 +85,20 @@ $on-laptop:        800px !default;
 	padding: 0 9999rem;
 }
 
+@mixin make-link-as-button{
+	display: block; padding: 40px 10px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+	transition: box-shadow 0.3s ease;
+
+	&:hover{
+		text-decoration: none;
+		color: darkblue;
+		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+	}
+}
+
 /* ------------ */
 
 // this class needs to be applied only if browser width >= 1000px
@@ -110,11 +124,19 @@ body{
 		letter-spacing: -0.7px;
 		font-weight: 600;
 		color: $oc-gray-9;
-		margin: 30px 0 10px 0;
+		margin: 50px 0 10px 0;
 		line-height: 1.05;
 	}
 
-	h2{margin-top: 50px;}
+	h2{
+		margin-top: 64px;
+		clear: both;
+		font-size: 1.5rem !important;
+	}
+
+	h3{margin-top: 48px;}
+	h4{margin-top: 32px;}
+	h5{margin-top: 16px;}
 
 	.site-header{
 		// border-bottom: 1px solid $oc-orange-2;
@@ -122,8 +144,6 @@ body{
 		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
 	}
 }
-
-
 
 a.site-title{ 
 	font-size: 20px !important;
@@ -236,16 +256,10 @@ h1 {
 	}
 }
 
-h2{
-	font-size: 170% !important; 
-	margin-top: 15px;
-	clear: both;
-}
-
 .post-content{
 	h3{
 		clear: both;
-		font-size: 140% !important;
+		font-size: 125% !important;
 	}
 
 	h4{
@@ -276,6 +290,10 @@ b{
 	@include sans-serif-font(1.35em);
 	font-style: normal;
 	line-height: 1;
+}
+
+em{
+	color: $oc-gray-7;
 }
 
 h4{
@@ -311,7 +329,8 @@ p > img{
 iframe.prototype{display: block; margin: auto;}
 
 img[alt~="center"]{
-	float: none; padding-top: 30px;
+	float: none; 
+	// padding-top: 30px;
 }
 
 img[alt~="sd"]{width: 50%;}
@@ -325,12 +344,8 @@ hr{margin-bottom: 10px !important;}
 .case-list{margin: 0;}
 
 .case-block-link{
-	display: block; padding: 40px 10px;
-	background: white;
-	border-radius: 4px;
-	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+	@include make-link-as-button;
 	margin-bottom: 25px;
-	transition: box-shadow 0.3s ease;
 
 	.case-block{
 		clear: left;
@@ -355,11 +370,6 @@ hr{margin-bottom: 10px !important;}
 	}
 
 	&:hover {
-		text-decoration: none;
-		color: darkblue;
-		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
-
-		img{filter: grayscale(0%);}
 		.case-info{
 			.case-tags{
 				color: #646464;
@@ -374,13 +384,35 @@ hr{margin-bottom: 10px !important;}
 	@include full-width-bar(#fcfcfc);
 	@include system-font;
 	padding-top: 30px; padding-bottom: 30px;
+	margin-top: 64px;
 	border: 1px solid $oc-gray-2;
+
+	display: flex;
+	flex-direction: column;
 
 	//a, a:visited {color: $oc-cyan-5};
 	h4{ 
 		display: block; 
 		border-bottom: none;
 		margin: 0 0 10px 0 !important;
+	}
+
+	ul{
+		margin: 0;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.rel-case{
+		@include make-link-as-button;
+		border: 1px solid $oc-gray-3;
+
+		display: flex;
+		align-items: center;
+
+		padding: 20px; margin: 5px;
+		font-size: 16px; line-height: 1.35;
+		width: 100%; height: 60px;
 	}
 }
 
@@ -430,15 +462,6 @@ footer{
 	}
 }
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -478,6 +501,11 @@ footer{
 
 	.case-info{font-size: 20px !important;}
 	.case-tags{display: none;}
+
+	.related-cases{
+		ul{flex-direction: column;}
+		.rel-case{width: auto;}
+	}
 }
 
 .lSSlideOuter{
