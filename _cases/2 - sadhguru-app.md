@@ -98,11 +98,13 @@ Given that I was volunteering on the side, I had little time to do any formal va
 
 #### Death to the Hamburger -->
 
-To give user access to all the information, the stakeholders had proposed to have all the navigation items on the web as part of a hamburger menu on the mobile. In order to resolve this, I pointed out Google's then recently updated material design guidelines, but I haven't stopped with that. I educated the stakeholders why the bottom-bar was efficient and how it increases content engagement.
+The stakeholders had proposed to have all the navigation items on the web as part of a hamburger menu on the mobile. However, the bottom-bar navigation was a better bet for the information architecture we had.
 
 *The hamburger menu had become so pervasive that people were treating it as a standard.*
 
 ![navigation-options]({{page.img_dir}}/ham--bottom-bar.png)
+
+In order to resolve this, I have not only pointed out Google's then recently updated material design guidelines, but also educated them why the bottom-bar was efficient and how it increases content engagement.
 
 
 ### Prototype

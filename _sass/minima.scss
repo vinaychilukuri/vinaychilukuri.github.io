@@ -94,7 +94,7 @@ $on-laptop:        800px !default;
 
 	&:hover{
 		text-decoration: none;
-		color: darkblue;
+		color: mediumblue;
 		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
 	}
 }
@@ -162,16 +162,27 @@ a.site-title{
 	}
 }
 
-.top-nav{
-	float: right; position: relative; top: 20px;
-	background: url("/assets/img/icon_pdf.svg") no-repeat;
-	background-size: 22px; background-position: right;
-	padding: 0 30px 0 0;
+.site-nav{
+
 	@include system-font(16px);
 	font-weight: bolder;
 	text-transform: uppercase;
 
-	a:hover{text-decoration: none;}
+	a, a:visited{
+		color: $oc-indigo-9 !important;
+	}
+
+	// adding PDF icon for the Resume
+	a:last-child{
+		background: url("/assets/img/icon_pdf.svg") no-repeat;
+		background-size: 22px; background-position: right;
+		padding-right: 30px;
+	}
+
+	a:hover{
+		text-decoration: none; color: mediumblue;
+		border-bottom: 1px dotted mediumblue;
+	}
 }
 
 .page-content{
@@ -225,6 +236,33 @@ section{
 	&.work:last-child{
 		margin-bottom: 100px;
 	}
+}
+
+// About Me
+.about-me{
+	margin: 50px 0 0 0;
+	p, h4+p{@include system-font(16px)};
+
+	aside p{
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	a,a:visited{color: darkblue;}
+	a:hover{
+		color: mediumblue;
+		text-decoration: none;
+		border-bottom: 1px dotted mediumblue;
+	}
+	b{font-size: 1.2em;}
+	img{width: 220px;}
+	hr{margin: 25px 0 !important;}
+
+	.about-info{
+		flex-grow: 2;
+	}
+
+	h4, h5{color: $oc-gray-8;}
 }
 
 // Case study pages
@@ -323,7 +361,7 @@ body blockquote{
 
 p > img{
 	display: block; margin: auto;
-	float: left; padding: 0 25px 30px 0;
+	float: left; padding: 0 25px 25px 0;
 }
 
 iframe.prototype{display: block; margin: auto;}
@@ -365,6 +403,7 @@ hr{margin-bottom: 10px !important;}
 			.case-tags{
 				font-size: 16px;
 				color: #878787;
+				position: relative; top: -3px;
 			}
 		}
 	}
@@ -383,7 +422,7 @@ hr{margin-bottom: 10px !important;}
 .related-cases{
 	@include full-width-bar(#fcfcfc);
 	@include system-font;
-	padding-top: 30px; padding-bottom: 30px;
+	padding-top: 30px; padding-bottom: 35px;
 	margin-top: 64px;
 	border: 1px solid $oc-gray-2;
 
@@ -426,11 +465,12 @@ footer{
 		margin: 35px auto;
 
 		h4{letter-spacing: 0.5px;}
-
+		
+		// EmailMe button
 		a{
 			display: inline-block; width: 150px;
-			background: $oc-cyan-5;
-			color: #03272e;
+			background: darkblue;
+			color: white;
 			font-weight: bolder;
 			padding: 12px;
 			border-radius: 24px;
@@ -477,6 +517,17 @@ footer{
 		font-size: 27px !important;
 	}
 
+	.site-nav{
+		top: 14px !important;
+
+		a.page-link{
+			border-bottom: 1px solid $oc-gray-3;
+			padding: 15px 0px 15px 20px;
+		    text-align: left; margin-left: 0px;
+		    width: 100px;
+		}
+	}
+
 	.work{text-align: center;}
 	.case-block-link{text-align: left;}
 
@@ -496,7 +547,6 @@ footer{
 	}
 
 	img[alt~="sd"]{width: 80%;}
-	nav{display: none;}
 	.bio img{width: 50%;}
 
 	.case-info{font-size: 20px !important;}
