@@ -2,7 +2,7 @@
 
 @import "color";
 @import url('https://fonts.googleapis.com/css?family=Faustina:400,400i');
-@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:400,600');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:600');
 
 // @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
@@ -239,9 +239,14 @@ section{
 }
 
 // About Me
+.about-page-headline{
+	color: $oc-gray-7;
+	padding-top: 15px;
+}
+
 .about-me{
-	margin: 50px 0 0 0;
-	p, h4+p{@include system-font(16px)};
+	margin: 25px 0 0 0;
+	p{@include system-font(16px)};
 
 	aside p{
 		margin-top: 10px;
@@ -260,6 +265,7 @@ section{
 
 	.about-info{
 		flex-grow: 2;
+		h4{margin: 20px 0 10px 0 !important;}
 	}
 
 	h4, h5{color: $oc-gray-8;}

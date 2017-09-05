@@ -3,7 +3,7 @@ layout: page
 title: Enabling Sales executives to perform better
 case-tag: User Research, Product Strategy
 year: 2016
-imgurl: /assets/img/sales-man.svg
+imgurl: /assets/img/sales-graph.svg
 img_dir: /assets/img/cases/sales
 permalink: /case/sales-user-research
 ---

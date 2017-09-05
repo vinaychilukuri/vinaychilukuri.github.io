@@ -4,10 +4,9 @@ title: About
 permalink: /about
 ---
 
-### I create value for businesses by focusing on what matters -- the User.
+<h3 class="about-page-headline"> I create value for businesses by focusing on what matters --- the User. </h3>
 
 <div class="about-me row">
-
 <aside class="col">
 ![img-of-vinay](/assets/img/vin.jpeg)
 
@@ -21,9 +20,9 @@ Interaction design, Product strategy, Persuasive design, Rapid prototyping & val
 </aside>
 
 <div class="about-info col">
-##### ABOUT ME
+#### ABOUT ME
 
-The great actor, Robert De Niro once said that his favorite word was <b>refinement</b>. While I am no one in comparison, the urge to constantly refine and go beyond one's limitations is what drives me.
+The great actor, Robert De Niro once said that his favorite word was <b>refinement</b>. While I am no one in comparison to him, the urge to constantly refine and go beyond one's limitations is what drives me.
  
 As a master's graduate in Human Computer Interaction & Cognitive Science, I have 5.5 years of experience in user-centred design, usability testing and building products. I have also hand-coded [web apps](http://www.slashcv.com){:target="_blank"} in the past.
 
