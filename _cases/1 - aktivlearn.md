@@ -127,10 +127,10 @@ We had a third-party agency come on-board with the visual design of the app. How
 Training completion rates on the web, after the redesign, increased by <b>23%</b>. This was validated by a positive S.U.S (System Usability Scale) score. The user's engagement measured by time on site and number of sessions over a week, has increased by <b>48%</b>. The number of UI bug reports have also considerably reduced.
 
 ![al-app-logo sd-l](/assets/img/al-app-icon.svg)
-The mobile app had found a new use case. In addition to being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
+The mobile app had found a new use case. Besides being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
 
 ### My learnings
 
 This project made me realize that without a validated product strategy, there are going to be a lot of hits and misses in product design. I wanted to understand how a strategy is formed in user experience, how to validate solutions without building a product completely and how to use research to leverage product decisions.
 
-In order to know how I've used user research in taking an informed approach with product design, [read this case-study](/case/sales-user-research).
+To know how I've used user research in taking an informed approach with product design, [read this case-study](/case/sales-user-research).

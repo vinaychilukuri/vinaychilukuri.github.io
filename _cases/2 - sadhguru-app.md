@@ -82,7 +82,7 @@ Re-looking at the navigation of the web with the lens of user & business needs y
 
 ![img sd]({{page.img_dir}}/IA-mob-exp.png)
 
-Given that I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had unanimously agreed to the IA that was proposed based on the user needs, business goals, expert opinions and the frequency of content updates.
+As I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had positively agreed to the IA that was proposed based on the user needs, business goals, expert opinions and the frequency of content updates.
 
 <p style="clear:both"></p>
 ### Translating the I.A into a navigation system on mobile
@@ -109,7 +109,7 @@ In order to resolve this, I have not only pointed out Google's then recently upd
 
 ### Prototype
 
-A picture is worth a thousand words. A prototype is even better. Do navigate through one of the initial prototypes for the app below. It gives a clear view of how the IA has been laid out using bottom and top navigation systems.
+Do navigate through one of the initial prototypes for the app below. It gives clarity on how the IA has been laid out using bottom and top navigation systems.
 
 <iframe src="https://marvelapp.com/1i0e59f?emb=1" class="prototype" width="360" height="640" allowTransparency="true" frameborder="0"></iframe>
 

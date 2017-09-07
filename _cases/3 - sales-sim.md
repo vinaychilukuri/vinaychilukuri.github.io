@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Enabling Sales executives to perform better
-case-tag: User Research, Product Strategy
+case-tag: User Research, Product Strategy, Interaction Design
 year: 2016
 imgurl: /assets/img/sales-graph.svg
 img_dir: /assets/img/cases/sales
@@ -18,6 +18,10 @@ To improve the effectiveness of these trainings, [KNOLSKAPE](http://www.knolskap
 The intent was to build a simulated training intervention for Sales executives with an experience of 0-3 years.
 
 <div class="row">
+<div class="col hero-img">
+![img]({{page.img_dir}}/hero-sales-funnel.png)
+</div>
+
 <div class="col">
 #### Duration
 Year of 2016.
@@ -25,8 +29,8 @@ Year of 2016.
 #### Role
 {{page.case-tag}}
 
-#### Impact
-Built training interventions that met the customer needs with a satisfaction score 4.5/5.
+<!-- #### Impact
+Designed a product that trains sales people at the right time and  -->
 
 </div>
 </div>
@@ -34,7 +38,7 @@ Built training interventions that met the customer needs with a satisfaction sco
 
 ## Background
 
-During a product strategy session, our CEO had announced that we should be working on a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Some of the people in the room looked determined while some of us looked confused without much context and data supporting this claim.
+During a product strategy session, our CEO had announced that we  develop a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked looked confused without much context of the problem.
 
 ### Bringing order to the chaos
 
@@ -42,12 +46,11 @@ To bring clarity to the disucssion, I requested our CEO to go through the proble
 
 ![lean-canvas](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F616a5a261b6f43c3937d95fb80691ee8%2Fleancanvas.png?w=1.0&s=1a8a41ce66e919bf69a5bc8d93317051)
 
-This process helped all of us to get a shared understanding of the problem. Regarding the solution, a simulated assessment for sales training, I have felt that the team had jumped to a solution that it was comfortable in building in the past than searching for one that effectively addresses the customer needs.
+This process helped everyone get a shared understanding of the problem. I have felt that the team had jumped to a solution that it was comfortable in building in the past than searching for one that effectively addresses the customer needs.
 
 > Is the proposed solution good enough to make a positive impact on a sales person's performance? Can we do something better?
 
-I voiced out my concern. The reply was it definitely was not enough, but this was a step in the right direction.
-I was not fully convinced.
+I voiced out my concern. The reply being it definitely was not enough, but this was a step in the right direction. For me, the proposed solution was not convincing as a means to solve the pain.
 
 ## User Research
 I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. My CEO proactively connected me with few of his contacts from the Sales community.
@@ -58,70 +61,67 @@ I sought agreement about talking to the users before jumping in to the solution 
 
 ### User Interviews
 
-I started my one-on-one interviews with our 5 internal sales folks. Hearing their stories on the field, made me respect what they did. I then interviewed 5 Sales managers/directors to know their point of views on sales training. Lastly, I have conducted an open-ended survey with one of the largest LinkedIn communities in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"}
+I started my one-on-one interviews with our 5 internal sales folks. I then interviewed 5 Sales managers to know their point of views on sales performance. Lastly, I have conducted an open-ended survey with a LinkedIn community in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"}
 
 <ul class="gallery">
 	<li data-thumb="{{page.img_dir}}/thumb-1.svg"><img src="{{page.img_dir}}/user-int-afmap.png" alt="user interviews"></li>
 	<li data-thumb="{{page.img_dir}}/thumb-2.svg"><img src="{{page.img_dir}}/manager-int-afmap.png" alt="manager interviews"></li>
 	<li data-thumb="{{page.img_dir}}/thumb-3.svg"><img src="{{page.img_dir}}/survey-summary.png" alt="survey-summary"></li>
 </ul>
-<!-- 
-![img]({{page.img_dir}}/user-int-af-map.png)
-![img sd]({{page.img_dir}}/manager-int-af-map.png)
-![survey-summary center]({{page.img_dir}}/survey-summary.svg) -->
 
-The thing that surprised me the most was none of the 10 people that I had interviewed remembered attending any training to learn the ropes of the sales process. Their learning was all on the job.
+It was surprising to find out that none of the 10 interviewees had attended any formal training to learn Sales. Their learning was all on the job.
 
-## Synthesis
+### Synthesis
 
-I have synthesized the findings from the user interviews and the survey in the style of an empathy map.
+*Findings from user research synthesized in the style of an empathy map.*
 
 ![empathy-map center]({{page.img_dir}}/sales-emp-map.png)
 
-It was clear that though imparting a sales process was important, there were other pressing pain points that are hindering sales people to get better at their jobs. In my opinion, targeting a pain point that people are aware of leads to better adoption of a solution.
 
-### Proposing a solution — How might we?
+It was clear that though imparting a sales process was important, there were other pressing pain points that were hindering sales people to get better at their jobs. Targeting a pain point that people are aware of leads to better adoption of a solution.
 
-From my observations, a sales person needed the most support in the context of a client meeting. Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing the deal. The better the meeting, the better the possibility of a deal.
 
->> I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
+## Proposing a solution — How might we?
+From my observations, a sales person needed the most support in the context of a **client meeting.** Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing a deal. The better the meeting, the better the prospect of a deal.
 
-This refined the problem into a more specific space-time and enabled me to brainstorm various ideas.
+> I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
 
-<!-- >> have images here << -->
+This refinement into a more specific space-time helped me in exploring various ideas.
 
-The solution involved assisting and training the sales person, on-the-go, before a sales meeting. At the end of a stipulated time, the users would be getting a report of their performance.
+<ul class="gallery">
+	<li><img src="{{page.img_dir}}/sales-sketch1.jpg" alt="user interviews"></li>
+	<li><img src="{{page.img_dir}}/sales-sketch2.jpg" alt="manager interviews"></li>
+	<li><img src="{{page.img_dir}}/sales-sketch3.jpg" alt="survey-summary"></li>
+</ul>
 
 *(I cannot divulge finer aspects of the solution due to the N.D.A that I have with KNOLSKAPE.)*
 
+The solution was received with great enthusiasm and everyone saw the value in it, including our internal sales team.
+
 ### Technical Challenges
 
-The solution was received with great enthusiasm and everyone saw the value in it, including our internal sales team. However, in order to build a solution of this manner required deep technological expertise on mobile, which was then not the case. Hence, we had to stick to the medium of web. It was a compromise because the solution hinged on supporting the sales executive on-the-go prior to a meeting.
+The solution required deep mobile development expertise which was lacking at that point. We had agreed to build a web version and make it work on a tablet. It was a compromise because the solution hinged on supporting the sales executive **on-the-go** before a meeting.
 
-> I had to digest that the solution proposed by me, though had great potential, due to the business and technological constraints — was not green lit.
-
-## Validating the solution
-To test if the solution we were going with had enough value - I proposed to design a report that would be generated once a user takes the simulated assessment.
-
-We wanted to test if this generated report and the metrics we were showing to Sales Managers had enough value for them to hire KNOLSKAPE as their training provider for Sales.
+### Validating the solution
+To test if this solution had enough value, I proposed to design a report that would be generated once a user uses our product for a period of time.
 
 ![img]({{page.img_dir}}/report-testing.png)
-_A stock photo. Not indicative of the actual report that was used for testing_
+_A stock photo. Not indicative of the actual report used for testing_
 
-What went into the report were totally driven by my understanding of the pain points from the user research study that I have done. This style of testing, apparently, is called a Wizard of Oz test in the lean startup world, for reasons unknown to me.
+Me along with my product manager spoke to potential customers (Sales Managers) about the value of a summative performance report for their team members. We received inputs on the metrics they expected to see in the report.
 
-We spoke to the potential customers and they showed enough interest in having a report like this for each of their employees. The important learning is that this solution benefits the customer and not as much to the end user. In a B2B environment, this is crucial because the solution should appeal to choosers first and then the users. 
+Armed with this knowledge, we proceeded for development of the solution.
 
 ## Key Learnings & Impact
 
 User research helps in developing a deep bond with the users and truly enables one to be user-centric instead of guessing what the user might want.
 
-In my opinion, conducting diary studies would have revealed the pain points for a sales person, in greater depth. However, I was not aware of this technique at the time of starting this study.
+In retrospect, conducting diary studies would have revealed the pain points for a sales person, in greater depth. However, I was not aware of this technique at the time of starting this study.
 
 ![img]({{page.img_dir}}/diary-study.png)
 
 ### Impact
 
-This study has strengthened the case for user research in the organization not just for the benefit of design teams but it also allowed Product Managers to know the business problems in more detail and take an informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights user research even helped the learning solutions team of KNOLSKAPE to create an effective training material for a Sales journey.
+This study strengthened the case for user research in the organization. It allowed Product Management to take informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights from research even helped the Learning solutions team to create an effective training material for a Sales journey.
 
-By end of it all I imbibed that the adoption of user research as a practice is a critical step in improving the design maturity of an organization and raising the value a designer brings to the table.
+The adoption of user research as a practice is a critical step in improving the design maturity of an organization.
