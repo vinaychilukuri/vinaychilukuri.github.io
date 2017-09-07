@@ -51,31 +51,35 @@ The existing learning management system needed a major revision from the ground 
 - Once, I am inside a course, where am I in it?
 - What is the next item in the course that I am going to take as I reach the end of the current item?
 
-### Design for Action
+### Designing for Action
 I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client. I have also studied existing online interfaces of MOOC platforms to understand how the navigation flow.
 
 >An important question for a user who comes to an online learning platform is: 
-**_What do I learn today?_**
+**What do I learn today?**
 
 <div class="full-width"><img src="{{page.img_dir}}/profile-home.png" alt="profile">
 </div>
 
 The re-designed homepage has many ways for the user to take a decision on what to learn. Bringing the above three items up-front intents to a **bias for action**.
 
-<div class="full-width"><img src="{{page.img_dir}}/course-menu-bar.svg" alt="course-menu-bar">
-</div>
+<ul class="gallery">
+	<li><img src="{{page.img_dir}}/course-bar-0.png"></li>
+	<li><img src="{{page.img_dir}}/course-bar-1.jpg"></li>
+	<li><img src="{{page.img_dir}}/course-bar-2.png"></li>
+</ul>
 
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, **a bias for action**.
 
-![img]({{page.img_dir}}/course-bar-todo.svg)
+![img]({{page.img_dir}}/course-bar-todo.png)
 
 The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
 Now that the fundamentals of the interface had been fixed, it was time to add a persuasive layer to the system that would incentivize their learning.
 
 ### Bringing an element of play
+
 ![img]({{page.img_dir}}/al_web_road.png)
 *The initial idea was to create various themes like the above and let the client pick a theme from one of them suiting to their need.*
 
@@ -87,11 +91,19 @@ With an organizational shift of product strategy to mobile, the management prior
 
 The mobile system needed to have robust usability with an added layer of persuasive mechanics, to further engage the learners. The intent was to port this layer to the web interface, post the app's release.
 
-#### Navigation on mobile
+### User testing 
 
 ![img right]({{page.img_dir}}/al-mobile-nav-screen.png)
 
-The navigation on mobile had the primary elements as shown to the right. We tested the navigation along with the key tasks of the app, using a prototype, with internal employees. People were given a series of tasks in terms of finding various sections of the course.
+Having designed the mobile navigation after many iterations, we tested the navigation along with the key tasks of the app, using a prototype, with internal employees.
+
+The major findings were: 
+- The icons used for denotating various components of a training, like Quiz, Assignments were not clear, on their own.
+- The nomenclature of 'Rewards', 'Grades', 'Scores' was confusing.
+- Some users had difficulty in going back to 'All Courses' screen from within the course screen.
+
+I resolved the above issues and proceeded for higher fidelity to the app.
+<p style="clear: both"></p>
 
 ### Welcoming the learner to a course
 
@@ -101,11 +113,9 @@ Using native animations on mobile and employing creative loading states, whereve
 
 ### Caring about the learner's progress
 
-It is imperative to show messages from the system that acknowledges the learner's progress as he/she goes through the training. I  designed screens that would represent the progress as a means to show that the app (and there by the client) cares about the learner's progress throughout the training duration.
+It is important to show relevant messages from the system that acknowledges the learner's progress as a means of encouragement. Using ✨ playful emoji 🙌 added to the effect.
 
 ![img]({{page.img_dir}}/pr-1-cut.png)
-
-Each of these would come at specific times during the learner's progress and are important to the experience as a means to encourage the learner and also that the system acknowledges his/her progress using ✨ playful emoji 🙌🏽  and corresponding text.
 
 ![img center]({{page.img_dir}}/pr-2-cut.png)
 
@@ -116,6 +126,7 @@ To further engage a learner, the product team had decided to use gamified elemen
 However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements at the right time of the user flow.
 
 ![img center]({{page.img_dir}}/badges.svg)
+*Some of the badges awarded to the learner in a training scenario.*
 
 ### Visual Design
 

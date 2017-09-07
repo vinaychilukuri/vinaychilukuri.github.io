@@ -639,13 +639,9 @@ footer{
 	}
 }
 
-.lSSlideOuter{
+#user-interviews+p+.lSSlideOuter{
 	display: flex;
 	flex-direction: column-reverse;
-}
-
-.gallery{
-	height: 75% !important;
 }
 
 // Import partials.

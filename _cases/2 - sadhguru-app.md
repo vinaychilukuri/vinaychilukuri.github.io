@@ -49,7 +49,7 @@ Touched by the insight of Sadhguru and deep experience that I had felt through I
 ### My Role
 I was contributing as a volunteer on the side by working nights, for about 5 hours per week.
 
-There were three things that needed to be done:
+In order for an effective design, there were three things that needed to be done:
 1. Understand the user needs and business goals.
 2. Structure the content on a strong foundation of Information Architecture (IA).
 3. Give a task-oriented context to the information, so that the content could be easily consumed in a mobile context.
@@ -66,15 +66,15 @@ After a few stakeholder interviews, I have uncovered the following needs:
 - Users should be able to find ISHA foundation's Yoga programs happening in their area.
 - The organization needs to promote it's various outreach activities and be able to attract volunteers, donations for each of these.
 
-### Analytics
+#### Analytics
 
-Studying analytics data revealed that ~70% of the traffic was going to Sadhguru's pages which had a lot of articles and videos. People were also very interested to know where Sadhguru is going to be at any given point of time; their curiosity about his schedule was high. This was one of the most viewed pages on the desktop version of the website.
+Studying analytics data revealed the pages with maximum traffic. This was also an input point in prioritising the information to meet the user's demand.
 
 ## 2) Constructing the Information Architecture
 
-Given that there were so many navigation items on the web, I did not want the user to feel the same on the mobile app. In the need to accommodate all of the content on the website, I prioritized the content according to user needs and business needs and then re-evaluated the IA of the website. 
+Given that there were so many navigation items on the web, I did not want the user to feel the same on the mobile app. I prioritized the content according to user & business needs, frequency of content being updated and re-evaluated the IA of the website.
 
-![img]({{page.img_dir}}/isha-web-nav.png)
+<!-- ![img]({{page.img_dir}}/isha-web-nav.png) -->
 
 Re-looking at the navigation of the web with the lens of user & business needs yielded the following grouping: 
 
@@ -86,17 +86,6 @@ As I was volunteering on the side, I had little time to do any formal validation
 
 <p style="clear:both"></p>
 ### Translating the I.A into a navigation system on mobile
-
-<!-- From the very beginning, there were a few principles that I wanted to adhere to:
-
-- Cue the user about the available information with least amount of effort.
-- Make the structure of information look like as if Sadhguru is speaking to the user. As if, they are receiving content from the Master.
-
-![img center]({{page.img_dir}}/mobile-nav-bottom-bar.png)
-
-- Let the user to discover various facets of 'updates' from ISHA rather than he/she "figuring" something out. This is critical for user engagement in the context of a mobile app. 
-
-#### Death to the Hamburger -->
 
 The stakeholders had proposed to have all the navigation items on the web as part of a hamburger menu on the mobile. However, the bottom-bar navigation was a better bet for the information architecture we had.
 
