@@ -1,0 +1,16 @@
+<section class="testimonials">
+    <h4>Testimonials</h4>
+    <div class="row">
+    {% for recco in site.reccos %}
+      <div class="col">
+        <img src="{{recco.img}}" alt="">
+        <h5>{{recco.name}}</h5>
+        <span><i>{{recco.role}}</i></span>
+        <div class="recco-data">{{recco.excerpt}}</div>
+      </div>
+    {% endfor %}
+    </div>
+
+    <a class="btn" href="#">View detailed testimonials</a>
+    <div class="disclaimer"><i>Excerpts from testimonials on LinkedIn.</i></div>
+  </section>

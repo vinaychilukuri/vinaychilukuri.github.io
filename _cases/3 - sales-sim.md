@@ -84,24 +84,24 @@ It was clear that though imparting a sales process was important, there were oth
 
 From my observations, a sales person needed the most support in the context of a client meeting. Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing the deal. The better the meeting, the better the possibility of a deal.
 
-> I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
+>> I refined the problem of  "How do I get better at my job?" to "How might we enable him/her perform better every time in a sales meeting?"
 
-This refined the problem into a more specific space-time and enabled me to brainstorm various solutions.
+This refined the problem into a more specific space-time and enabled me to brainstorm various ideas.
 
-From a business stand-point, using a service every time a sales person has a meeting, which is frequent, is of higher value than conducting a training intervention once or twice a year.
+<!-- >> have images here << -->
 
-Armed with the empathy of talking to sales folks and understanding their pain points, I  proposed a solution that addresses the above scenario. *(I cannot divulge any aspect of the solution due to the N.D.A that I have with KNOLSKAPE.)*
+The solution involved assisting and training the sales person, on-the-go, before a sales meeting. At the end of a stipulated time, the users would be getting a report of their performance.
+
+*(I cannot divulge finer aspects of the solution due to the N.D.A that I have with KNOLSKAPE.)*
 
 ### Technical Challenges
 
-The solution was received with great enthusiasm and everyone saw the value in it, including our internal sales team. However, in order to build a solution of this manner required deep technological expertise on mobile, which was then not the case. The harsh reality was the team was not equipped enough in terms of skill to build the proposed solution. We did not have the option of outsourcing this as it would mean a lot of development time. As a result, the product team could not immediately jump in building this.
+The solution was received with great enthusiasm and everyone saw the value in it, including our internal sales team. However, in order to build a solution of this manner required deep technological expertise on mobile, which was then not the case. Hence, we had to stick to the medium of web. It was a compromise because the solution hinged on supporting the sales executive on-the-go prior to a meeting.
 
 > I had to digest that the solution proposed by me, though had great potential, due to the business and technological constraints — was not green lit.
 
-However, the learnings from the study did not go waste. We wanted to combine the pain points unearthed from the study and use it in the initial idea of simulated assessment.
-
 ## Validating the solution
-In order to see if the simulated assessment which was now refined due to the learnings from my user research studies, had any potential - I proposed to design a report that would be generated once a user takes the simulated assessment.
+To test if the solution we were going with had enough value - I proposed to design a report that would be generated once a user takes the simulated assessment.
 
 We wanted to test if this generated report and the metrics we were showing to Sales Managers had enough value for them to hire KNOLSKAPE as their training provider for Sales.
 

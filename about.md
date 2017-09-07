@@ -35,6 +35,8 @@ Outside of work, you will find me talk passionately about yoga, movies and trave
 I am looking to collaborate with a team of talented folks from whom I could learn from and share my passion for what I do. If you are interested to know more -- [please get in touch](mailto:vinay.chilukuri@gmail.com).
 </div>
 
-<!-- Perhaps, a skills section with a full-width bg? -->
+</div>
 
+<div markdown="0" style="margin-bottom: -64px">
+{% include testimonial_excerpts.html %}
 </div>

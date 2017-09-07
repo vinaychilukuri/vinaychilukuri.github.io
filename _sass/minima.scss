@@ -238,6 +238,27 @@ section{
 	}
 }
 
+		// EmailMe button
+.btn{
+	@include system-font(16px);
+	display: inline-block; width: 150px;
+	background: darkblue;
+	color: white;
+	font-weight: bolder;
+	padding: 12px;
+	border-radius: 2rem;
+	text-align: center;
+
+	transition: box-shadow 0.4s ease;
+
+	&:hover{
+		text-decoration: none;
+		box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
+	}
+
+	&:visited{color: white;}
+}
+
 // About Me
 .about-page-headline{
 	color: $oc-gray-7;
@@ -425,6 +446,70 @@ hr{margin-bottom: 10px !important;}
 	&:last-child{border-bottom: none;}
 }
 
+.testimonials{
+	@include full-width-bar(hsl(234, 50, 97));
+	margin-top: 64px !important;
+	margin-bottom: 0px !important;
+	padding-bottom: 15px;
+
+	.disclaimer{
+		font-size: 0.8rem;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		top: -20px;
+	}
+
+	img{
+		float: left;
+	    border-radius: 50%;
+	    width: 60px;
+	    display: block;
+	    margin: 0 10px 0 0;
+	    filter: grayscale(100%);
+	}
+
+	h4{border-bottom: 4px solid #a2a9e7;} //a2a9e7
+
+	h5{
+		margin: 0px !important;
+		padding-top: 10px;
+		font-size: 1rem;
+		line-height: 1;
+	}
+	span{
+		display: inline-block;
+		font-size: 80%;
+		color: $oc-gray-7;
+	}
+
+	.recco-data{
+		&:before, &:after {content: '"';}
+		padding: 10px 0;
+		margin-bottom: 25px;
+		@include system-font(15px);
+	}
+
+	.btn{
+		display: none;
+		width: 300px;
+		background-color: white;
+		color: $oc-gray-8;
+		border: 1px solid $oc-orange-4;
+		margin: 30px auto;
+		box-shadow: none;
+		font-weight: normal;
+		transition: background-color 0.3s ease;
+
+		&:hover{
+			background-color: $oc-orange-1;
+			border: 1px solid $oc-orange-2;
+			color: black;
+		}
+	}
+}
+
 .related-cases{
 	@include full-width-bar(#fcfcfc);
 	@include system-font;
@@ -462,7 +547,7 @@ hr{margin-bottom: 10px !important;}
 }
 
 footer{
-	background-color: $oc-gray-1;
+	background-color: #fefefe;
 	text-align: center;
 
 	@include system-font(16px);
@@ -471,24 +556,6 @@ footer{
 		margin: 35px auto;
 
 		h4{letter-spacing: 0.5px;}
-		
-		// EmailMe button
-		a{
-			display: inline-block; width: 150px;
-			background: darkblue;
-			color: white;
-			font-weight: bolder;
-			padding: 12px;
-			border-radius: 24px;
-
-			transition: box-shadow 0.4s ease;
-
-			&:hover{
-				text-decoration: none;
-				box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
-			}
-
-		}
 	}
 
 	.social-profile {
@@ -534,7 +601,7 @@ footer{
 		}
 	}
 
-	.work{text-align: center;}
+	.work, .testimonials h4{text-align: center;}
 	.case-block-link{text-align: left;}
 
 	.post-content h3{
