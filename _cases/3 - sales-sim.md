@@ -11,11 +11,11 @@ permalink: /case/sales-user-research
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 
-"How do I get better at my job?" is a question that arises in almost all of us at some point in a professional career. One of the most common solutions addressing this question in a corporate environment is **training.** However, these trainings often times are boring, tedious and in most cases lack any real life connection.
+"How do I get better at my job?" is a question that arises in almost all of us at some point in a professional career. One of the most common solutions addressing this in a corporate environment is **training.** However, these trainings often times are boring, tedious and lack any real life connection.
 
 To improve the effectiveness of these trainings, [KNOLSKAPE](http://www.knolskape.com){:target="_blank"} creates a differentiator by simulating the real world environments of corporate teams and having the users experience it before they get into their role. (Eg: The user of a simulation has to step into the shoes of a manager and lead a team.)
 
-The intent was to build a simulated training intervention for Sales executives with an experience of 0-3 years.
+In this vein, a project to build a simulated training intervention for Sales executives with an experience of 0-3 years, was proposed.
 
 <div class="row">
 <div class="col hero-img">
@@ -38,7 +38,7 @@ Designed a product that trains sales people at the right time and  -->
 
 ## Background
 
-During a product strategy session, our CEO had announced that we  develop a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked looked confused without much context of the problem.
+During a strategy session, our CEO had announced that we  develop a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked looked confused without much context of the problem.
 
 ### Bringing order to the chaos
 
@@ -50,10 +50,10 @@ This process helped everyone get a shared understanding of the problem. I have f
 
 > Is the proposed solution good enough to make a positive impact on a sales person's performance? Can we do something better?
 
-I voiced out my concern. The reply being it definitely was not enough, but this was a step in the right direction. For me, the proposed solution was not convincing as a means to solve the pain.
+I voiced out my concern. The reply was that it definitely was not enough, but this was a step in the right direction. For me, the proposed solution was not convincing as a means to solve the pain.
 
 ## User Research
-I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. My CEO proactively connected me with few of his contacts from the Sales community.
+I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. I also wanted to know the impact of a lack of a formal training in Sales. My CEO proactively connected me with few of his contacts from the Sales community.
 
 *I jotted down the following questions that would act as a guide in the interviews*
 
@@ -77,9 +77,7 @@ It was surprising to find out that none of the 10 interviewees had attended any 
 
 ![empathy-map center]({{page.img_dir}}/sales-emp-map.png)
 
-
-It was clear that though imparting a sales process was important, there were other pressing pain points that were hindering sales people to get better at their jobs. Targeting a pain point that people are aware of leads to better adoption of a solution.
-
+I've learnt that though teaching a formal process was important for someone at the start of their career, there were other pressing pain points. Moreover, this was not something people were conscious of. Targeting a pain point that people are aware of leads to better adoption of a solution.
 
 ## Proposing a solution — How might we?
 From my observations, a sales person needed the most support in the context of a **client meeting.** Meetings are critical in making progress - be it qualifying a lead, negotiating with them, or closing a deal. The better the meeting, the better the prospect of a deal.
@@ -108,7 +106,7 @@ To test if this solution had enough value, I proposed to design a report that wo
 ![img]({{page.img_dir}}/report-testing.png)
 _A stock photo. Not indicative of the actual report used for testing_
 
-Me along with my product manager spoke to potential customers (Sales Managers) about the value of a summative performance report for their team members. We received inputs on the metrics they expected to see in the report.
+Our product manager spoke to potential customers (Sales Managers) about the value of a summative performance report for their team members. We received inputs on the metrics they expected to see in the report.
 
 Armed with this knowledge, we proceeded for development of the solution.
 

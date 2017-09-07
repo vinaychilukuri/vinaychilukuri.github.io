@@ -5,7 +5,7 @@
 	        item:1,
 	        thumbItem:3,
 	        slideMargin: 0,
-	        speed: 1000,
+	        speed: 800,
 	        mode: 'fade',
 	        easing: 'ease-in-out',
 	        cssEasing: 'ease-in-out',

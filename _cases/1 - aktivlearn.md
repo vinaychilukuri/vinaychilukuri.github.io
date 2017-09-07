@@ -37,7 +37,7 @@ Training completions increased by <b>23%</b>; User engagement up by <b>48%</b>.
 KNOLSKAPE hired an open-source Learning Management System (LMS) as the foundation upon which the intended system would be developed.
 
 ### My Role
-I was leading the UX for this project, which involved revamping the design of an existing learning management system from the ground up. In addition to gathering requirements from stakeholders, translating the requirements to prototypes, I have also conducted usability tests with internal employees in order to ensure that the proposed designs were user-centric.
+I was leading the UX for this project, which involved revamping the design of an existing learning management system from the ground up. In addition to gathering requirements from stakeholders, translating the requirements to prototypes, I conducted usability tests with internal employees in order to ensure that the proposed designs were user-centric.
 
 ## ACT 1 - Usability first
 
@@ -124,7 +124,7 @@ We had a third-party agency come on-board with the visual design of the app. How
 ## ACT 3 - Conclusion
 
 #### Impact of the redesign.
-Training completion rates on the web, after the redesign, increased by <b>23%</b>. This was validated by a positive S.U.S (System Usability Scale) score. The user's engagement measured by time on site and number of sessions over a week, has increased by <b>48%</b>. The number of UI bug reports have also considerably reduced.
+Training completion rates on the web, after the redesign, increased by <b>23%</b>. This was validated by a positive S.U.S (System Usability Scale) score of 74. The user's engagement measured by time on site and number of sessions over a week, has increased by <b>48%</b>. The number of UI bug reports have also considerably reduced.
 
 ![al-app-logo sd-l](/assets/img/al-app-icon.svg)
 The mobile app had found a new use case. Besides being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
