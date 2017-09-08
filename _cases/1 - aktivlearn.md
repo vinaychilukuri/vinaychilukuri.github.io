@@ -72,7 +72,7 @@ The re-designed homepage has many ways for the user to take a decision on what t
 
 The course action-bar element would be present on all the pages of a course that are not part of the course-content, viz., calendar, discussion pages, announcements etc. This ensures that the learner does not have to think twice about resuming the course from anywhere. Again, **a bias for action**.
 
-![img]({{page.img_dir}}/course-bar-todo.png)
+![img center]({{page.img_dir}}/course-bar-todo.png)
 
 The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
 
@@ -80,10 +80,10 @@ Now that the fundamentals of the interface had been fixed, it was time to add a 
 
 ### Bringing an element of play
 
+With inputs from the product manager, I began making the course of the training into a visual journey. The intent was to translate the often serious environment of an LMS into a playful world. 
+
 ![img]({{page.img_dir}}/al_web_road.png)
 *The initial idea was to create various themes like the above and let the client pick a theme from one of them suiting to their need.*
-
-With inputs from the product manager, I began making the course of the training into a visual journey. The intent was to translate the often serious environment of an LMS into a playful world. 
 
 ## ACT 2 - A shift to Mobile
 
@@ -115,16 +115,15 @@ Using native animations on mobile and employing creative loading states, whereve
 
 It is important to show relevant messages from the system that acknowledges the learner's progress as a means of encouragement. Using ✨ playful emoji 🙌 added to the effect.
 
-![img]({{page.img_dir}}/pr-1-cut.png)
-
+![img center]({{page.img_dir}}/pr-1-cut.png)
 ![img center]({{page.img_dir}}/pr-2-cut.png)
 
 ### Designing for motivation
 
-To further engage a learner, the product team had decided to use gamified elements like points, badges, and leaderboards. The content needed to be inherently engaging — without that, any of the persuasive techniques will only yield mediocre results.
+To further engage a learner, the product team had decided to use gamified elements like points, badges, and leaderboards. The content needed to be inherently engaging — without that, any of the persuasive techniques will only yield mediocre results. I designed a strategy on how to use gamification elements at the right time of the user flow.
 
-However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements at the right time of the user flow.
-
+<!-- However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements at the right time of the user flow.
+ -->
 ![img center]({{page.img_dir}}/badges.svg)
 *Some of the badges awarded to the learner in a training scenario.*
 

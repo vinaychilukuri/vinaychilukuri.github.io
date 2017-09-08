@@ -36,7 +36,7 @@ Designed a product that trains sales people at the right time and  -->
 </div>
 </div>
 
-## Background
+### Background
 
 During a strategy session, our CEO had announced that we  develop a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked looked confused without much context of the problem.
 
@@ -55,10 +55,10 @@ I voiced out my concern. The reply was that it definitely was not enough, but th
 ## User Research
 I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. I also wanted to know the impact of a lack of a formal training in Sales. My CEO proactively connected me with few of his contacts from the Sales community.
 
-*I jotted down the following questions that would act as a guide in the interviews*
+<!-- *I jotted down the following questions that would act as a guide in the interviews*
 
 ![img research-questions]({{page.img_dir}}/questions.png)
-
+ -->
 ### User Interviews
 
 I started my one-on-one interviews with our 5 internal sales folks. I then interviewed 5 Sales managers to know their point of views on sales performance. Lastly, I have conducted an open-ended survey with a LinkedIn community in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"}
@@ -116,7 +116,7 @@ User research helps in developing a deep bond with the users and truly enables o
 
 In retrospect, conducting diary studies would have revealed the pain points for a sales person, in greater depth. However, I was not aware of this technique at the time of starting this study.
 
-![img]({{page.img_dir}}/diary-study.png)
+![img center]({{page.img_dir}}/diary-study.png)
 
 ### Impact
 

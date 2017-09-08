@@ -129,14 +129,14 @@ body{
 	}
 
 	h2{
-		margin-top: 64px;
-		clear: both;
-		font-size: 1.5rem !important;
+		margin: 150px 0 100px 0;
+		clear: both; text-align: center;
+		font-size: 1.8rem !important;
 	}
 
-	h3{margin-top: 48px;}
-	h4{margin-top: 32px;}
-	h5{margin-top: 16px;}
+	h3{margin: 96px 0 24px 0;} //48
+	h4{margin: 64px 0 24px 0;} //32
+	h5{margin-top: 40px;} //16
 
 	.site-header{
 		// border-bottom: 1px solid $oc-orange-2;
@@ -304,7 +304,7 @@ section{
 		font-family: 'Faustina';
 	}
 
-	h4{color: $oc-yellow-4; margin-bottom: 30px;}
+	h4{color: $oc-yellow-4; margin: 30px 0;}
 	a{color: $oc-cyan-5 !important;}
 	b{color: $oc-gray-5;}
 }
@@ -370,7 +370,7 @@ h4{
 }
 
 p{
-	margin-bottom: 24px !important;
+	margin-bottom: 32px !important; //24px
 	letter-spacing: 0px;
 }
 
@@ -382,20 +382,20 @@ body blockquote{
 	letter-spacing: 0px;
 	font-size: 125%;
 	border-left: none; //4px solid $oc-indigo-4;
-	margin: 40px 0;
+	margin: 48px 0; //40px 0
 	color: $oc-indigo-9;
 }
 
 p > img{
 	display: block; margin: auto;
-	float: left; padding: 0 25px 25px 0;
+	float: left; padding: 0 32px 32px 0;
 }
 
 iframe.prototype{display: block; margin: auto;}
 
 img[alt~="center"]{
 	float: none; 
-	// padding-top: 30px;
+	margin: 96px auto; padding: 0;
 }
 
 img[alt~="sd"]{width: 50%;}
@@ -514,7 +514,7 @@ hr{margin-bottom: 10px !important;}
 .related-cases{
 	@include full-width-bar(#fcfcfc);
 	@include system-font;
-	padding-top: 30px; padding-bottom: 35px;
+	padding-top: 64px; padding-bottom: 72px;
 	margin-top: 64px;
 	border: 1px solid $oc-gray-2;
 
@@ -637,6 +637,10 @@ footer{
 		ul{flex-direction: column;}
 		.rel-case{width: auto;}
 	}
+}
+
+.gallery, .gallery-autoplay{
+	margin: 64px 0;
 }
 
 #user-interviews+p+.lSSlideOuter{

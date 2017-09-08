@@ -91,7 +91,7 @@ The stakeholders had proposed to have all the navigation items on the web as par
 
 *The hamburger menu had become so pervasive that people were treating it as a standard.*
 
-![navigation-options]({{page.img_dir}}/ham--bottom-bar.png)
+![navigation-options center]({{page.img_dir}}/ham--bottom-bar.png)
 
 In order to resolve this, I have not only pointed out Google's then recently updated material design guidelines, but also educated them why the bottom-bar was efficient and how it increases content engagement.
 
