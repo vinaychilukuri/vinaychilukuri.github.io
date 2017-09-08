@@ -38,21 +38,22 @@ Designed a product that trains sales people at the right time and  -->
 
 ### Background
 
-During a strategy session, our CEO had announced that we  develop a new product -- a simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked looked confused without much context of the problem.
+During a strategy session, our CEO had announced that we develop a new product -- a training simulation for sales executives. He opined that since there were no effective trainings that teach a formal sales process to freshers, a simulation about the process of selling, would work well in this regard. Most of the people in the room looked confused without much context of the problem.
 
-### Bringing order to the chaos
+### Understanding the problem
 
 To bring clarity to the disucssion, I requested our CEO to go through the problem and the proposed solution in the format of a Business Model Canvas (BMC). I used the Lean Canvas framework to capture inputs from various stakeholders.
 
 ![lean-canvas](https://notion.imgix.net/https%3A%2F%2Fstatic.notion-static.com%2F616a5a261b6f43c3937d95fb80691ee8%2Fleancanvas.png?w=1.0&s=1a8a41ce66e919bf69a5bc8d93317051)
 
-This process helped everyone get a shared understanding of the problem. I have felt that the team had jumped to a solution that it was comfortable in building in the past than searching for one that effectively addresses the customer needs.
+This process helped everyone get a shared understanding of the problem. Regarding the solution, however, I felt that the team had jumped to a solution that it was comfortable in building in the past than searching for one that effectively addresses the customer needs.
 
 > Is the proposed solution good enough to make a positive impact on a sales person's performance? Can we do something better?
 
-I voiced out my concern. The reply was that it definitely was not enough, but this was a step in the right direction. For me, the proposed solution was not convincing as a means to solve the pain.
+I voiced out my concern. It definitely was not enough, but this was a step in the right direction -- was the reply. I did not find the proposed solution convincing as a means to solve the pain.
 
 ## User Research
+
 I sought agreement about talking to the users before jumping in to the solution mode, as I did not have any context of the world of Sales. I also wanted to know the impact of a lack of a formal training in Sales. My CEO proactively connected me with few of his contacts from the Sales community.
 
 <!-- *I jotted down the following questions that would act as a guide in the interviews*

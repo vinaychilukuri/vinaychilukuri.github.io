@@ -30,6 +30,8 @@ Dec 2016 - Feb 2017
 #### Impact
 Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200</b>k per month.
 
+<p style="font-size: 13px">.5 million downloads on iOS & Android, as of Sep 7th, 2017.</p>
+
 #### App links
 <a href="http://play.google.com/store/apps/details?id=com.ishafoundation.app&hl=en" target="_blank" class="app-link">Android</a>
 <a href="http://itunes.apple.com/in/app/sadhguru/id537568757" target="_blank" class="app-link">iOS</a>
