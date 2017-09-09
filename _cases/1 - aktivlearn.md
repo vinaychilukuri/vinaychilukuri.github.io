@@ -62,10 +62,12 @@ I set out to address the above issues by doing a task-analysis of a user who wou
 
 The re-designed homepage has many ways for the user to take a decision on what to learn. Bringing the above three items up-front intents to a **bias for action**.
 
-<ul class="gallery">
-	<li><img src="{{page.img_dir}}/course-bar-0.png"></li>
-	<li><img src="{{page.img_dir}}/course-bar-1.jpg"></li>
-	<li><img src="{{page.img_dir}}/course-bar-2.png"></li>
+<div id="course-bar"></div>
+<ul>
+	<li data-thumb="{{page.img_dir}}/thumb-0.svg"><img src="{{page.img_dir}}/course-bar-0.png"></li>
+	<li data-thumb="{{page.img_dir}}/thumb-1.svg"><img src="{{page.img_dir}}/course-bar-1.jpg"></li>
+	<li data-thumb="{{page.img_dir}}/thumb-2.svg"><img src="{{page.img_dir}}/course-bar-2.png"></li>
+	<li data-thumb="{{page.img_dir}}/thumb-3.svg"><img src="{{page.img_dir}}/course-bar-3.jpg"></li>
 </ul>
 
 *The re-designed course menu with the course action-bar, act as an anchor point for the learner through out the interface.*

@@ -64,7 +64,8 @@ I sought agreement about talking to the users before jumping in to the solution 
 
 I started my one-on-one interviews with our 5 internal sales folks. I then interviewed 5 Sales managers to know their point of views on sales performance. Lastly, I have conducted an open-ended survey with a LinkedIn community in Sales ([Sales Best Practices)](http://www.linkedin.com/groups/35771){:target="_blank"}
 
-<ul class="gallery" id="sales-user-research">
+<div id="sales-user-research"></div>
+<ul class="gallery">
 	<li data-thumb="{{page.img_dir}}/thumb-1.svg"><img src="{{page.img_dir}}/user-int-afmap.png" alt="user interviews"></li>
 	<li data-thumb="{{page.img_dir}}/thumb-2.svg"><img src="{{page.img_dir}}/manager-int-afmap.png" alt="manager interviews"></li>
 	<li data-thumb="{{page.img_dir}}/thumb-3.svg"><img src="{{page.img_dir}}/survey-summary.png" alt="survey-summary"></li>

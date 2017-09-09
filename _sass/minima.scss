@@ -644,13 +644,34 @@ footer{
 	}
 }
 
-.gallery, .gallery-autoplay{
-	margin: 64px 0;
-}
-
-#user-interviews+p+.lSSlideOuter{
+#sales-user-research+.lSSlideOuter, #course-bar+.lSSlideOuter{
 	display: flex;
 	flex-direction: column-reverse;
+}
+
+.lSSlideOuter{
+	margin: 64px 0 32px 0;
+}
+
+.lSSlideOuter .lSPager.lSGallery li{
+		// width: auto !important;
+		box-sizing: border-box;
+		border-radius: 0px !important;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+
+	&:hover{
+		padding-bottom: 5px;
+		border-bottom: 4px solid $oc-indigo-3;
+	}
+
+	&.active{
+		border-bottom: 4px solid $oc-indigo-9;
+	}
+
+	img{
+		margin: 0 auto;
+	}
 }
 
 // Import partials.
