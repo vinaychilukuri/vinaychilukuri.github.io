@@ -260,6 +260,17 @@ section{
 }
 
 // About Me
+a.about{
+	color: $oc-cyan-7;
+	&:visited{color: $oc-cyan-7}
+
+	&:hover{
+		text-decoration: none;
+		padding-bottom: 3px;
+		border-bottom: 1px dotted $oc-cyan-7;
+	}
+}
+
 .about-page-headline{
 	color: $oc-gray-7;
 	padding-top: 15px;

@@ -115,7 +115,7 @@ The following screen illustrates how content has been re-organized for a mobile 
 <p style="clear:both"></p>
 ## Conclusion
 
-Ever since the app was released, it had been receiving unanimously positive reviews touting that it is extremely simple to use. Isha yoga program registrations have increased by <b>37%</b>, thanks to the mobile app. Donations through the app were averaging at <b>Rs. 2 lac</b> per month, without any marketing whatsoever. Further improvements to the donation forms were planned in order to make the donation experience even better.
+Ever since the app was released, it had been receiving unanimously positive reviews touting that it is extremely simple to use. Isha yoga program registrations have increased by <b>37%</b>, thanks to the mobile app. Donations through the app were averaging at INR. <b>200k</b> per month, without any marketing whatsoever. Further improvements to the donation forms were planned in order to make the donation experience even better.
 
 ![img center]({{page.img_dir}}/playstore-reviews.png)
 
