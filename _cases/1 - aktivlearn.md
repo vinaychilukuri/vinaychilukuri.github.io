@@ -62,6 +62,9 @@ I set out to address the above issues by doing a task-analysis of a user who wou
 
 The re-designed homepage has many ways for the user to take a decision on what to learn. Bringing the above three items up-front intents to a **bias for action**.
 
+#### Inside a Course
+Once a returning user comes to a course, the interface should afford to quickly resume learning, among exploring other pages of the course. Making the users to "think" and figure out what to do, at this step would be slowing them down on the training path.
+
 <div id="course-bar"></div>
 <ul>
 	<li data-thumb="{{page.img_dir}}/thumb-0.svg"><img src="{{page.img_dir}}/course-bar-0.png"></li>
