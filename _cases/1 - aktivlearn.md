@@ -52,7 +52,7 @@ The existing learning management system needed a major revision from the ground 
 - What is the next item in the course that I am going to take as I reach the end of the current item?
 
 ### Designing for Action
-I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client. I have also studied existing online interfaces of MOOC platforms to understand how the navigation flow.
+I set out to address the above issues by doing a task-analysis of a user who would go through a training scenario. I had obtained enough context from our customer development executives who communicate with the client. I have also studied existing online interfaces of MOOC platforms to understand navigation flows.
 
 >An important question for a user who comes to an online learning platform is: 
 **What do I learn today?**

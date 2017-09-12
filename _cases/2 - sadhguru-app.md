@@ -82,9 +82,9 @@ Re-looking at the navigation of the web with the lens of user & business needs y
 
 ![img](/assets/img/cases/isha-app/web-mobile-IA.png)
 
-![img sd]({{page.img_dir}}/IA-mob-exp.png)
+![img]({{page.img_dir}}/sitemap.png)
 
-As I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had positively agreed to the IA that was proposed based on the user needs, business goals, expert opinions and the frequency of content updates.
+As I was volunteering on the side, I had little time to do any formal validation of the IA with actual users. The stakeholders had positively agreed to the IA that was proposed based on the user needs, business goals and the frequency of content updates.
 
 <p style="clear:both"></p>
 ### Translating the I.A into a navigation system on mobile

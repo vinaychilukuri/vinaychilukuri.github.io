@@ -74,7 +74,7 @@ $on-laptop:        800px !default;
 }
 
 @mixin system-font($size: 18px){
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	letter-spacing: -0.1px;
 	font-size: $size;
 }
@@ -97,6 +97,8 @@ $on-laptop:        800px !default;
 		color: mediumblue;
 		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
 	}
+
+	&:visited{color: darkblue;}
 }
 
 /* ------------ */
@@ -142,6 +144,19 @@ body{
 		// border-bottom: 1px solid $oc-orange-2;
 		border-top: none;
 		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
+	}
+
+	// p, li{
+	// 	@include system-font;
+	// 	line-height: 3ex;
+	// }
+
+	blockquote{
+		letter-spacing: 0px;
+		font-size: 125%;
+		border-left: none; //4px solid $oc-indigo-4;
+		margin: 48px 0; //40px 0
+		color: $oc-indigo-9;
 	}
 }
 
@@ -238,7 +253,7 @@ section{
 	}
 }
 
-		// EmailMe button
+// EmailMe button
 .btn{
 	@include system-font(16px);
 	display: inline-block; width: 150px;
@@ -252,6 +267,7 @@ section{
 	transition: box-shadow 0.4s ease;
 
 	&:hover{
+		color: white;
 		text-decoration: none;
 		box-shadow: 0px 5px 25px rgba(0,0,0,0.3);
 	}
@@ -391,14 +407,6 @@ p{
 
 li{
 	margin: 10px 0;
-}
-
-body blockquote{
-	letter-spacing: 0px;
-	font-size: 125%;
-	border-left: none; //4px solid $oc-indigo-4;
-	margin: 48px 0; //40px 0
-	color: $oc-indigo-9;
 }
 
 p > img{
