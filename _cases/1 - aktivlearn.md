@@ -64,7 +64,7 @@ I set out to address the above issues by doing a task-analysis of a user who wou
 The re-designed homepage has many ways for the user to take a decision on what to learn. Bringing the above three items up-front intents to a **bias for action**.
 
 #### Inside a Course
-Once a returning user comes to a course, the interface should afford to quickly resume learning, among exploring other pages of the course. Making the users to "think" and figure out what to do, at this step would be slowing them down on the training path.
+For a returning user, the interface should afford to quickly resume learning, among exploring other pages of the course. Making the users to "think" and figure out what to do, at this step would be slowing them down on the training path.
 
 <div id="course-bar"></div>
 <ul>
@@ -80,7 +80,7 @@ The course action-bar element would be present on all the pages of a course that
 
 ![img center]({{page.img_dir}}/course-bar-todo.png)
 
-The course-bar reflects an upcoming To-Do item for the user, whenever the due-date of an item is fast approaching. Since the course action-bar is present in almost all the pages of the course, we have drastically reduced the ability of the learner to miss a To-do.
+The course-bar presents an upcoming To-Do item whenever the due-date fast approaching. Since it is present in almost all the pages of the course, the possibility of a learner missing a To-do was significantly reduced.
 
 Now that the fundamentals of the interface had been fixed, it was time to add a persuasive layer to the system that would incentivize their learning.
 
@@ -142,7 +142,7 @@ We had a third-party agency come on-board with the visual design of the app. How
 #### Impact of the redesign.
 Training completion rates on the web, after the redesign, increased by <b>23%</b>. This was validated by a positive S.U.S (System Usability Scale) score of 74. The user's engagement measured by time on site and number of sessions over a week, has increased by <b>48%</b>. The number of UI bug reports have also considerably reduced.
 
-![al-app-logo sd-l](/assets/img/al-app-icon.svg)
+![al-app-logo sd-l]({{page.img_dir}}/al-app-icon.svg)
 The mobile app had found a new use case. Besides being a complement to the web interface, the customer development team saw a lot of requests for a post-training engagement model with learners. The product team offered a solution where short consumable content (bites) could be pushed to a learner over a period of time. This seemed to be a good intersection of the business need, the clients' need and how users consume content on a mobile device.
 
 ### My learnings

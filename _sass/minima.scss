@@ -25,6 +25,7 @@ $text-color:       $oc-gray-9 !default;
 $background-color: #fff !default;
 $brand-color:      $oc-indigo-9 !default;
 $hero-bar-bg: #1f2129;
+$hero-gradient: linear-gradient(to bottom, #120941, #0A1036);
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -95,7 +96,7 @@ $on-laptop:        800px !default;
 	&:hover{
 		text-decoration: none;
 		color: mediumblue;
-		box-shadow: 0px 2px 12px rgba(0,0,0,0.2);
+		box-shadow: 0px 2px 15px rgba(0,0,0,0.2);
 	}
 
 	&:visited{color: darkblue;}
@@ -161,15 +162,15 @@ body{
 }
 
 a.site-title{ 
-	font-size: 20px !important;
-	font-weight: 600;
+	font-size: 22px !important;
+	font-family: 'Mukta Malar', sans-serif;
 	text-transform: uppercase;
-	@include system-font;
-	letter-spacing: 0.3px;
+	//@include system-font;
+	letter-spacing: 0.2px;
 
 	background: url(/assets/img/vc-logo.svg) no-repeat;
 	background-size: 40px;
-	background-position: 0px 15px;
+	background-position: 0px 14px;
 	padding: 0 0 0 45px;
 
 	&:hover{
@@ -206,8 +207,8 @@ a.site-title{
 }
 
 .bio{
-	@include full-width-bar($hero-bar-bg);
-	color: $oc-gray-1;
+	@include full-width-bar($hero-gradient);
+	color: $oc-gray-3;
 
 	//margin: 150px 0 50px 0;
 	padding-top: 200px; padding-bottom: 150px;
@@ -227,7 +228,7 @@ a.site-title{
 	p {
 		line-height: 3ex;
 		margin-bottom: 1.5rem !important;
-		color: $oc-gray-2;
+		color: $oc-gray-5;
 
 		span{
 			color: $oc-yellow-4;
@@ -236,7 +237,7 @@ a.site-title{
 }
 
 section{
-	margin-top: 50px;
+	margin-top: 25px;
 	p{font-size: 100%; margin: 20px 0;}
 
 	h4{
@@ -277,8 +278,8 @@ section{
 
 // About Me
 a.about{
-	color: $oc-cyan-7;
-	&:visited{color: $oc-cyan-7}
+	
+	&, &:visited{color: #00ddff;}
 
 	&:hover{
 		text-decoration: none;
@@ -457,11 +458,12 @@ hr{margin-bottom: 10px !important;}
 			//width: 80%;
 			flex: 3.5;
 			font-size: 22px;
+			padding-left: 15px;
 
 			.case-title{line-height: 2.6ex;}
 			.case-tags{
-				font-size: 16px;
-				color: #878787;
+				font-size: 15px;
+				color: #777;
 				position: relative; top: -3px;
 			}
 		}
@@ -470,7 +472,7 @@ hr{margin-bottom: 10px !important;}
 	&:hover {
 		.case-info{
 			.case-tags{
-				color: #646464;
+				color: #555;
 			}
 		}
 	}
