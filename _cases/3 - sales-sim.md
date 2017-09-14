@@ -5,6 +5,7 @@ case-tag: User Research, Product Strategy, Interaction Design
 year: 2016
 imgurl: /assets/img/sales-graph.svg
 img_dir: /assets/img/cases/sales
+hero_img: hero-sales-funnel.png
 permalink: /case/sales-user-research
 ---
 

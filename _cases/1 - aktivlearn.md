@@ -5,6 +5,7 @@ case-tag: Interaction Design, Visual Design
 year: 2015
 imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/aktlearn
+hero_img: hero-al-mob.png
 permalink: /case/aktivlearn
 ---
 <div class="overview">

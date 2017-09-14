@@ -9,7 +9,7 @@ layout: default
     <p><span>Not the average UI/UX guy.</span><br> With a strong focus on user psychology & cognition, I like solving complex problems and design with an intent to create an impact for the business. <a class="about" href="/about" target="_blank">More about me.</a></p>
   </div>
 
-  <section class="work">
+<!--   <section class="work">
     <h4>Some of my design work</h4>
     {% for case in site.cases %}
       <a class="case-block-link" href="{{ case.url | relative_url }}">
@@ -22,15 +22,30 @@ layout: default
         </div>
       </a>
       {% endfor %}  
+  </section> -->
+
+  <section class="work">
+    <h4>Some of my design work</h4>
+    {% for case in site.cases %}
+      <a class="case-block-link" href="{{ case.url | relative_url }}">
+        <div class="case-block row">
+          <img src={{case.img_dir}}/{{case.hero_img}} alt="" class="col">
+          <div class="case-info col">
+            <div class="case-title">{{ case.title | escape }}</div>
+            <span class="case-tags">{{ case.case-tag }}</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}  
   </section>
 
   <section class="work">
     <h4>Other relevant work</h4>
     {% for case in site.other %}
     <a class="case-block-link" href="{{ case.url | relative_url }}">
-        <div class="case-block">
-          <img src="/assets/img/movie-cam.svg" alt="">
-          <div class="case-info">
+        <div class="case-block row">
+          <img src="/assets/img/movie-cam.svg" alt="" class="col">
+          <div class="case-info col">
             <div class="case-title">{{ case.title }}</div>
             <span class="case-tags">{{ case.case-tag }}<span>
           </div>

@@ -5,6 +5,7 @@ case-tag: Information Architecture, Interaction Design
 year: 2017
 img_dir: /assets/img/cases/isha-app
 imgurl: /assets/img/sadhguru-app.jpg
+hero_img: hero-isha-app.png
 permalink: /case/sadhguru-app
 ---
 <div class="overview">

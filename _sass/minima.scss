@@ -210,7 +210,7 @@ a.site-title{
 	color: $oc-gray-1;
 
 	//margin: 150px 0 50px 0;
-	padding-top: 150px; padding-bottom: 100px;
+	padding-top: 200px; padding-bottom: 150px;
 	@include system-font;
 
 	img{
@@ -433,20 +433,29 @@ hr{margin-bottom: 10px !important;}
 
 .case-block-link{
 	@include make-link-as-button;
+	box-shadow: none;
 	margin-bottom: 35px;
+
+	&:nth-child(2n+1){
+		.case-block{
+			display: flex;
+			flex-direction: row-reverse;
+		}
+	}
 
 	.case-block{
 		clear: left;
 		@include system-font;
 
 		img{
-			width: 75px; float: right;
-			padding: 0 20px 20px 30px;
+			//width: 75px; float: right;
+			padding: 0 20px;
+			width: 35%; height: 30%;
 		}
 
 		.case-info {
 			//width: 80%;
-			position: relative; left: 1.2rem;
+			flex: 3.5;
 			font-size: 22px;
 
 			.case-title{line-height: 2.6ex;}
@@ -633,6 +642,10 @@ footer{
 		}
 	}
 
+	.bio{
+		padding-top: 150px; padding-bottom: 80px;
+	}
+
 	.work, .testimonials h4{text-align: center;}
 	.case-block-link{text-align: left;}
 
@@ -645,6 +658,8 @@ footer{
 		display: block;
 		padding-bottom: 15px;
 	}
+
+	.case-block.row{display: flex;}
 
 	p > img, img[alt~="right"]{
 		display: block; margin: auto;
