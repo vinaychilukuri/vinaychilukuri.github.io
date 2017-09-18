@@ -208,7 +208,6 @@ a.site-title{
 
 .bio{
 	@include full-width-bar($hero-gradient);
-	color: $oc-gray-3;
 
 	//margin: 150px 0 50px 0;
 	padding-top: 200px; padding-bottom: 150px;
@@ -223,12 +222,15 @@ a.site-title{
 		font-size: 1.85rem;
 		font-weight: bolder;
 		display: inline-block;
+		color: $oc-gray-3;
 	}
 
 	p {
 		line-height: 3ex;
 		margin-bottom: 1.5rem !important;
 		color: $oc-gray-5;
+
+		//animation: color-fadeIn 4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 		span{
 			color: $oc-yellow-4;
@@ -708,6 +710,16 @@ footer{
 	img{
 		margin: 0 auto;
 	}
+}
+
+// Animations
+@keyframes color-fadeIn{
+	0%{color: #0e0d3c;}
+	20%{color: $oc-gray-9;}
+	40%{color: $oc-gray-8;}
+	60%{color: $oc-gray-7;}
+	80%{color: $oc-gray-6;}
+	100%{color: $oc-gray-5;}
 }
 
 // Import partials.

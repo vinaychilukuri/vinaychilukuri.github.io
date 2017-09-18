@@ -113,6 +113,11 @@ Our product manager spoke to potential customers (Sales Managers) about the valu
 
 Armed with this knowledge, we proceeded for development of the solution.
 
+*A few designs*
+![img center]({{page.img_dir}}/sales-wireframe.png)
+![img center](https://static.notion-static.com/4cf1d5289ea8458a8dd6bb89e9765ebe/ga-info.gif)
+
+
 ## Key Learnings & Impact
 
 User research helps in developing a deep bond with the users and truly enables one to be user-centric instead of guessing what the user might want.
@@ -123,6 +128,8 @@ In retrospect, conducting diary studies would have revealed the pain points for 
 
 ### Impact
 
-This study strengthened the case for user research in the organization. It allowed Product Management to take informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights from research even helped the Learning solutions team to create an effective training material for a Sales journey.
+*The product was in development by the time I had moved from the organization.*
+
+This study strengthened the case for user research. It allowed Product Management to take informed decisions in formulating the product requirements. It allowed Sales folks to hone their narratives and be more client-centric when they pitch a solution to their clients. Also, the insights from research helped the Learning solutions team to create an effective training material for a Sales journey.
 
 The adoption of user research as a practice is a critical step in improving the design maturity of an organization.
