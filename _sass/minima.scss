@@ -142,7 +142,6 @@ body{
 	h5{margin-top: 40px;} //16
 
 	.site-header{
-		// border-bottom: 1px solid $oc-orange-2;
 		border-top: none;
 		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
 	}
@@ -165,13 +164,12 @@ a.site-title{
 	font-size: 22px !important;
 	font-family: 'Mukta Malar', sans-serif;
 	text-transform: uppercase;
-	//@include system-font;
 	letter-spacing: 0.2px;
 
 	background: url(/assets/img/vc-logo.svg) no-repeat;
-	background-size: 40px;
+	background-size: 50px;
 	background-position: 0px 14px;
-	padding: 0 0 0 45px;
+	padding: 0 0 0 60px;
 
 	&:hover{
 		text-decoration: none;
@@ -212,7 +210,7 @@ a.site-title{
 	//margin: 150px 0 50px 0;
 	.bio-blk{
 		padding-top: 200px; padding-bottom: 150px;
-		background: url("/assets/img/vclogo-hero.webp") no-repeat 0px 100px / 300px;
+		background: url("/assets/img/vclogo-hero.svg") no-repeat 0px 130px / 300px;
 	}
 
 	@include system-font;
@@ -285,7 +283,7 @@ section{
 // About Me
 a.about{
 	
-	&, &:visited{color: #00ddff;}
+	&, &:hover, &:visited{color: #21b1c8;}
 
 	&:hover{
 		text-decoration: none;
@@ -653,7 +651,7 @@ footer{
 	.bio{
 		.bio-blk{
 			padding-top: 150px; padding-bottom: 80px;
-			background-position: 50px 50px;
+			background-position: 50px 150px;
 		}
 	}
 

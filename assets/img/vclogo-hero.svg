@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="341px" height="353px" viewBox="0 0 341 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.99863536%" y1="30.2416944%" x2="83.0324216%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5B39CA" offset="0%"></stop>
+            <stop stop-color="#C64D23" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.99863536%" y1="30.2416944%" x2="83.0324216%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#5B39CA" offset="0%"></stop>
+            <stop stop-color="#E11BB9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-hero" transform="translate(0.000000, -6.000000)">
+            <polyline id="Fill-66" fill="url(#linearGradient-1)" opacity="0.200000003" points="0 76 120.4995 359 241 76 212.460066 76 120.4995 311.122295 28.5399342 76"></polyline>
+            <path d="M286.86956,16.3817631 C253.084909,31.2789871 235.997753,69.5043435 248.547038,104.030653 C261.634054,140.044439 302.006189,158.38812 338.723868,145.006439 C341.748744,143.900654 344.653383,142.620862 347.429433,141.172677 C311.572903,152.982684 279.025701,132.893323 266.199758,97.5924027 C254.779931,66.1701494 260.753421,33.170609 286.86956,16.3873762 L286.86956,16.3817631 Z" id="Fill-68-Copy" fill="url(#linearGradient-2)" opacity="0.249999985" transform="translate(295.929433, 82.881763) scale(-1, 1) rotate(-130.000000) translate(-295.929433, -82.881763) "></path>
+        </g>
+    </g>
+</svg>
