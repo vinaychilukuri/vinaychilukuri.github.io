@@ -6,9 +6,6 @@
 
 // @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
-:root{
-	font-size: 20px;
-}
 
 html, body{overflow-x: hidden;}
 
@@ -104,6 +101,13 @@ $on-laptop:        800px !default;
 
 /* ------------ */
 
+:root{
+	font-size: 20px;
+	// @include system-font();
+}
+
+/* ------------ */
+
 // this class needs to be applied only if browser width >= 1000px
 @media screen and (min-width: 1000px) {
 	.full-width{
@@ -145,11 +149,6 @@ body{
 		border-top: none;
 		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
 	}
-
-	// p, li{
-	// 	@include system-font;
-	// 	line-height: 3ex;
-	// }
 
 	blockquote{
 		letter-spacing: 0px;
@@ -342,7 +341,13 @@ a.about{
 
 	h4{color: $oc-yellow-4; margin: 30px 0;}
 	a{color: $oc-cyan-5 !important;}
-	b{color: $oc-gray-5;}
+	b{color: white;}
+
+	hr{
+		border-top: 1px solid $oc-gray-7;
+		border-left: none; border-right: none; border-bottom: none;
+		padding-bottom: 15px;
+	}
 }
 
 h1 {

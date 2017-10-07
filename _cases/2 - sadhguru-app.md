@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Connecting millions of spiritual seekers with a master
-case-tag: Information Architecture, Interaction Design
+case-tag: Interaction Design
 year: 2017
 img_dir: /assets/img/cases/isha-app
 imgurl: /assets/img/sadhguru-app.jpg
@@ -29,13 +29,15 @@ Dec 2016 - Feb 2017
 {{page.case-tag}}
 
 #### Impact
-Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200</b>k per month.
+Program registrations increased by <b>37%</b>; Donations through the app averaging INR <b>200k</b> per month.
 
-<p style="font-size: 13px">.5 million downloads on iOS & Android, as of Sep 7th, 2017.</p>
+---
 
-#### App links
+<p> 0.5 million downloads on iOS & Android, as of Sep 7th, 2017.</p>
+
+<!-- #### App links
 <a href="http://play.google.com/store/apps/details?id=com.ishafoundation.app&hl=en" target="_blank" class="app-link">Android</a>
-<a href="http://itunes.apple.com/in/app/sadhguru/id537568757" target="_blank" class="app-link">iOS</a>
+<a href="http://itunes.apple.com/in/app/sadhguru/id537568757" target="_blank" class="app-link">iOS</a> -->
 
 </div>
 </div>
@@ -112,6 +114,18 @@ In the mobile context, users should be able to quickly find what they want, as t
 ![img sd]({{page.img_dir}}/Visit_Location_DL.png)
 
 The following screen illustrates how content has been re-organized for a mobile context. Each of the items extends to the functionality of the mobile device, thus allowing the user to use their phone to do more with the information on the screen.
+
+<p style="clear:both"></p>
+
+### Proposed Visual Scheme
+The visual design for the app had been done by in-house ISHA team.
+Based on the brand guidelines of ISHA, I have proposed the following visual scheme for the app which has a native feel to it.
+
+<div class="full-width"><img src="{{page.img_dir}}/isha_app_vds.png" alt="Visual Design Scheme">
+</div>
+
+<!-- ![img full-width]({{page.img_dir}}/isha_app_vd.png) -->
+*However, the team decided to go with the in-house visual design due to development timelines*
 
 <p style="clear:both"></p>
 ## Conclusion

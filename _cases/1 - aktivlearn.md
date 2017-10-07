@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Making corporate learnings fun
-case-tag: Interaction Design, Visual Design
+case-tag: Interaction Design
 year: 2015
 imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/aktlearn
