@@ -245,15 +245,27 @@ section{
 
 	h4{
 		display: inline-block;
-		color: $oc-gray-8;
-		border-bottom: 4px solid $oc-orange-2;
+		color: $oc-gray-8; //#293138
+		border-bottom: 2px solid $oc-indigo-2;
 		margin: 30px 0 30px 0 !important;
-		letter-spacing: 0px; line-height: 3.5ex;
-		font-weight: bolder;
+		letter-spacing: -0.3px; line-height: 3ex;
+		//font-weight: bolder;
 	}
 
 	&.work:last-child{
 		margin-bottom: 100px;
+	}
+}
+
+.presentation-links{
+	display: flex;
+	.case-block-link{
+		width: 46%; display: flex;
+		@include system-font();
+		background: url("/assets/img/pres.svg") 18px 26px no-repeat;
+		background-size: 64px;
+		padding-left: 95px; margin-bottom: 0px;
+		&:first-child{margin-right: 10px;}
 	}
 }
 
@@ -662,6 +674,15 @@ footer{
 
 	.work, .testimonials h4{text-align: center;}
 	.case-block-link{text-align: left;}
+
+	.presentation-links {
+		display: inline;
+
+		.case-block-link{
+			width: none;
+			position: relative; left: 20%;
+		}
+	}
 
 	.post-content h3{
 		font-size: 125% !important;

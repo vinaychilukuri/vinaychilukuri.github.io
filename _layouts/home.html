@@ -12,7 +12,7 @@ layout: default
   </div>
 
   <section class="work">
-    <h4>Some of my design work</h4>
+    <h4>Design work</h4>
     {% for case in site.cases %}
       <a class="case-block-link" href="{{ case.url | relative_url }}">
         <div class="case-block row">
@@ -40,6 +40,17 @@ layout: default
       </a>
     {% endfor %}
   </section>
+
+
+  <section class="work" id="presentations">
+    <h4>Presentations</h4>
+    <div class="presentation-links">
+      <a href="https://www.slideshare.net/secret/oyxcmubB0xcyBQ" class="case-block-link" target="_blank">Introduction to Usability</a>
+      <a href="https://www.slideshare.net/secret/5U8QSVwb4QVTE2" class="case-block-link" target="_blank">UX for Product Managers</a>
+    </div>
+  </section>
+
+
 
   {% include testimonial_excerpts.html %}
   
