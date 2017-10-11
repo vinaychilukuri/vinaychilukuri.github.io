@@ -7,6 +7,7 @@ imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/aktlearn
 hero_img: hero-al-mob.png
 permalink: /case/aktivlearn
+impact: Training completions up by 23%. Learner engagement up by 48%.
 ---
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -130,8 +131,8 @@ To further engage a learner, the product team had decided to use gamified elemen
 
 <!-- However, unfortunately, most people choose to sprinkle these techniques thinking that they would work in any context and our team was leaning on using these tools as magic dust. I took it upon myself to educate the team about this and I designed a strategy on how to use gamification elements at the right time of the user flow.
  -->
-![img center]({{page.img_dir}}/badges.svg)
-*Some of the badges awarded to the learner in a training scenario.*
+<!-- ![img center]({{page.img_dir}}/badges.svg)
+*Some of the badges awarded to the learner in a training scenario.* -->
 
 ### Visual Design
 

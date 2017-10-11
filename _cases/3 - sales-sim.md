@@ -7,6 +7,7 @@ imgurl: /assets/img/sales-graph.svg
 img_dir: /assets/img/cases/sales
 hero_img: hero-sales-funnel.png
 permalink: /case/sales-user-research
+impact: Creating empathy across teams through user research insights.
 ---
 
 <div class="overview">

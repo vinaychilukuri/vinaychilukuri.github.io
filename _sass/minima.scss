@@ -456,7 +456,7 @@ hr{margin-bottom: 10px !important;}
 .case-block-link{
 	@include make-link-as-button;
 	box-shadow: none;
-	margin-bottom: 35px;
+	margin-bottom: 100px;
 
 	&:nth-child(2n+1){
 		.case-block{
@@ -486,6 +486,11 @@ hr{margin-bottom: 10px !important;}
 				font-size: 15px;
 				color: #777;
 				position: relative; top: -3px;
+			}
+			.case-impact{
+			    font-size: 16px;
+			    padding-top: 20px;
+			    color: #474b5a; //#37404e
 			}
 		}
 	}
@@ -526,7 +531,7 @@ hr{margin-bottom: 10px !important;}
 	    filter: grayscale(100%);
 	}
 
-	h4{border-bottom: 4px solid #a2a9e7;} //a2a9e7
+	h4{border-bottom: 2px solid #a2a9e7;} //a2a9e7
 
 	h5{
 		margin: 0px !important;
