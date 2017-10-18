@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Expressing the vision of an organic food company
+client: TerraGreens Organic
 case-tag: Interviewing, Storytelling, Filmmaking
 year: 2012
 imgurl: /assets/img/movie-cam.svg

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Connecting millions of spiritual seekers with a master
+client: Isha Foundation
 case-tag: Interaction Design
 year: 2017
 img_dir: /assets/img/cases/isha-app

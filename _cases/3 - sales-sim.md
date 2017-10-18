@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Enabling Sales executives to perform better
-case-tag: User Research, Product Strategy, Interaction Design
+client: KNOLSKAPE
+case-tag: User Research, Interaction Design
 year: 2016
 imgurl: /assets/img/sales-graph.svg
 img_dir: /assets/img/cases/sales

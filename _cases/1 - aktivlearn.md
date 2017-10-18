@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Making corporate learnings fun
+client: KNOLSKAPE
 case-tag: Interaction Design
 year: 2015
 imgurl: /assets/img/al-app-icon.svg
