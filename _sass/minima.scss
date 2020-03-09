@@ -262,6 +262,7 @@ a.site-title{
 	display: flex;
 	flex-wrap: wrap;
 	& > a{
+		display: flex; align-items: flex-end;
 		max-width: 45%;
 		border: 1px solid $oc-gray-3;
 		margin-bottom: 25px;
@@ -422,7 +423,7 @@ a.about{
 
 .post-content{
 	h1{
-		@include full-width-bar($oc-violet-8);
+		@include full-width-bar($oc-gray-8);
 		@include sans-serif-font(2.5rem, 600);
 		color: white;
 		font-size: 2.5rem;
@@ -636,8 +637,6 @@ hr{margin-bottom: 10px !important;}
 			}
 		}
 	}
-
-	&:last-child{border-bottom: none;}
 }
 
 .testimonials{
@@ -726,7 +725,7 @@ hr{margin-bottom: 10px !important;}
 
 	ul{
 		margin: 0;
-		display: flex;
+		display: flex; flex-wrap: wrap;
 		flex-direction: row;
 	}
 
@@ -741,11 +740,17 @@ hr{margin-bottom: 10px !important;}
 
 		padding: 20px; margin: 5px;
 		font-size: 16px; line-height: 1.35;
-		width: 100%; height: 60px;
+		border-radius: 4px;
+		width: 40%;
 
 		&:hover{
 			border: 1px solid $oc-gray-4;
 			border-left: 4px solid darkblue;
+		}
+
+		img {
+			width: 50px;
+			margin-right: 10px;
 		}
 	}
 }
