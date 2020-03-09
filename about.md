@@ -3,15 +3,17 @@ layout: page
 title: About
 permalink: /about
 ---
+<div class="about-page">
+<h3 class="about-page-headline">I strive to create value by focusing on the core needs & motivations of the people we intend to serve. </h3>
+</div>
 
-<h3 class="about-page-headline"> I create value for businesses by focusing on what matters --- the User. </h3>
 
 <div class="about-me row">
 <aside class="col">
 ![img-of-vinay](/assets/img/vin.jpeg)
 
 #### Skills
-Interaction design, Product strategy, Persuasive design, Rapid prototyping & validation, Design leadership.
+Interaction design, User Research, Design strategy, Persuasive design, Design leadership.
 
 #### Publications
 [View here](http://iiit.academia.edu/VinayChilukuri){:target="_blank"}
@@ -24,9 +26,9 @@ Interaction design, Product strategy, Persuasive design, Rapid prototyping & val
 
 The great actor, Robert De Niro once said that his favorite word was <b>refinement</b>. While I am no one in comparison to him, the urge to constantly refine and go beyond one's limitations is what drives me.
  
-As a master's graduate in Human Computer Interaction & Cognitive Science, I have 5.5 years of experience in user-centred design, usability testing and building products. I have also hand-coded [web apps](http://www.slashcv.com){:target="_blank"} in the past.
+As a master's graduate in Human Computer Interaction & Cognitive Science, I have 8.5 years of experience in user-centred design and building products. I have also hand-coded [web apps](http://www.slashcv.com){:target="_blank"} in the past.
 
-I am a methodical designer who asks the right questions to get a holistic picture of the problem at hand. I have helped teams streamline their workflows by setting up a strong design process. I not only design, but also infuse design thinking in the people around me. 
+I am a methodical designer who asks the right questions to get a holistic picture of the problem at hand. I have helped teams streamline their workflows by setting up strong design processes. I not only design, but also infuse design thinking in the people around me.
 
 I have led a team of 5 designers in the past and I loved mentoring and facilitating the team in producing great work.
 
