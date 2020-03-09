@@ -886,6 +886,9 @@ footer{
 	}
 }
 
+// Error fix
+$table-text-align: left !default;
+
 // Animations
 @keyframes color-fadeIn{
 	0%{color: #0e0d3c;}
