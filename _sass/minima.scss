@@ -1,23 +1,19 @@
 @charset "utf-8";
 
 @import "color";
-@import "../assets/fonts/Whitney/font-face.css";
-
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600');
-@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Faustina:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:600');
 
 // @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
 
 html, body{overflow-x: hidden;}
 
-$base-font-family: "IBM Plex Sans", serif !default;
-$base-font-size:   1.1em !default;
+$base-font-family: "Faustina", serif !default;
+$base-font-size:   20px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-
-$headline-font: 'Whitney', 'Overpass', sans-serif;
 
 $spacing-unit:     30px !default;
 $abs-value:		   50px;
@@ -33,7 +29,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
-$content-width:    900px;
+$content-width:    800px;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -45,15 +41,13 @@ $on-laptop:        800px !default;
 	margin: 0.5rem;
 
 	p{
-		font-size: 1rem;
+		font-size: 0.9rem;
 		line-height: 2.75ex;
 	}
 
 	h4{
 		line-height: 0.75;
 	}
-
-	&:first-child{margin-left: 0;}
 
 	&.hero-img{
 		flex: 1.4;
@@ -70,11 +64,10 @@ $on-laptop:        800px !default;
   margin-top: 50px; margin-bottom: 50px;
 }
 
-@mixin sans-serif-font($font-size: 20px, $font-weight: 500){
-	font-family: $headline-font;
+@mixin sans-serif-font($font-size: 20px){
+	font-family: 'Mukta Malar', sans-serif;
 	font-size: $font-size;
-	letter-spacing: -0.4px;
-	font-weight: $font-weight;
+	font-weight: bolder;
 	color: inherit;
 }
 
@@ -90,18 +83,12 @@ $on-laptop:        800px !default;
 	padding: 0 9999rem;
 }
 
-@mixin gradient-text($deg: 10deg, $from: #FEC163, $to: #ff8b67){
-	background: -webkit-linear-gradient($deg, $from, $to);
-	-webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 @mixin make-link-as-button{
 	display: block; padding: 40px 10px;
 	background: white;
-	border-radius: 8px;
+	border-radius: 4px;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
-	transition: box-shadow 0.24s ease;
+	transition: box-shadow 0.3s ease;
 
 	&:hover{
 		text-decoration: none;
@@ -140,50 +127,46 @@ body{
 	-webkit-font-smoothing: antialiased;
 
 	h2, h3, h4, h5{
-		font-family: $headline-font;
-		letter-spacing: -0.1px;
+		font-family: 'Mukta Malar', sans-serif;
+		letter-spacing: -0.7px;
 		font-weight: 600;
 		color: $oc-gray-9;
 		margin: 50px 0 10px 0;
-		line-height: 2.4ex;
+		line-height: 1.05;
 	}
 
 	h2{
-		margin: 100px 0 50px 0;
+		margin: 150px 0 100px 0;
 		clear: both; text-align: center;
 		font-size: 1.8rem !important;
 	}
 
-	h3{margin: 80px 0 16px 0;} //48
-	h4{margin: 64px 0 16px 0;} //32
+	h3{margin: 96px 0 24px 0;} //48
+	h4{margin: 64px 0 24px 0;} //32
 	h5{margin-top: 40px;} //16
 
 	.site-header{
-		width: 100%;
-		border: none;
-		// margin-top: 30px;
-		padding: 15px 0;
+		border-top: none;
+		box-shadow: 0px 2px 6px rgba(33, 23, 33, 0.3);
 	}
 
 	blockquote{
-		@include sans-serif-font(1.8rem, 600);
-		font-style: normal;
-		line-height: 2.5ex;
-		border-left: 5px solid $oc-orange-2;
+		letter-spacing: 0px;
+		font-size: 125%;
+		border-left: none; //4px solid $oc-indigo-4;
 		margin: 48px 0; //40px 0
-		color: $oc-orange-7;
+		color: $oc-indigo-9;
 	}
 }
 
 a.site-title{ 
-	// color: $oc-cyan-5 !important;
-	// background: linear-gradient(90deg,#ff8a00,#e52e71);
-	-webkit-text-fill-color: transparent;
-	@include sans-serif-font(22px, bolder);
+	font-size: 22px !important;
+	font-family: 'Mukta Malar', sans-serif;
+	text-transform: uppercase;
 	letter-spacing: 0.2px;
 
 	background: url(/assets/img/vc-logo.svg) no-repeat;
-	background-size: 60px;
+	background-size: 50px;
 	background-position: 0px 14px;
 	padding: 0 0 0 60px;
 
@@ -194,12 +177,12 @@ a.site-title{
 
 .site-nav{
 
-	@include sans-serif-font(1.2rem, 500);
-	line-height: 78px !important;
-	mix-blend-mode: exclusion;
+	@include system-font(16px);
+	font-weight: bolder;
+	text-transform: uppercase;
 
 	a, a:visited{
-		color: $oc-gray-9 !important;
+		color: $oc-indigo-9 !important;
 	}
 
 	// adding PDF icon for the Resume
@@ -211,7 +194,7 @@ a.site-title{
 
 	a:hover{
 		text-decoration: none; color: mediumblue;
-		border-bottom: 1px dotted $oc-gray-5;
+		border-bottom: 1px dotted mediumblue;
 	}
 }
 
@@ -221,16 +204,15 @@ a.site-title{
 }
 
 .bio{
-	// @include full-width-bar($hero-gradient);
+	@include full-width-bar($hero-gradient);
 
 	//margin: 150px 0 50px 0;
 	.bio-blk{
-		padding-top: 200px; padding-bottom: 20px;
-		width: 85%;
-		// background: url("/assets/img/vclogo-hero.svg") no-repeat 0px 130px / 300px;
+		padding-top: 200px; padding-bottom: 150px;
+		background: url("/assets/img/vclogo-hero.svg") no-repeat 0px 130px / 300px;
 	}
 
-	@include sans-serif-font;
+	@include system-font;
 
 	img{
 		width: 25%; float: left;
@@ -238,35 +220,22 @@ a.site-title{
 	}
 
 	.greeting{
-		font-size: 2.2rem; font-weight: 600;
+		font-size: 1.85rem;
+		font-weight: bolder;
 		display: inline-block;
-		color: $oc-gray-9;
-		margin-bottom: 20px;
+		color: $oc-gray-3;
 	}
 
 	p {
-		line-height: 2.75ex;
+		line-height: 3ex;
 		margin-bottom: 1.5rem !important;
-		color: $oc-gray-7;
-		font-size: 24px;
-		
-		span{
-			color: $oc-orange-8;
-			hanging-punctuation: first;
-		}
-	}
-}
+		color: $oc-gray-5;
 
-// case-studies area
-.content-grid{
-	display: flex;
-	flex-wrap: wrap;
-	& > a{
-		max-width: 45%;
-		border: 1px solid $oc-gray-3;
-		margin-bottom: 25px;
-		padding: 10px;
-		&:nth-child(2n+1){margin-right: 25px;}
+		//animation: color-fadeIn 4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+		span{
+			color: $oc-yellow-4;
+		}
 	}
 }
 
@@ -292,7 +261,7 @@ section{
 	display: flex;
 	.case-block-link{
 		width: 46%; display: flex;
-		@include sans-serif-font();
+		@include system-font();
 		background: url("/assets/img/pres.svg") 18px 26px no-repeat;
 		background-size: 64px;
 		padding-left: 95px; margin-bottom: 0px;
@@ -325,34 +294,25 @@ section{
 // About Me
 a.about{
 	
-	&, &:hover, &:visited{color: #364FC7;}
+	&, &:hover, &:visited{color: #21b1c8;}
 
 	&:hover{
 		text-decoration: none;
 		padding-bottom: 3px;
-		border-bottom: 1px dotted $oc-blue-7;
+		border-bottom: 1px dotted $oc-cyan-7;
 	}
 }
 
-.about-page{
-	@include full-width-bar($oc-gray-9);
-}
-
 .about-page-headline{
-	color: $oc-yellow-4;
-	padding: 60px 20px 50px 0;
-	margin-top: 0px;
-	font-family: 'Whitney';
-	line-height: 2.5ex;
-	@include gradient-text();
+	color: $oc-gray-7;
+	padding-top: 15px;
+	margin: 64px 0 48px 0 !important;
 }
 
 .about-me{
 	margin: 25px 0 0 0;
 	p{
-		// @include system-font(20px);
-		// @include sans-serif-font(1rem, 400);
-		font-size: 0.9rem;
+		@include system-font(16px);
 		line-height: 3ex;
 	}
 
@@ -365,15 +325,10 @@ a.about{
 	a:hover{
 		color: mediumblue;
 		text-decoration: none;
-		border-bottom: 1.5px dotted mediumblue;
+		border-bottom: 1px dotted mediumblue;
 	}
 	b{font-size: 1.2em;}
-	img{
-		width: 220px; 
-		transform: scaleX(-1);
-		padding: 0; margin-bottom: 30px;
-		border-radius: 8px;
-	}
+	img{width: 220px;}
 	hr{margin: 25px 0 !important;}
 
 	.about-info{
@@ -387,9 +342,14 @@ a.about{
 // Case study pages
 .overview{
 	@include full-width-bar($hero-bar-bg);
-
-	padding-top: 25px; padding-bottom: 10px;
+	padding-top: 25px;
 	color: $oc-gray-4;
+	@include system-font;
+
+	h1.post-title {
+		color: $oc-gray-3;
+		font-family: 'Faustina';
+	}
 
 	h4{color: $oc-yellow-4; margin: 30px 0;}
 	a{color: $oc-cyan-5 !important;}
@@ -400,38 +360,21 @@ a.about{
 		border-left: none; border-right: none; border-bottom: none;
 		padding-bottom: 15px;
 	}
+}
 
-	h1 {
-		//font-size: 48px; 
-		// color: $oc-gray-7;
-		@include sans-serif-font(20px, 600);
-		padding-top: 16px;
-		clear: both;
-	
-		&.post-title{
-			font-size: 2.2em;
-			border-bottom: none; color: $oc-gray-3;
-			line-height: 1.15;
-			padding: 25px 0 50px 0;
-			margin: auto;
-			text-align: left;
-			background: none;
-		}
+h1 {
+	font-size: 48px; color: $oc-gray-7;
+	padding-top: 16px;
+	clear: both;
+
+	&.post-title{
+		border-bottom: none; color: $oc-gray-9;
+		line-height: 1.15;
+		padding: 50px 0 50px 0;
 	}
 }
 
 .post-content{
-	h1{
-		@include full-width-bar($oc-violet-8);
-		@include sans-serif-font(2.5rem, 600);
-		color: white;
-		font-size: 2.5rem;
-		// font-weight: 600 !important;
-		text-align: center;
-		margin-top: 50px;
-		padding-top: 100px; padding-bottom: 100px;
-	}
-
 	h3{
 		clear: both;
 		font-size: 125% !important;
@@ -443,82 +386,6 @@ a.about{
 	}
 
 	h5{font-size: 110%;}
-}
-
-.callout{
-	@include full-width-bar($oc-yellow-3);
-	@include sans-serif-font(1.5rem, 500);
-	text-align: center;
-	padding-top: 100px; padding-bottom: 100px;
-	margin-top: 50px;
-
-	h2{
-		margin: 0px;
-		clear: both;
-		color: inherit;
-		font-size: 2.5rem !important;
-	}
-}
-
-h5.special-block{
-	color: $oc-red-7;
-}
-
-.img-section{
-	@include full-width();
-	margin-bottom: 20px;
-	.col > p > img{margin-top: 20px;}
-
-	.col:last-child {
-		padding: 0 10px 0 20px;
-	}
-
-	&.left > .row {flex-direction: row;}
-	&.right > .row {flex-direction: row-reverse;}
-	&.top > .row {
-		display: block !important;
-		img{margin-top: 10px;}
-	}
-}
-
-.col > h3{
-	margin-top: 20px;
-	// text-align: center;
-	line-height: 2.5ex;
-}
-
-.img-caption{
-	@include sans-serif-font(1rem, 400);
-	display: block; text-align: center;
-	margin-bottom: 50px;
-}
-
-.metrics{
-	@include full-width-bar($oc-gray-9);
-	@include sans-serif-font(1.25rem, 500);
-	display: flex;
-	justify-content: center;
-	// justify-content: space-around;
-
-	border-left: 5px solid $oc-yellow-4;
-
-	padding: 75px 0;
-
-	.metric{
-		margin: 0 2rem;
-		color: white;
-
-		.num{
-			display: block;
-			font-size: 2.25rem;
-			font-weight: 600;
-			text-align: center;
-		}
-
-		.label{
-			display: block;
-		}
-	}
 }
 
 .app-link{
@@ -557,12 +424,10 @@ h4{
 
 p{
 	margin-bottom: 32px !important; //24px
-	letter-spacing: -0.2px;
-	font-size: 92%;
+	letter-spacing: 0px;
 }
 
 li{
-	font-size: 92%;
 	margin: 10px 0;
 }
 
@@ -575,8 +440,7 @@ iframe.prototype{display: block; margin: auto;}
 
 img[alt~="center"]{
 	float: none; 
-	margin: 96px auto 10px auto; 
-	padding: 0;
+	margin: 96px auto; padding: 0;
 }
 
 img[alt~="sd"]{width: 50%;}
@@ -597,32 +461,34 @@ hr{margin-bottom: 10px !important;}
 	&:nth-child(2n+1){
 		.case-block{
 			display: flex;
-			flex-direction: column;
+			flex-direction: row-reverse;
 		}
 	}
 
 	.case-block{
 		clear: left;
-		@include sans-serif-font();
+		@include system-font;
 
-		img{width: 100%;}
+		img{
+			//width: 75px; float: right;
+			padding: 0 20px;
+			width: 35%; height: 30%;
+		}
 
 		.case-info {
 			//width: 80%;
 			flex: 3.5;
-			font-size: 24px;
-			
-			.case-title{
-				font-size: 24px;
-				line-height: 2.6ex;
-			}
-			.case-tags, .year{
-				font-size: 18px;
+			font-size: 22px;
+			padding-left: 15px;
+
+			.case-title{line-height: 2.6ex;}
+			.case-tags{
+				font-size: 15px;
 				color: #777;
 				position: relative; top: -3px;
 			}
 			.case-impact{
-			    font-size: 20px;
+			    font-size: 16px;
 			    padding-top: 20px;
 			    color: #474b5a; //#37404e
 			}
@@ -642,8 +508,6 @@ hr{margin-bottom: 10px !important;}
 
 .testimonials{
 	@include full-width-bar(hsl(234, 50, 97));
-	@include sans-serif-font();
-
 	margin-top: 84px !important;
 	margin-bottom: 0px !important;
 	padding-top: 30px; padding-bottom: 30px;
@@ -810,7 +674,6 @@ footer{
 		.bio-blk{
 			padding-top: 150px; padding-bottom: 80px;
 			background-position: 50px 150px;
-			width: 60%;
 		}
 	}
 
@@ -828,7 +691,6 @@ footer{
 
 	.post-content h3{
 		font-size: 125% !important;
-		line-height: 2.5ex;
 	}
 
 	// grid
