@@ -196,7 +196,6 @@ a.site-title{
 
 	@include sans-serif-font(1.2rem, 500);
 	line-height: 78px !important;
-	mix-blend-mode: exclusion;
 
 	a, a:visited{
 		color: $oc-gray-9 !important;
