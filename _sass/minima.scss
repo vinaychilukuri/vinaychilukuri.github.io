@@ -358,7 +358,7 @@ a.about{
 
 	aside p{
 		margin-top: 10px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	a,a:visited{color: darkblue;}
@@ -422,7 +422,7 @@ a.about{
 
 .post-content{
 	h1{
-		@include full-width-bar($oc-gray-8);
+		@include full-width-bar($oc-gray-9);
 		@include sans-serif-font(2.5rem, 600);
 		color: white;
 		font-size: 2.5rem;
@@ -707,7 +707,7 @@ hr{margin-bottom: 10px !important;}
 
 .related-cases{
 	@include full-width-bar(#fcfcfc);
-	@include system-font;
+	font-family: $base-font-family;
 	padding-top: 64px; padding-bottom: 72px;
 	margin-top: 64px;
 	border: 1px solid $oc-gray-2;

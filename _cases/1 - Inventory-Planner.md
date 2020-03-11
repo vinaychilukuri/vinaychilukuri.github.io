@@ -48,14 +48,14 @@ I was the lead designer on the project. My manager was a part of the user resear
 </div>
 
 ### Who are our Users?
-- Primary Users
-	- Inventory Planners
-	- Category Operations
+##### Primary Users
+- **Inventory Planners** &mdash; responsible for the placement of the procured inventory and maintaining the in-stock quantity in each of the Flipkart warehouses across India.
+- **Key Account Managers** &mdash; They decide on what products to procure. Responsible for business development with Vendors. 
+- **Category Operations** &mdash; responsible for execution of operations to help Flipkart procure goods from Vendors.
 
-- Secondary Users
-	- Business Finance
-	- Key Account Managers
-	- Planning Directors
+##### Secondary Users
+- Business Finance &mdash; responsible for certain approvals for large monetary orders.
+- Planning Directors &mdash; review warehouse capacity, in-stock and other approvals.
 
 
 ## Immersing in User Research
@@ -178,7 +178,7 @@ I've created designs for all the screens of Inventory Planner and Returns planne
 ### My learnings
 - Show your vision of how the product can deliver intended outcomes for the business. (This is how you stay at the table.)
 - Socialize User Research findings more rigorously to drive user-centricity in stakeholders.
-- Socialize User Research findings more rigorously to drive user-centricity in stakeholders.
+- Do not try to understand everything in a user-research interview. Be present and LISTEN.
 
 ### Success of this project
 

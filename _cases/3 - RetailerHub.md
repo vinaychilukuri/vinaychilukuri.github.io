@@ -2,7 +2,7 @@
 layout: page
 title: Redesigning Flipkart Retail
 client: Flipkart
-case-tag: Information Architecture, Design Systems, Visual Design.
+case-tag: Information Architecture, Visual Design
 year: 2019
 imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/retailer-hub
