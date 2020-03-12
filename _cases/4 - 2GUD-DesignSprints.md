@@ -60,7 +60,7 @@ The participants had a lot of questions about what a Design Sprint is. I've intr
 <div class='img-section top'>
 <div class='row'>
 <div class='col'>
-### 1️⃣ Problem Identification
+### 1️. Problem Identification
 I've facilitated the following exercises of the sprint to unearth the problems that we have as of today.
 </div>
 <div class='col'>
@@ -83,7 +83,7 @@ We picked this question to be answered via the Sprint
 <span class="img-caption">Lightning Demos.</span>
 </div>
 <div class="col">
-### 2️⃣ Whet your appetite &mdash; Divergent Thinking
+### 2. Whet your appetite &mdash; Divergent Thinking
 Having done the homework earlier, each our sprints started with a How Might We statement. I then introduced the lightning demo exercise that helped participants to whet their creative juices and move into ideation.
 
 I saw the true value of divergent thinking with multiple people, with diverse backgrounds, involved. I was amazed with the creativity in the room. <i>I confess that I myself would've never come up with such interesting ideas.</i>
@@ -97,7 +97,7 @@ I saw the true value of divergent thinking with multiple people, with diverse ba
 ![img center]({{page.img_dir}}/convergent-thinking.jpg)
 </div>
 <div class='col'>
-### 3️⃣ Convergent Thinking & Crazy Eights
+### 3️. Convergent Thinking & Crazy Eights
 I find this to be the most interesting aspect of the exercise. Having each person to create at least 8 variations of a single idea lead to some very creative ideas. Even though participants often struggle with this exercise, the energy of the facilitator is important to let the participants go through this one.
 
 And, this Design Sprint playlist helped, immensely in making participants not get stuck with a few ideas. I also improvised a lot in terms of how the participants were seated, what to say to them to keep the momentum going with my novice facilitation skills.
@@ -106,7 +106,7 @@ And, this Design Sprint playlist helped, immensely in making participants not ge
 </div>
 
 
-### 4️⃣ Voting & Decision making
+### 4️. Voting & Decision making
 
 We used dot-voting to understand which ideas resonated with people the most. The idea that received the most 🔥 was - Mimicking the experience of going to an offline shop and the shopkeeper greeting & guiding the way.
 
@@ -118,7 +118,7 @@ We used dot-voting to understand which ideas resonated with people the most. The
 <span class="img-caption">A representation of the concept I've prototyped.</span>
 </div>
 <div class='col'>
-### 5️⃣ Prototyping & Testing
+### 5️. Prototyping & Testing
 In two days, I prototyped the most voted concept - Mimicking the experience of being greeted by a shopkeeper in an offline store. Making the shopkeeper help the person guide the way.
 
 Our sprint question was to see if we could communicate the various business lines of 2GUD in an unambiguous manner. PMs from our team tested this concept with real world people who were not aware of 2GUD.

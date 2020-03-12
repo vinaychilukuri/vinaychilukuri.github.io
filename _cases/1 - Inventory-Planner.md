@@ -63,7 +63,7 @@ I was the lead designer on the project. My manager was a part of the user resear
 15 one-on-one User Interviews with primary & secondary users.
 
 ##### My Allies 🧑🏽‍🚀
-- My manager and his support &mdash; His presence in the initial interviews helped me gain confidence as I was new to the system.
+- My manager - His presence in the initial interviews helped me gain confidence as I was new to the system.
 - Product Managers helped in reaching out to users of the platform and introduced us to them.
 
 ##### Obstacles ⚔️

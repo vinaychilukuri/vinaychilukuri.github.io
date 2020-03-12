@@ -144,7 +144,7 @@ As a result, the visual style proposed by me has been modified.
 	<div class="metric"><span class="num">42</span><span class="label">screens</span></div>
 	<div class="metric"><span class="num">500k</span><span class="label">Installs (as of Oct, 2017)</span></div>
 	<div class="metric"><span class="num">37%</span><span class="label">more program regns.</span></div>
-	<div class="metric"><span class="num">Rs. 200k</span><span class="label">Avg. donations / month</span></div>
+	<div class="metric"><span class="num">₹200k</span><span class="label">Avg. donations / month</span></div>
 </ul>
 
 
