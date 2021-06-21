@@ -5,7 +5,7 @@ client: Flipkart
 case-tag: Interaction Design
 year: 2019
 
-img_dir: /assets/img/cases/2gud
+img_dir: /assets/img/cases/2gud-search
 # imgurl: {{page.img_dir}}/case-thumb.png
 thumb: case-thumbnail.png
 permalink: /case/2gud-search
