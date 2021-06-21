@@ -56,7 +56,7 @@ Design Lead, leading a team of 3 designers.
 <div class='img-section right'>
 <div class='row'>
 <div class='col'>
-![img center]({{page.img_dir}}/2gud-old.png)
+![img center]({{page.img_dir}}/2GUD-old.png)
 <span class="img-caption">2GUD's original form. Laded with merchandising everywhere.</span>
 </div>
 <div class='col'>
@@ -253,7 +253,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='col'>
 </div>
 <div class='col'>
-![img center]({{page.img_dir}}/inf-store.png)
+![img center]({{page.img_dir}}/INF-store.png)
 <span class="img-caption">Influencer store - A space for the Influencer to showcase their taste </span>
 </div>
 </div>
