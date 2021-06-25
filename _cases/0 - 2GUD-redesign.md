@@ -253,7 +253,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='col'>
 </div>
 <div class='col'>
-![img center]({{page.img_dir}}/INF-store.png)
+![img center]({{page.img_dir}}/influencer-store.png)
 <span class="img-caption">Influencer store - A space for the Influencer to showcase their taste </span>
 </div>
 </div>
