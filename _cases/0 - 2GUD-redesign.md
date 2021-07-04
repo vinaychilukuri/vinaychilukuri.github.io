@@ -248,7 +248,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 </div>
 </div>
 
-<div class='img-section top'>
+<div class='img-section top style="margin-top:100px'>
 <div class='row'>
 <div class='col'>
 </div>
@@ -259,29 +259,20 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 </div>
 </div>
 
-<div class='img-section left'>
-<div class='row'>
-<div class='col'>
-<!-- ![img center]({{page.img_dir}}/protopie.png) -->
+### Prototyping & Testing
 
-<video width="360" height="640" controls>
+<div class="prototype-2gud">
+<video width="360" height="640" controls autoplay preload="none" class="prototype">
 <source src="{{page.img_dir}}/prototype.webm" type="video/webm">
 </video>
 
-<!-- <span class="img-caption">Absolute joy prototyping using Protopie</span> -->
-
-</div>
-<div class='col'>
-### Prototyping & Testing
-While our team was creating great designs, I proceeded to prototype the experience as close to the real thing as possible, using Protopie.
+<div>
+While our team was creating great designs, I proceeded to prototype the experience as close to the real thing as possible, using Protopie. I re-discovered the joy of prototyping through this project 🧡
 
 This prototype was used in all major presentations with stakeholders. I ensured that people experience this on their mobile phones, to experience the product as intended by the designers.
 
-I also ensured that I create a detailed prototype for the team to use for usability testing sessions.
+I also ensured that I create a detailed prototype for the team to use for usability testing sessions, for a later point of time.
 
-<a href="https://cloud.protopie.io/p/2b99f8ef8c/1?ui=false&mockup=true&touchHint=false&scaleToFit=false&cursorType=touch" target="_blank">You can see a version of the prototype here</a>
-
-</div>
 </div>
 </div>
 
