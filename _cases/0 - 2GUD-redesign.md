@@ -253,7 +253,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='col'>
 </div>
 <div class='col'>
-![img center]({{page.img_dir}}/influencer-store.png)
+![img center]({{page.img_dir}}/Influencer-store.png)
 <span class="img-caption">Influencer store - A space for the Influencer to showcase their taste </span>
 </div>
 </div>
@@ -262,8 +262,14 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='img-section left'>
 <div class='row'>
 <div class='col'>
-![img center]({{page.img_dir}}/protopie.png)
-<span class="img-caption">Absolute joy prototyping using Protopie</span>
+<!-- ![img center]({{page.img_dir}}/protopie.png) -->
+
+<video width="360" height="640" controls>
+<source src="{{page.img_dir}}/prototype.webm" type="video/webm">
+</video>
+
+<!-- <span class="img-caption">Absolute joy prototyping using Protopie</span> -->
+
 </div>
 <div class='col'>
 ### Prototyping & Testing
@@ -281,11 +287,10 @@ I also ensured that I create a detailed prototype for the team to use for usabil
 
 ### Impact
 
-I moved on from the company 2 months before launch, so I do not know the exact numbers. However, our team pinged me on the launch date to celebrate the months of hard work. It was great to see our work come alive.
+I moved on from the company 2 months before launch, and so I am not privy to the exact metric impact. My ex-team pinged me on the launch date to celebrate. It was great to see months of hard work put in by the team come alive.
 
-Initial response on the play store was negative! People complained that it was videos everywhere. This is an issue of change management. Where, you are used to seeing a few things and suddenly that was taken off. But, the engagement numbers were off the roof.
-
-However, I heard from our product manager after 3 months of launch mentioning that there was a significant increase in both engagement and conversion (nearly 3x).
+I heard from one of our product manager, 3 months after launch about how 2GUD was doing.
+Initial response on the play store was negative! People complained that there were videos everywhere and could not find a few categories they were looking for. This is an issue of change management. But, the engagement numbers were off the roof. The feedback settled after a month and there was a significant increase in engagement and conversion (nearly 3x).
 
 ### How I changed as a designer, through this project?
 
