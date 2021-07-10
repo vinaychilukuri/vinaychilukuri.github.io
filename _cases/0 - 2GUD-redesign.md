@@ -8,15 +8,18 @@ imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/2GUD-2.0
 thumb: case-thumbnail.png
 permalink: /case/redesigning-2GUD
-impact: Reimagined experience. Significant increase in engagement and conversion.
+impact: ~3x increase in conversion, significant increase in engagement.
 ---
 
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 
-<b>2GUD</b> is a value-conscious marketplace, launched by Flipkart in 2019, with the vision of providing great unbranded selection at value. After 6 months of launch, the conversion & retention numbers were highly unsatisfactory.
+2GUD is a value-conscious marketplace, launched by Flipkart in 2019, with the vision of providing interesting unbranded selection at value.
 
-I drove the design effort to understand user needs, hone them into product vision led the design and informed the product strategy of 2GUD through design thinking. I facilitated ideation workshops, executed the vision by leading a team of 3 designers.
+After 6 months of launch, engagement and conversion were highly unsatisfactory.
+To address this, I did user research to unearth what users need, conducted workshops to bring shared understanding of the problem space, and called out the need to change our strategy. Through facilitation of design workshops, I played a pivotal role in enabling solution discovery and revamping our product.
+
+Leading a team of 3 designers, and with the support of numerous stakeholders, we shipped a fully revamped experience in 5 months.
 
 <div class="row">
 <div class="col hero-img">
@@ -29,7 +32,7 @@ Sep, 2019 - May, 2020.
 
 #### Role
 
-Design Lead, leading a team of 3 designers.
+Design Lead + a team of 3 designers.
 
 #### Impact
 
@@ -138,25 +141,29 @@ My key realisation from the user research study.
 
 (This was happening in parallel to our effort in improving the shopping experience on 2GUD.)
 
-Flipkart made tremendous progress in providing access to it's services to hinterlands of India, however adoption was still a big problem to solve.
+Flipkart made tremendous progress in providing access to its services to hinterlands of India, however, adoption was still a big problem to solve.
 
 In order to address this, Flipkart's user research team was conducting an in-depth study on the barriers for ecommerce in the next 100mn users of India. These are the people located in tier 3 and 4 towns, who have recently have got access to Internet or haven't had access yet. They consume content online through Tiktok, youtube and facebook, but are extremely wary of transacting online.
 
-An important finding from this research was that people have trouble with trusting technology. Abstracting away human intervention and making everything digital was not the way to go for adoption to happen. People cared about relying on a person that they could reach out to in case of an order failure, in case of an item that ought to be returned.
-
-With our mission being to bring the value selection we find in bazaars, online -- Our product team felt that this is going to be a major blocker for us if we do not solve for it.
+An important finding from this research was that people have trouble with trusting technology.
 
 <blockquote>
-This study was a wake-up call for us. It was a turning point in our strategy in terms of how we should build 2GUD. It informed us that we simply cannot rely on traditional means of e-commerce flows and expect people would start using our services.
+Abstracting away human intervention and making everything digital was not the way to solve for adoption, for the next 100mn.
 </blockquote>
+
+People cared about relying on a person that they could reach out to in case of an order failure, a return or a refund.
+
+With our mission to bring diverse selection of bazaars, online &mdash; Our product team opined not solving for trust will be a major blocker for 2GUD's adoption.
+
+This study was a wake-up call for us. It informed us that we simply cannot rely on traditional means of e-commerce flows and expect people would start using our services. Addressing trust became a critical addition to our strategy.
 
 # Ideation workshops
 
 ### Building a shared understanding
 
-Armed with the knowledge of our users needs and the barriers to entry for e-commerce in tier 3&4 towns, it was important for all the key stakeholders to be on the same page in order for us to decide on what we should be doing?
+Armed with the knowledge of our users' needs and the barriers to entry for e-commerce in tier 3&4 towns, it was important for all the key stakeholders to be on the same page in order for us to decide on what we should be doing?
 
-I proposed to conduct a simple exercise (inspired from the Design sprint) in order to bring shared understanding among the various stakeholders in the team.
+I proposed to conduct an exercise (inspired from the Design sprint) in order to bring shared understanding among the various stakeholders in the team.
 
 <div class='img-section top'>
 <div class='row'>
@@ -178,7 +185,7 @@ Having done the homework earlier, each our sprints started with a How Might We s
 - HMW enable our users to become trendy / unique / better as they interact with 2GUD?
 - HMW inculcate trust as they browse through 2GUD?
 
-I saw the true value of collaboration with multiple people from diverse backgrounds, involved. I was amazed with the creativity in the room. <i>I confess that I myself would've never come up with such interesting ideas.</i>
+I saw the true value of collaboration by involving people from diverse backgrounds. I was amazed with the creativity in the room. I confess that I would've never come up with such interesting ideas, alone.
 
 <div class="img-section top">
 <div class="row">
@@ -191,7 +198,7 @@ I saw the true value of collaboration with multiple people from diverse backgrou
 </div>
 </div>
 
-## The Strategy
+## The Strategy &mdash; Influencer-based commerce
 
 The idea from the design sprint was a stepping stone of formulating our strategy.
 
@@ -203,12 +210,12 @@ The person in the video would be an influencer, but who is known in the communit
 
 Our product team spent some time to ideate on the supply side of things and had come up with a plan. The initial strategy was to find people who are already influencers on Tiktok and Instagram and use some of their content and combine with our selection. Later, we would nurture people within the community to become influencers.
 
-#### Content strategy
-
-Thanks to the user research, it was clear to the team that we have to focus on content that either talks about trends, unique products or how a person could be better by using these products (how-to videos). Showcasing a product is one thing. Telling you how a product would fit into your lifestyle is the next level.
-
 <blockquote>The hypothesis that we would test is this: Influencer-based commerce works better than traditional ecommerce for the next 100mn users of India.
 </blockquote>
+
+#### Content strategy
+
+Thanks to the user research, it was clear to the team that we have to focus on content that either talks about trends, unique products or how a person could be better by using these products (how-to videos). Showcasing a product is one thing. Telling you how a product would fit into your lifestyle becomes even more valuable.
 
 ## Executing the vision
 
@@ -243,7 +250,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 </div>
 <div class='col'>
 ![img center]({{page.img_dir}}/pdp-in-home.png)
-<span class="img-caption">Check out the products referenced in the influencer video, in-context.</span>
+<span class="img-caption">Provision to check out the products referenced in the influencer video, in-context.</span>
 </div>
 </div>
 </div>
@@ -254,7 +261,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 </div>
 <div class='col'>
 ![img center]({{page.img_dir}}/Influencer-store.png)
-<span class="img-caption">Influencer store - A space for the Influencer to showcase their taste </span>
+<span class="img-caption">Influencer store - A space for the Influencer to showcase their taste.</span>
 </div>
 </div>
 </div>
@@ -262,8 +269,9 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 ### Prototyping & Testing
 
 <div class="prototype-2gud">
-<video width="360" height="640" controls autoplay preload="none" class="prototype">
+<video width="360" height="640" controls autoplay preload="none" class="prototype" poster="{{page.img_dir}}/2GUD-splash.png">
 <source src="{{page.img_dir}}/prototype.webm" type="video/webm">
+Your browser does not support the video tag.
 </video>
 
 <div>
@@ -271,7 +279,7 @@ While our team was creating great designs, I proceeded to prototype the experien
 
 This prototype was used in all major presentations with stakeholders. I ensured that people experience this on their mobile phones, to experience the product as intended by the designers.
 
-I also ensured that I create a detailed prototype for the team to use for usability testing sessions, for a later point of time.
+I also created a detailed prototype for the team to use for usability testing sessions, for a later point of time.
 
 </div>
 </div>
