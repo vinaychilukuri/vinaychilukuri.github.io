@@ -67,7 +67,7 @@ Design Lead + a team of 3 designers.
 
 2GUD is a value-conscious marketplace, launched by Flipkart in 2018, with the vision of making the "bazaars of India", digital. This translates to providing great unbranded selection that you would typically find in local markets, at value.
 
-After 6 months of launch, the conversion & retention numbers were highly unsatisfactory. In order to address this, the product team was seeking ideas on how to increase user engagement on the app.
+After 6 months of launch, the conversion & engagement numbers were highly unsatisfactory. In order to address this, the product team was seeking ideas on how to increase user engagement on the app.
 
 I proposed that we immerse ourselves in User Research to understand shopping behaviour of our users -- Specifically, I mentioned that we needed to understand what is it that makes people go to our competitor stores (AliExpress, Shein, Clubfactory, Wish).
 
@@ -115,6 +115,9 @@ I used this lens to look at the research findings to uncover the core needs of t
 <span class="img-caption"></span>
 </div>
 <div class="col">
+</div>
+</div>
+</div>
 
 ### Core needs
 
@@ -128,14 +131,10 @@ Synthesising the research enabled me to discover the core needs of people intera
 
 If people were to engage with 2GUD, we have to address these core needs.
 
-</div>
-</div>
-</div>
-
-<div class="callout">
-### <i>Human needs rarely change over time. Only the channels that people use to fulfil the needs change.</i>
-My key realisation from the user research study.
-</div>
+<blockquote>
+Human needs rarely change over time. Only the channels that people use to fulfil the needs change.
+</blockquote>
+<cite>- My key realisation from the user research study.</cite>
 
 ## Trusting Technology - A study about the next 100mn users in India.
 
@@ -217,7 +216,9 @@ Our product team spent some time to ideate on the supply side of things and had 
 
 Thanks to the user research, it was clear to the team that we have to focus on content that either talks about trends, unique products or how a person could be better by using these products (how-to videos). Showcasing a product is one thing. Telling you how a product would fit into your lifestyle becomes even more valuable.
 
-## Executing the vision
+# Executing the vision
+
+### Growing the design team
 
 In this process of envisioning 2GUD, I had hired a designer to join our team. Our team grew to 2 designers. Later in the process, our newly joined manager suggested that we take the help of a graphic designer to closely work for designing icons and other creative materials.
 
@@ -238,7 +239,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='col'>
 </div>
 <div class='col'>
-![img center]({{page.img_dir}}/initial-iterations.png)
+![img center]({{page.img_dir}}/initial-iterations-2x.png)
 <span class="img-caption">First iterations for the new 2GUD.</span>
 </div>
 </div>
@@ -269,7 +270,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 ### Prototyping & Testing
 
 <div class="prototype-2gud">
-<video width="360" height="640" controls autoplay preload="none" class="prototype" poster="{{page.img_dir}}/2GUD-splash.png">
+<video width="360" height="640" controls preload="none" class="prototype" poster="{{page.img_dir}}/2GUD-splash.png">
 <source src="{{page.img_dir}}/prototype.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>
@@ -286,10 +287,12 @@ I also created a detailed prototype for the team to use for usability testing se
 
 ### Impact
 
-I moved on from the company 2 months before launch, and so I am not privy to the exact metric impact. My ex-team pinged me on the launch date to celebrate. It was great to see months of hard work put in by the team come alive.
+I moved on from the company 2 months before launch, and so I am not privy to the exact metric impact.
+My ex-team pinged me on the launch date to celebrate. It was great to see months of hard work put in by the team come alive.
 
-I heard from one of our product manager, 3 months after launch about how 2GUD was doing.
-Initial response on the play store was negative! People complained that there were videos everywhere and could not find a few categories they were looking for. This is an issue of change management. But, the engagement numbers were off the roof. The feedback settled after a month and there was a significant increase in engagement and conversion (nearly 3x).
+I heard from one of our product manager, 3 months after launch about how 2GUD was doing. And, there was a significant increase in engagement and a nearly 3x increase in conversion.
+
+<!-- Apparently, th initial response on the play store was negative! People complained that there were videos everywhere and could not find a few categories they were looking for. This is an issue of change management. But, the engagement numbers were off the roof. The feedback settled after a month and  -->
 
 ### How I changed as a designer, through this project?
 
