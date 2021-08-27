@@ -91,27 +91,20 @@ I was the lead designer on the project. My manager was a part of the user resear
 <span class='img-caption'> I use Trello to document the interview transcripts. I label each of the cards as shown above to help me process these cards faster. </span>
 </div>
 <div class='col'>
-</div>
-</div>
-</div>
-
-<!-- <h5 class="special-block">User pain-points </h5>
-- No trust in the numbers thrown by the system, in many instances.
-- No view of the system status.
-- Spend a lot of time to understand and resolve error messages thrown by the system.
-- Their workflow hasn't really changed due to the product. -->
-
-<div class='img-section top'>
-<div class='row'>
-<div class='col'>
 ### Synthesizing the research data gave rise to the following pain-points.
+- Lack of trust in the system due to incorrect data
+- No view of the system status reg. when the data is generated and how long is it valid
+- Lot of time spent in resolving errors that are ambiguous.
+- Their workflow hasn't really changed due to the product.
 </div>
-<div class='col'>
+</div>
+</div>
+
+
+<!-- <div class='col'>
 ![img center]({{page.img_dir}}/pain-points.png)
 <span class='img-caption'>  </span>
-</div>
-</div>
-</div>
+</div> -->
 
 ##### Key Observations 
 People relied on excel-based workflow because of their old habits.

@@ -14,7 +14,7 @@ impact: ~3x increase in conversion, significant increase in engagement.
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 
-2GUD is a value-conscious marketplace, launched by Flipkart in 2019, with the vision of providing interesting unbranded selection at value.
+2GUD is a marketplace launched by Flipkart in 2019, with the vision of providing interesting and unbranded selection at value.
 
 After 6 months of launch, engagement and conversion were highly unsatisfactory.
 To address this, I did user research to unearth what users need, conducted workshops to bring shared understanding of the problem space, and called out the need to change our strategy. Through facilitation of design workshops, I played a pivotal role in enabling solution discovery and revamping our product.
@@ -270,7 +270,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 ### Prototyping & Testing
 
 <div class="prototype-2gud">
-<video width="360" height="640" controls preload="none" class="prototype" poster="{{page.img_dir}}/2GUD-splash.png">
+<video width="360" height="640" controls preload="none" muted class="prototype" poster="{{page.img_dir}}/2GUD-splash.png">
 <source src="{{page.img_dir}}/prototype.webm" type="video/webm">
 Your browser does not support the video tag.
 </video>

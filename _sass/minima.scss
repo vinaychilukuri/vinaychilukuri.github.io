@@ -2,9 +2,7 @@
 
 @import "color";
 @import "../assets/fonts/Whitney/font-face.css";
-
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600");
-@import url("https://fonts.googleapis.com/css?family=Overpass&display=swap");
 
 // @import "lib/simple-grid.min2.css";
 // Define defaults for each variable.
@@ -20,7 +18,7 @@ $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$headline-font: "Whitney", "Overpass", sans-serif;
+$headline-font: "Whitney", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 
 $spacing-unit: 30px !default;
 $abs-value: 50px;

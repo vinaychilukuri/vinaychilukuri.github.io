@@ -15,7 +15,11 @@
   {% if page.url != '/' %}
   <link rel="stylesheet" href="/assets/lib/lightslider/lightslider.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script> -->
+  {% endif %}
+
+  {% if page.url == '/case/redesigning-2GUD' %}
+  <script src="/assets/lib/index.js"></script>
   {% endif %}
   
   {% if jekyll.environment == 'production' and site.google_analytics %}
