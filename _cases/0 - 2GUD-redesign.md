@@ -2,13 +2,14 @@
 layout: page
 title: Reimagining e-commerce for the next 100mn users in India.
 client: Flipkart
-case-tag: Design Thinking, Leadership, Interaction Design
+case-tag: 'Design Thinking, Leadership, Interaction Design'
 year: 2020
 imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/2GUD-2.0
 thumb: case-thumbnail.png
 permalink: /case/redesigning-2GUD
-impact: ~3x increase in conversion, significant increase in engagement.
+impact: '~3x increase in conversion, significant increase in engagement.'
+published: true
 ---
 
 <div class="overview">
@@ -32,7 +33,7 @@ Sep, 2019 - May, 2020.
 
 #### Role
 
-Design Lead + a team of 3 designers.
+Design Lead, managing a team of 3 designers.
 
 #### Impact
 
@@ -46,9 +47,9 @@ Design Lead + a team of 3 designers.
 ### TL;DR
 
 - 2GUD's engagement and conversion were very low.
-- Did primary research to uncover the why
+- Did primary research to uncover the why.
 - Identified core needs w.r.t shopping behaviour.
-- To realise our vision of reaching tier-3 & tier-4 towns: We have to move away from traditional forms of ecommerce and solve for the aspect of **Trust**.
+- To realise our vision of reaching tier-3 & tier-4 towns, it was critical to move away from traditional forms of ecommerce.
 - Facilitated ideation workshops with Product, Eng. & Business stakeholders.
 - Led the design team to ideate, inform and execute our strategy.
 - Prototyped the experience to establish shared understanding.
@@ -280,7 +281,7 @@ While our team was creating great designs, I proceeded to prototype the experien
 
 This prototype was used in all major presentations with stakeholders. I ensured that people experience this on their mobile phones, to experience the product as intended by the designers.
 
-I also created a detailed prototype for the team to use for usability testing sessions, for a later point of time.
+I also created a detailed prototype for the team to use for usability testing sessions.
 
 </div>
 </div>
