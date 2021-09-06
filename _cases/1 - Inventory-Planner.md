@@ -2,13 +2,14 @@
 layout: page
 title: Inventory Planner - Enabling people to make right decisions on Inventory Mgmt.
 client: Flipkart
-case-tag: User Research, Interaction Design
+case-tag: 'User Research, Interaction Design'
 year: 2018
 imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/inventory-planner
 thumb: case-thumbnail.png
 permalink: /case/inventory-planner
 impact: NPS improved by 34 points. Operational efficiency improved by 1.25 days.
+published: true
 ---
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
@@ -175,9 +176,8 @@ I've created designs for all the screens of Inventory Planner and Returns planne
 
 ### Success of this project
 
->"Design is not just how it looks.
-But, it is about how it works." &mdash; Steve Jobs
+The success of this project brought immense value for design in the Org.
 
-This project epitomises that, IMHO.
+By involving all our users in research, co-creation exercises and having constant sync-ups with them about the progress - we were able to estsablish a great level of trust and understanding with the design and the product team.
 
-The success of this project brought immense value for Design in the Org. Design was thought of making something pretty but here how a system should work has been defined and delivered.
+By envisioning how the Inventory system could evolve, I was able to influence and establish the power of design and what it could bring to the table.
