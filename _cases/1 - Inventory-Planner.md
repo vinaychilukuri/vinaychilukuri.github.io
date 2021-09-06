@@ -150,7 +150,7 @@ People relied on excel-based workflow because of their old habits.
 <span class='img-caption'>I did a co-creation activity by inviting a few users we had spoken to, during user research.</span>
 </div>
 
-### I learnt about a key moment 🔑 in the user journey:
+### I learnt about a key moment in the user journey:
 "Every week we have a review meeting with our Directors. We rely on a lot of excel sheets to pull data to present in this meeting, in terms of how each of our portfolios are doing. If the system could present this data for us, it will save us a lot of pain.
 
 I have arrived at the below dashboard design based on the learnings from the co-creation exercise.
@@ -165,19 +165,18 @@ I have arrived at the below dashboard design based on the learnings from the co-
 
 I've created designs for all the screens of Inventory Planner and Returns planner systems. The dashboard view has not been implemented yet, because of the lack of backend data. Backend engineering is working to incorporate all these signals present on the dashboard so that the UI could render it.
 
+
 ### Impact 📈
 - **34** point increase in NPS. New score at 86.
 - Operational efficiency improved from 2.25 days to **1.37 days**.
-
-### My learnings
-- Show your vision of how the product can deliver intended outcomes for the business. (This is how you stay at the table.)
-- Socialize User Research findings more rigorously to drive user-centricity in stakeholders.
-- Do not try to understand everything in a user-research interview. Be present and LISTEN.
-
-### Success of this project
 
 The success of this project brought immense value for design in the Org.
 
 By involving all our users in research, co-creation exercises and having constant sync-ups with them about the progress - we were able to estsablish a great level of trust and understanding with the design and the product team.
 
-By envisioning how the Inventory system could evolve, I was able to influence and establish the power of design and what it could bring to the table.
+By leading with the vision of how the Inventory system could evolve to deliver business outcomes, I was able to influence and establish the power of design and what it could bring to the table.
+
+### Learnings for the future
+Looking back, I wish I socialised the user research findings even more. Having a repository of knowledge documented in a Trello board and going back to it is invaluable for a product team. (Modern tools like Dovetail solve for this really well.)
+
+I also learnt that it is okay to not understand everything during a user research interview. It is important to be present and listen.
