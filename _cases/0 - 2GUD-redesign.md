@@ -8,7 +8,7 @@ imgurl: /assets/img/al-app-icon.svg
 img_dir: /assets/img/cases/2GUD-2.0
 thumb: case-thumbnail.png
 permalink: /case/redesigning-2GUD
-impact: '~3x increase in conversion, significant increase in engagement.'
+impact: '~3x increase in engagement, significant increase in conversion.'
 published: true
 ---
 
@@ -52,6 +52,7 @@ Design Lead, managing a team of 3 designers.
 - To realise our vision of reaching tier-3 & tier-4 towns, it was critical to move away from traditional forms of ecommerce.
 - Facilitated ideation workshops with Product, Eng. & Business stakeholders.
 - Led the design team to ideate, inform and execute our strategy.
+- Directed the team to bring a unique visual aesthetic through art direction.
 - Prototyped the experience to establish shared understanding.
 - Significant increase in engagement and conversion, post 3 months of launch.
 - One of the projects that I'm very proud of.
@@ -87,8 +88,8 @@ redesign of the platform.
 </div>
 
 <div class="callout">
-## What makes people engage with 2GUD's competition? 
-Why do they shop on AliExpress, Clubfactory and Shein?
+## Understanding competition & user motivation
+What makes people engage on AliExpress, Clubfactory and Shein?
 </div>
 
 ### Primary research
@@ -99,7 +100,7 @@ While the user research team on Flipkart was conducting an in-depth study on the
 
 ### Synthesizing research
 
-Being a spiritual seeker, I often question what causes one to behave the way they do. While I've found some form of an answer, I was elated when I could connect my experience to what Don Norman, the veteran in UX, had to say about it. In his book, Emotional Design, Don had mentioned that a person has 3 types of goals which are relevant for designers & product makers.
+Being a spiritual seeker, I often question what causes one to behave the way they do. While I've found some form of an answer, I was elated when I could connect my experience to what Don Norman, the veteran in UX, had to say about it. In his book, Emotional Design, Don mentions that a person has 3 types of goals which are relevant for designers & product makers.
 
 <ul>
     <li>Visceral goals</li>
@@ -148,7 +149,7 @@ In order to address this, Flipkart's user research team was conducting an in-dep
 An important finding from this research was that people have trouble with trusting technology.
 
 <blockquote>
-Abstracting away human intervention and making everything digital was not the way to solve for adoption, for the next 100mn.
+Abstracting away human intervention was not the way to solve for adoption, for the next 100mn.
 </blockquote>
 
 People cared about relying on a person that they could reach out to in case of an order failure, a return or a refund.
@@ -210,7 +211,7 @@ The person in the video would be an influencer, but who is known in the communit
 
 Our product team spent some time to ideate on the supply side of things and had come up with a plan. The initial strategy was to find people who are already influencers on Tiktok and Instagram and use some of their content and combine with our selection. Later, we would nurture people within the community to become influencers.
 
-<blockquote>The hypothesis that we would test is this: Influencer-based commerce works better than traditional ecommerce for the next 100mn users of India.
+<blockquote>Our hypothesis: Influencer-based commerce works better than traditional ecommerce for the next 100mn users of India.
 </blockquote>
 
 #### Content strategy
@@ -241,7 +242,7 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 </div>
 <div class='col'>
 ![img center]({{page.img_dir}}/initial-iterations-2x.png)
-<span class="img-caption">First iterations for the new 2GUD.</span>
+<span class="img-caption">Iterations for the Influencer video.</span>
 </div>
 </div>
 </div>
@@ -264,6 +265,27 @@ It is important to showcase the selection that we have on 2GUD. So, selection di
 <div class='col'>
 ![img center]({{page.img_dir}}/Influencer-store.png)
 <span class="img-caption">Influencer store - A space for the Influencer to showcase their taste.</span>
+</div>
+</div>
+</div>
+
+### Creating a unique brand for 2GUD
+When we are designing for India, our product aesthetic should be Indian. 
+Our minds have been infused with western notions of design and we heavily borrow from it. We chose to consciously break that and attempt to bring indian aesthetic to our product. Special mention to the spark and support given by my manager in pursuing this.
+
+With a vision to bring a shopping mela online, we set out to look at various elements of a mela and if we could borrow some of them to the UI. I directed a designer from our Marketing team and a graphic designer from our team to bring this to fruition by identifying specific places in the UI to introduce art.
+
+Using creative illustrations, section separators and graphical forms, we brought some unique visual style to 2GUD, beautifully executed by our graphic designer.
+
+This was my first time doing art direction and I loved it.
+
+<div class='img-section top'>
+<div class='row'>
+<div class='col'>
+</div>
+<div class='col'>
+![img center]({{page.img_dir}}/art-direction.png)
+<span class="img-caption"></span>
 </div>
 </div>
 </div>
@@ -297,10 +319,11 @@ I heard from one of our product manager, 3 months after launch about how 2GUD wa
 
 ### How I changed as a designer, through this project?
 
-This is a project that I'm very proud of. It is exhilarating to contribute in envisioning a major product, introducing workshop format of collaboration, driving
-them, taking ownership of the vision and executing it with the team at a rapid pace.
+This is a project that I'm very proud of. It is exhilarating to envision a major product, facilitate the process of design thinking with cross-functional stakeholders and, attempt to create a new brand language. Even more enriching is taking ownership and steering the design ship to execute the vision at a rapid pace.
 
 Design thinking is a powerful tool to come up with innovative solutions to the problem at hand. Even though I was
-exhausted in the process of planning & facilitating the sprint – my adrenaline pumped up when I saw the amazing creative ideas from the participants of the sprint.
+exhausted in the process of planning & facilitating the sprint – my adrenaline pumped when I saw amazing creative ideas from the participants.
 
-I have to thank the product team for being so open and placing trust in me to try a new way of working. Without their trust in me – this wouldn’t have come to fruition.
+I have to thank the product team for being so open and placing trust in me to try a new way of working and to take charge. Without their trust in me – this wouldn’t have come to fruition. It gave me confidence as a person, a designer and a leader.
+
+Reflecting back, working on this project felt close to something that I always wanted to do - direct a movie with an awesome crew & cast.
