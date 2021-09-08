@@ -15,7 +15,7 @@ published: true
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 
-2GUD is a marketplace launched by Flipkart in 2019, with the vision of providing interesting and unbranded selection at value.
+2GUD is a marketplace launched by Flipkart in 2019, with an intent to provide diverse and unbranded selection, at value.
 
 After 6 months of launch, engagement and conversion were highly unsatisfactory.
 To address this, I did user research to unearth what users need, conducted workshops to bring shared understanding of the problem space, and called out the need to change our strategy. Through facilitation of design workshops, I played a pivotal role in enabling solution discovery and revamping our product.
@@ -52,7 +52,6 @@ Design Lead, managing a team of 3 designers.
 - To realise our vision of reaching tier-3 & tier-4 towns, it was critical to move away from traditional forms of ecommerce.
 - Facilitated ideation workshops with Product, Eng. & Business stakeholders.
 - Led the design team to ideate, inform and execute our strategy.
-- Directed the team to bring a unique visual aesthetic through art direction.
 - Prototyped the experience to establish shared understanding.
 - Significant increase in engagement and conversion, post 3 months of launch.
 - One of the projects that I'm very proud of.
@@ -162,9 +161,9 @@ This study was a wake-up call for us. It informed us that we simply cannot rely 
 
 ### Building a shared understanding
 
-Armed with the knowledge of our users' needs and the barriers to entry for e-commerce in tier 3&4 towns, it was important for all the key stakeholders to be on the same page in order for us to decide on what we should be doing?
+Armed with the knowledge of our users' needs and the barriers to entry for e-commerce in tier 2,3&4 towns, it was important for all the key stakeholders to be on the same page in order for us to decide on what we should be doing.
 
-I proposed to conduct an exercise (inspired from the Design sprint) in order to bring shared understanding among the various stakeholders in the team.
+I conducted a workshop in order to bring shared understanding among the various stakeholders in the team.
 
 <div class='img-section top'>
 <div class='row'>
@@ -184,7 +183,7 @@ It was empowering that these exercises enabled everyone to talk about the fundam
 Having done the homework earlier, each our sprints started with a How Might We statement. We focused on the following questions to be addressed as part of our workshops.
 
 - HMW enable our users to become trendy / unique / better as they interact with 2GUD?
-- HMW inculcate trust as they browse through 2GUD?
+- HMW inculcate trust as they browse 2GUD?
 
 I saw the true value of collaboration by involving people from diverse backgrounds. I was amazed with the creativity in the room. I confess that I would've never come up with such interesting ideas, alone.
 
@@ -205,7 +204,7 @@ The idea from the design sprint was a stepping stone of formulating our strategy
 
 The concept was that we'd have a person talking about product in the form of a video. This product could be something that is trendy / unique. This person would talk about how they'd use this product to style themselves better, or do things in a better way.
 
-The important aspect here is: People trust a person that they know or relate to, rather than a technological system.
+The important aspect here is: People trust a person that they know or relate to, rather than a system.
 
 The person in the video would be an influencer, but who is known in the community. 2GUD would sample some selection and send them to make videos.
 
@@ -232,9 +231,9 @@ In addition to myself, we had 2 interaction designers and a graphic designer as 
 ### Design exploration
 
 While we would have influencer content that would showcase trendy selection - not every product would have a video
-associated with it and not every video would be consumed by people.
+associated with it and not every video would be watched.
 
-It is important to showcase the selection that we have on 2GUD. So, selection discovery is definitely an important goal we had in mind when designing.
+It was important to showcase the diverse selection that we have on 2GUD. So, selection discovery is definitely an important goal we had in mind when designing.
 
 <div class='img-section top'>
 <div class='row'>
@@ -319,11 +318,11 @@ I heard from one of our product manager, 3 months after launch about how 2GUD wa
 
 ### How I changed as a designer, through this project?
 
-This is a project that I'm very proud of. It is exhilarating to envision a major product, facilitate the process of design thinking with cross-functional stakeholders and, attempt to create a new brand language. Even more enriching is taking ownership and steering the design ship to execute the vision at a rapid pace.
+It is exhilarating to envision a major product, facilitate the process of design thinking with cross-functional stakeholders and, attempt to create a new brand language. Even more enriching is taking ownership and steering the design ship to execute the vision at a rapid pace.
 
 Design thinking is a powerful tool to come up with innovative solutions to the problem at hand. Even though I was
 exhausted in the process of planning & facilitating the sprint – my adrenaline pumped when I saw amazing creative ideas from the participants.
 
 I have to thank the product team for being so open and placing trust in me to try a new way of working and to take charge. Without their trust in me – this wouldn’t have come to fruition. It gave me confidence as a person, a designer and a leader.
 
-Reflecting back, working on this project felt close to something that I always wanted to do - direct a movie with an awesome crew & cast.
+This is a project that I'm proud of.
