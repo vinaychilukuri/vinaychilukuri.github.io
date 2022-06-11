@@ -1,15 +1,15 @@
 ---
-layout: page
 title: Making corporate learning engaging
+permalink: "/case/aktivlearn"
+layout: page
 client: KNOLSKAPE
 case-tag: Interaction Design
 year: 2016
-
-img_dir: /assets/img/cases/aktlearn
+img_dir: "/assets/img/cases/aktlearn"
 thumb: case-thumbnail.png
-permalink: /case/aktivlearn
 impact: Training completions up by 23%. Learner engagement up by 48%.
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

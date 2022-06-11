@@ -1,16 +1,15 @@
 ---
-layout: page
 title: Designing 2GUD - Product & Search Pages
+permalink: "/case/2gud-search"
+layout: page
 client: Flipkart
 case-tag: Interaction Design
 year: 2019
-
-img_dir: /assets/img/cases/2gud-search
-# imgurl: {{page.img_dir}}/case-thumb.png
+img_dir: "/assets/img/cases/2gud-search"
 thumb: case-thumbnail.png
-permalink: /case/2gud-search
-impact: .
+impact: "."
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

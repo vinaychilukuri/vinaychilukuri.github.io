@@ -1,15 +1,16 @@
 ---
-layout: page
 title: Designing Isha Mobile app
+permalink: "/case/isha-app"
+layout: page
 client: Isha Foundation
 case-tag: IA, Interaction Design, Visual Design
 year: 2016-17
-
-img_dir: /assets/img/cases/isha-app
+img_dir: "/assets/img/cases/isha-app"
 thumb: case-thumbnail.png
-permalink: /case/isha-app
-impact: Program registrations increased by **37%**; Donations through the app averaging **₹ 200k** per month.
+impact: Program registrations increased by **37%**; Donations through the app averaging
+  **₹ 200k** per month.
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 [Isha Foundation, founded by Sadhguru](http://isha.sadhguru.org){:target="_blank"}, is a non-profit that concerns human wellbeing and spiritual development through Yoga. It’s offerings were scattered across 42 websites! As a result, the experience was totally fragmented with a fundamental problem – the key information was not at all discoverable.

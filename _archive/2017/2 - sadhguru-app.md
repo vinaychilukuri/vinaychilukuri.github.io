@@ -1,15 +1,17 @@
 ---
-layout: page
 title: Connecting millions of spiritual seekers with a master
+permalink: "/case/sadhguru-app"
+layout: page
 client: Isha Foundation
 case-tag: Interaction Design
 year: 2017
-img_dir: /assets/img/cases/isha-app
-imgurl: /assets/img/sadhguru-app.jpg
+img_dir: "/assets/img/cases/isha-app"
+imgurl: "/assets/img/sadhguru-app.jpg"
 hero_img: hero-isha-app.png
-permalink: /case/sadhguru-app
-impact: 0.5 million downloads. 37% increase in program registrations. INR 2lac+ donations per month
+impact: 0.5 million downloads. 37% increase in program registrations. INR 2lac+ donations
+  per month
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

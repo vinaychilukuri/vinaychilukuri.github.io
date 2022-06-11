@@ -1,8 +1,10 @@
 ---
+title: Ramya
 name: Ramya Lakshmanan
 role: Director, Customer Success at ...
-excerpt: The go-to guy for Gamification. Solely responsible for bringing in user centric design for most of our product offerings.
-img: /assets/img/recco_img/ramya.jpg
+excerpt: The go-to guy for Gamification. Solely responsible for bringing in user centric
+  design for most of our product offerings.
+img: "/assets/img/recco_img/ramya.jpg"
 ---
 
 Vinay works at a lightening pace. Never takes a hacky approach to solve a problem. He is solely responsible for bringing in user centric design for most of our product offerings. He set up the UX standard for the team to follow. 

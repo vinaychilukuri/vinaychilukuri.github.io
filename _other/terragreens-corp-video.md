@@ -1,11 +1,11 @@
 ---
-layout: page
 title: Expressing the vision of an organic food company
+permalink: terragreens-corporate-film
+layout: page
 client: TerraGreens Organic
 case-tag: Interviewing, Storytelling, Filmmaking
 year: 2012
-imgurl: /assets/img/movie-cam.svg
-permalink: terragreens-corporate-film
+imgurl: "/assets/img/movie-cam.svg"
 ---
 
 <div class="overview">

@@ -1,15 +1,17 @@
 ---
-layout: page
 title: Redesigning Flipkart Retail
+permalink: "/case/retailerhub"
+layout: page
 client: Flipkart
 case-tag: Information Architecture, Visual Design
 year: 2019
-imgurl: /assets/img/al-app-icon.svg
-img_dir: /assets/img/cases/retailer-hub
+imgurl: "/assets/img/al-app-icon.svg"
+img_dir: "/assets/img/cases/retailer-hub"
 thumb: case-thumbnail.png
-permalink: /case/retailerhub
-impact: Besides, reimagining 3 legacy consoles, I helped build immense shared understanding among various stakeholders through the design artefacts I've created.
+impact: Besides, reimagining 3 legacy consoles, I helped build immense shared understanding
+  among various stakeholders through the design artefacts I've created.
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

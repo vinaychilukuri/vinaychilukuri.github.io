@@ -1,16 +1,16 @@
 ---
-layout: page
 title: Inventory Planner - Enabling people to make right decisions on Inventory Mgmt.
+permalink: "/case/inventory-planner"
+layout: page
 client: Flipkart
-case-tag: 'User Research, Interaction Design'
+case-tag: User Research, Interaction Design
 year: 2018
-imgurl: /assets/img/al-app-icon.svg
-img_dir: /assets/img/cases/inventory-planner
+imgurl: "/assets/img/al-app-icon.svg"
+img_dir: "/assets/img/cases/inventory-planner"
 thumb: case-thumbnail.png
-permalink: /case/inventory-planner
 impact: NPS improved by 34 points. Operational efficiency improved by 1.25 days.
-published: true
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

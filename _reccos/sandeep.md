@@ -1,8 +1,9 @@
 ---
+title: Sandeep
 name: Sandeep BVNR
 role: Product Designer at KNOLSKAPE
 excerpt: He is everything one could look for in a good mentor.
-img: /assets/img/recco_img/sandeep.jpg
+img: "/assets/img/recco_img/sandeep.jpg"
 ---
 
 Vinay brought a structure to how design was done at KNOLSKAPE. He put various processes in place in order to smoothly facilitate PM-designer-developer collaboration. 

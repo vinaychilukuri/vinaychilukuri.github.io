@@ -1,15 +1,14 @@
 ---
-layout: page
 title: Reimagining e-commerce for the next 100mn users in India.
+permalink: "/case/redesigning-2GUD"
+layout: page
 client: Flipkart
-case-tag: 'Design Thinking, Leadership, Interaction Design'
+case-tag: Design Thinking, Leadership, Interaction Design
 year: 2020
-imgurl: /assets/img/al-app-icon.svg
-img_dir: /assets/img/cases/2GUD-2.0
+imgurl: "/assets/img/al-app-icon.svg"
+img_dir: "/assets/img/cases/2GUD-2.0"
 thumb: case-thumbnail.png
-permalink: /case/redesigning-2GUD
-impact: '~3x increase in engagement, significant increase in conversion.'
-published: true
+impact: "~3x increase in engagement, significant increase in conversion."
 ---
 
 <div class="overview">

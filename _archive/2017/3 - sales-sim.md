@@ -1,13 +1,13 @@
 ---
-layout: page
 title: Enabling Sales executives to perform better
+permalink: "/case/sales-user-research"
+layout: page
 client: KNOLSKAPE
 case-tag: User Research, Interaction Design
 year: 2016
-imgurl: /assets/img/sales-graph.svg
-img_dir: /assets/img/cases/sales
+imgurl: "/assets/img/sales-graph.svg"
+img_dir: "/assets/img/cases/sales"
 hero_img: hero-sales-funnel.png
-permalink: /case/sales-user-research
 impact: Creating empathy across teams through user research insights.
 ---
 

@@ -1,15 +1,17 @@
 ---
+title: Building for Bhaarat - Using Design Sprints to innovate for the next 100mn
+  users in India.
+permalink: "/case/design-sprints"
 layout: page
-title: Building for Bhaarat - Using Design Sprints to innovate for the next 100mn users in India.
 client: Flipkart
 case-tag: Design Thinking, Leadership
 year: 2019
-imgurl: /assets/img/al-app-icon.svg
-img_dir: /assets/img/cases/design-sprint
+imgurl: "/assets/img/al-app-icon.svg"
+img_dir: "/assets/img/cases/design-sprint"
 thumb: case-thumbnail.png
-permalink: /case/design-sprints
-impact:
+impact: 
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 

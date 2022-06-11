@@ -1,15 +1,16 @@
 ---
-layout: page
 title: Making corporate learnings fun
+layout: page
 client: KNOLSKAPE
 case-tag: Interaction Design
 year: 2015
-imgurl: /assets/img/al-app-icon.svg
-img_dir: /assets/img/cases/aktlearn
+imgurl: "/assets/img/al-app-icon.svg"
+img_dir: "/assets/img/cases/aktlearn"
 hero_img: hero-al-mob.png
-<!-- permalink: /case/aktivlearn -->
+"<!-- permalink": "/case/aktivlearn -->"
 impact: Training completions up by 23%. Learner engagement up by 48%.
 ---
+
 <div class="overview">
 <h1 class="post-title">{{ page.title | escape }}</h1>
 
